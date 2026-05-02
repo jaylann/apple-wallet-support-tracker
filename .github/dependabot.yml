@@ -8,6 +8,12 @@ updates:
     labels:
       - "type:chore"
       - "area:ci"
+    # We pin to specific majors deliberately. Dependabot should only
+    # surface patch and minor bumps; majors get evaluated by hand when
+    # there's a concrete reason to upgrade.
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -16,3 +22,8 @@ updates:
     labels:
       - "type:chore"
       - "area:ci"
+    # Workflow actions are SHA-pinned; we accept patch/minor SHA refresh
+    # but not major version jumps that change action behaviour.
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
