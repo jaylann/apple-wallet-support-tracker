@@ -1,0 +1,19 @@
+# CODEOWNERS — see https://docs.github.com/repositories/managing-your-repositorys-settings-and-security/customizing-your-repository/about-code-owners
+#
+# Default owner for everything; later, more specific rules win (last match).
+* @jaylann
+
+# Data is sensitive — every change reviewed.
+/data/                    @jaylann
+/schema/                  @jaylann
+
+# Prompt drift = quality drift across all rows.
+/prompts/                 @jaylann
+
+# CI and tooling.
+/.github/                 @jaylann
+/scripts/                 @jaylann
+
+# Architecture and methodology.
+/docs/decisions/          @jaylann
+/docs/methodology.md      @jaylann

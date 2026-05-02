@@ -1,0 +1,60 @@
+name: Feature request
+description: Propose a new field, category, region, workflow, or schema change
+title: "[Feature] "
+labels: ["type:feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Schema changes (new fields, category enum changes, etc.) require an ADR in `docs/decisions/`. The PR should add the ADR alongside the change.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What feature do you want and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: Who benefits and how would they use this?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Concrete shape — schema diff, workflow steps, prompt edit.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - "schema — new field, enum value, or shape change"
+        - "data — new region, new category"
+        - "ci — new workflow or workflow change"
+        - "prompts — sweep / issue-fix prompt change"
+        - "scripts — validate / pre-public-check"
+        - "docs — methodology, README"
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How do we know when this is done?
+      placeholder: |
+        - [ ] Schema bumped to vX.Y.0
+        - [ ] ADR added under docs/decisions/
+        - [ ] validate.ts updated
+        - [ ] CHANGELOG entry under [Unreleased]
+    validations:
+      required: true

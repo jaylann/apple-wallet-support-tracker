@@ -1,0 +1,73 @@
+name: Data correction
+description: Report incorrect data on an existing brand
+title: "[Correction] "
+labels: ["type:correction", "area:data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the dataset accurate. Please bring a source URL — without one, the issue handler can't verify the change and it'll be parked for human review.
+
+        Read the [methodology](https://github.com/jaylann/apple-wallet-support-tracker/blob/main/docs/methodology.md) for source priority rules.
+
+  - type: input
+    id: brand
+    attributes:
+      label: Brand
+      description: Brand name as it appears in `data/wallet-support.json` (or the closest match).
+      placeholder: "Lufthansa"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: Field with incorrect data
+      options:
+        - "nativePkpass"
+        - "iosLiveActivity"
+        - "watchSync"
+        - "knownIssues"
+        - "notes"
+        - "region"
+        - "category"
+        - "Other / multiple"
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: What you observed
+      description: What is actually true today, vs. what the dataset says?
+      placeholder: |
+        The dataset shows iosLiveActivity: false, but Lufthansa added a Live Activity in app version 25.4.0 (released 2026-04-15).
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: A page that backs your claim. Official brand source preferred.
+      placeholder: "https://www.lufthansa.com/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - "official — brand's own page or app listing"
+        - "support — Apple or brand support docs"
+        - "press — major outlet (TechCrunch, MacRumors, 9to5Mac, etc.)"
+        - "community — forum, Reddit, social"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Anything else that would help verify (screenshots, dates, app version, region)

@@ -1,0 +1,108 @@
+name: Issue Handler
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  handle:
+    if: contains(fromJSON('["type:correction","type:new-brand"]'), github.event.label.name)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: stage
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Write issue context to file
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_LABEL: ${{ github.event.label.name }}
+        run: |
+          mkdir -p .agent
+          {
+            echo "# Issue #$ISSUE_NUMBER ($ISSUE_LABEL)"
+            echo
+            echo "## Title"
+            echo "$ISSUE_TITLE"
+            echo
+            echo "## Body"
+            echo "$ISSUE_BODY"
+          } > .agent/issue.md
+
+      - name: Run Claude Code issue handler
+        id: handler
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt_file: prompts/issue-fix.md
+          claude_args: "--max-turns 30 --allowedTools WebSearch,WebFetch,Read,Edit,Bash"
+        continue-on-error: true
+
+      - name: Validate after handler
+        id: validate
+        if: steps.handler.outcome == 'success'
+        run: npm run validate
+        continue-on-error: true
+
+      - name: Open PR
+        id: pr
+        if: steps.handler.outcome == 'success' && steps.validate.outcome == 'success'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          base: stage
+          branch: agent/issue-${{ github.event.issue.number }}
+          delete-branch: true
+          commit-message: "data: address issue #${{ github.event.issue.number }}"
+          title: "Address #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
+          body: |
+            Automated response to issue #${{ github.event.issue.number }}.
+
+            Closes #${{ github.event.issue.number }}
+
+            ## Reviewer checklist
+
+            - [ ] Diff matches the issue's claim
+            - [ ] Source cited in `sources[]` is the one provided in the issue (or a higher-priority alternative the agent found)
+            - [ ] No fabricated URLs
+          labels: |
+            ${{ github.event.label.name }}
+            area:data
+            agent-handled
+
+      - name: Comment success on issue
+        if: steps.pr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" \
+            --body "Opened PR #$PR_NUMBER with the proposed change. A maintainer will review."
+
+      - name: Mark unable-to-verify on failure
+        if: steps.handler.outcome == 'failure' || steps.validate.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue edit "$ISSUE_NUMBER" --add-label "needs-human"
+          gh issue comment "$ISSUE_NUMBER" \
+            --body "The agent was unable to verify the change automatically. See workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Marked \`needs-human\` for manual review."

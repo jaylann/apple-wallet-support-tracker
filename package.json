@@ -1,0 +1,31 @@
+{
+  "name": "apple-wallet-support-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Open dataset tracking native Apple Wallet (.pkpass) support across airlines, transit, loyalty, events, and credentials.",
+  "license": "CC-BY-4.0",
+  "author": "Justin Lanfermann <Justin.Lanfermann@tum.de>",
+  "homepage": "https://github.com/jaylann/apple-wallet-support-tracker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylann/apple-wallet-support-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaylann/apple-wallet-support-tracker/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "validate:strict": "tsx scripts/validate.ts --strict"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

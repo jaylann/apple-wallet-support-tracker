@@ -1,0 +1,50 @@
+# Path-based PR labeler — auto-applies area:* labels by changed paths.
+# Used by .github/workflows/labeler.yml (actions/labeler@v5).
+#
+# CI gate (.github/workflows/pr-conventions.yml) still requires exactly one
+# `type:*` label and at least one `area:*` label — this just pre-fills the
+# area: side so contributors only have to set type: themselves.
+
+"area:data":
+  - changed-files:
+      - any-glob-to-any-file: ['data/**']
+
+"area:schema":
+  - changed-files:
+      - any-glob-to-any-file: ['schema/**']
+
+"area:prompts":
+  - changed-files:
+      - any-glob-to-any-file: ['prompts/**']
+
+"area:scripts":
+  - changed-files:
+      - any-glob-to-any-file: ['scripts/**']
+
+"area:ci":
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/workflows/**'
+          - '.github/dependabot.yml'
+          - '.github/labeler.yml'
+          - '.github/CODEOWNERS'
+
+"area:docs":
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'docs/**'
+          - 'README.md'
+          - 'CONTRIBUTING.md'
+          - 'CODE_OF_CONDUCT.md'
+          - 'SECURITY.md'
+          - 'SUPPORT.md'
+          - 'CHANGELOG.md'
+          - 'CLAUDE.md'
+          - 'NOTICE'
+
+"area:tooling":
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'package.json'
+          - 'package-lock.json'
+          - 'tsconfig.json'

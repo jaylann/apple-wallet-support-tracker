@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Methodology and source rules
+    url: https://github.com/jaylann/apple-wallet-support-tracker/blob/main/docs/methodology.md
+    about: Read this before reporting a correction so your source is in scope.
+  - name: README
+    url: https://github.com/jaylann/apple-wallet-support-tracker#readme
+    about: How to consume the dataset, schema overview, contribution model.
+  - name: Security vulnerability
+    url: https://github.com/jaylann/apple-wallet-support-tracker/security/advisories/new
+    about: Report a security issue privately. Do not file a public issue.

@@ -1,0 +1,74 @@
+name: New brand
+description: Suggest a brand to add to the dataset
+title: "[New brand] "
+labels: ["type:new-brand", "area:data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new brand. Please include a source URL describing the brand's Wallet support — official brand page or major outlet preferred.
+
+  - type: input
+    id: brand
+    attributes:
+      label: Brand name
+      placeholder: "Singapore Airlines"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "airline"
+        - "transit"
+        - "loyalty"
+        - "event"
+        - "sports"
+        - "hotel"
+        - "cinema"
+        - "credentials"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: region
+    attributes:
+      label: Region
+      options:
+        - "global"
+        - "north-america"
+        - "europe"
+        - "dach"
+        - "uk-ireland"
+        - "asia-pacific"
+        - "gulf"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pkpass
+    attributes:
+      label: Best guess at native pkpass support
+      options:
+        - "full — ships native pkpass reliably"
+        - "partial — inconsistent or in-app fallback"
+        - "none — no native Wallet path"
+        - "Not sure — agent should research"
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Page describing the brand's Wallet support.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else worth knowing
+      description: Known issues, regional caveats, related brands.
