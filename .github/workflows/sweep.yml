@@ -68,10 +68,10 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          title="Sweep $MONTH"
+          title="$MONTH"
           num=$(gh api "repos/$REPO/milestones?state=open&per_page=100" --jq "[.[] | select(.title == \"$title\")] | .[0].number // empty")
           if [ -z "$num" ]; then
-            num=$(gh api -X POST "repos/$REPO/milestones" -f title="$title" -f description="Agent activity for $MONTH (sweep + issue handler)" --jq '.number')
+            num=$(gh api -X POST "repos/$REPO/milestones" -f title="$title" -f description="Monthly release cadence — agent activity (sweep + issue handler) for $MONTH." --jq '.number')
             echo "Created milestone '$title' (#$num)"
           else
             echo "Reusing milestone '$title' (#$num)"
