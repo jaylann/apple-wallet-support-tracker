@@ -5,12 +5,23 @@
   "category": "airline",
   "region": "north-america",
   "nativePkpass": "full",
-  "iosLiveActivity": true,
+  "iosLiveActivity": false,
   "watchSync": true,
   "knownIssues": [
-    "iOS 26 Live Activity occasionally not appearing on the lock screen"
+    "Delta launched iOS 26 Live Activity boarding passes in November 2025 but reverted to the legacy implementation due to bugs and performance issues; no re-launch date announced"
   ],
   "lastChecked": "2026-05-02",
   "articleSlug": "delta-boarding-pass-live-activity-not-working",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://9to5mac.com/2026/04/13/apple-wallet-boarding-passes-american-airlines-ios-26/",
+      "accessedAt": "2026-05-02",
+      "type": "press"
+    },
+    {
+      "url": "https://9to5mac.com/2025/11/04/ios-26-wallet-app-boarding-pass-features-ios-26/",
+      "accessedAt": "2026-05-02",
+      "type": "press"
+    }
+  ]
 }

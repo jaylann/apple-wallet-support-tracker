@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed partial: SNCF Connect has a dedicated Apple Wallet page; TGV INOUI and Ouigo tickets supported since 2021; TER regional services outside Île-de-France excluded. Source: [SNCF Connect Apple Wallet page](https://www.sncf-connect.com/en-en/tools/apple-wallet).

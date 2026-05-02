@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed partial: App Store listing confirms Wallet support; boarding passes can be added to Apple Wallet from the Ryanair app, but the Add to Wallet button is often hidden behind the in-app boarding pass viewer. Source: [Ryanair App Store listing](https://apps.apple.com/gr/app/ryanair/id504270602).

@@ -10,5 +10,11 @@
   "lastChecked": "2026-05-02",
   "articleSlug": "deutsche-bahn-apple-wallet",
   "notes": "DB Navigator can export some tickets to Wallet, but Deutschlandticket and many regional fares stay locked in the app.",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://communities.apple.com/de/thread/254856514",
+      "accessedAt": "2026-05-02",
+      "type": "community"
+    }
+  ]
 }

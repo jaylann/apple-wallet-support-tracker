@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed `partial`; Amtrak app supports Add to Apple Wallet for eTickets but feature is inconsistent (button intermittently absent on rebooked tickets per community reports). Source: [Amtrak Mobile App](https://www.amtrak.com/mobile).

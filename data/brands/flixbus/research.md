@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Verified `partial` status could not be confirmed from official sources; FlixBus app page shows in-app ticket display only with no mention of Apple Wallet export; community threads confirm no native pkpass. Source: [FlixBus app page](https://global.flixbus.com/service/bus-app).

@@ -10,5 +10,12 @@
   "lastChecked": "2026-05-02",
   "articleSlug": "swisspass-apple-wallet",
   "notes": "SwissPass remains a physical card with NFC. The official app does not export to Wallet.",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.myswissalps.com/community/thread/swiss-pass-3/",
+      "type": "community",
+      "accessedAt": "2026-05-02",
+      "note": "Community discussion confirming standard SwissPass physical card cannot be added to Apple Wallet"
+    }
+  ]
 }

@@ -9,5 +9,12 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "american-airlines-boarding-pass-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.macrumors.com/2026/04/13/american-airlines-ios-26-boarding-passes/",
+      "accessedAt": "2026-05-02",
+      "type": "press",
+      "note": "MacRumors confirms American Airlines supports iOS 26 boarding passes with Apple Maps, destination guides, and luggage tracking; first major US carrier with new format"
+    }
+  ]
 }

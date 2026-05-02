@@ -4,11 +4,17 @@
   "brand": "Deutschlandticket (general)",
   "category": "transit",
   "region": "dach",
-  "nativePkpass": "none",
+  "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "deutschlandticket-apple-wallet",
-  "notes": "No issuing Verbund ships a native pkpass. Manual conversion is required for every variant.",
-  "sources": []
+  "notes": "Wallet support varies by issuing Verbund. HVV, BVG, MVGo, and VRS offer native pkpass export. DB Navigator and many other issuers do not. Monthly manual re-add is required across all providers that support Wallet.",
+  "sources": [
+    {
+      "url": "https://neatpass.app/learn/deutschlandticket-apple-wallet",
+      "accessedAt": "2026-05-02",
+      "type": "press"
+    }
+  ]
 }

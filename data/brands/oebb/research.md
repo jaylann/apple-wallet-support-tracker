@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Corrected nativePkpass from partial → none and watchSync from true → false: ÖBB app page and App Store listing confirm no native pkpass/Wallet support; Apple Pay is available for payments only; home-screen widgets exist but not Apple Wallet passes. Source: [ÖBB App official page](https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app).

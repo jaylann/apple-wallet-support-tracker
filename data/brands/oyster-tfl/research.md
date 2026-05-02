@@ -32,3 +32,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed partial: Apple Pay Express Transit (contactless, not pkpass) works on TfL; physical/digital Oyster card cannot be added to Apple Wallet as a pass. Source: [Apple UK Apple Pay Transport](https://www.apple.com/uk/apple-pay/transport/).

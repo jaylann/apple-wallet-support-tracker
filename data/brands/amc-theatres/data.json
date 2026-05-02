@@ -12,5 +12,12 @@
   ],
   "lastChecked": "2026-05-02",
   "articleSlug": "amc-ticket-wont-add-to-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/amc-theatres-movies-more/id509199715",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "App Store listing confirms Wallet support for movie tickets and AMC Stubs membership card"
+    }
+  ]
 }

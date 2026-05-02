@@ -9,5 +9,18 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "klimaticket-oe-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.klimaticket.at/en/home/",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Klimaticket official site — ticket managed via transport association apps (ÖBB, WESTbahn, Wiener Linien); no native pkpass"
+    },
+    {
+      "url": "https://luegm.dev/posts/walletpass/",
+      "type": "community",
+      "accessedAt": "2026-05-02",
+      "note": "Developer blog: unofficial workaround to generate a pkpass from Klimaticket data — not an official feature"
+    }
+  ]
 }

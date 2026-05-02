@@ -9,5 +9,18 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "insurance-card-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.thezebra.com/resources/car-insurance/how-to-add-insurance-cards-to-apple-wallet/",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "The Zebra: some insurers (GEICO, State Farm, Progressive, Allstate) offer Wallet integration; no universal native pkpass standard"
+    },
+    {
+      "url": "https://discussions.apple.com/thread/255099566",
+      "type": "community",
+      "accessedAt": "2026-05-02",
+      "note": "Apple Community: most health insurers lack Apple Wallet support; auto insurers more likely to support it"
+    }
+  ]
 }

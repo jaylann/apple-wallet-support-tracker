@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed `full` pkpass and Watch sync; App Store listing states boarding passes, Mileage Plan rewards, and Lounge card can be added to Apple Wallet; no Live Activity. Source: [Alaska Airlines App Store](https://apps.apple.com/us/app/alaska-hawaiian/id356143077).

@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed `partial`; App Store listing confirms Wallet support for tickets and AMC Stubs card; feature described as inconsistent per community reports and existing knownIssues entry. Source: [AMC Theatres App Store](https://apps.apple.com/us/app/amc-theatres-movies-more/id509199715).

@@ -12,5 +12,12 @@
   ],
   "lastChecked": "2026-05-02",
   "articleSlug": "amtrak-ticket-apple-wallet-not-working",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.amtrak.com/mobile",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "Amtrak app page references Apple Wallet eTicket support; community reports confirm inconsistent availability on rebooked tickets"
+    }
+  ]
 }

@@ -18,11 +18,24 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Verify RELEASE_TOKEN is configured
+        env:
+          TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        run: |
+          if [ -z "${TOKEN:-}" ]; then
+            echo "::error::RELEASE_TOKEN secret is not set. Generate a fine-grained PAT scoped to this repo with 'Contents: write' and 'Workflows: write', then add it as the RELEASE_TOKEN repo secret. The default GITHUB_TOKEN cannot bypass the 'Lock main to release workflow' ruleset on personal repos because the GitHub Actions integration cannot be added as a bypass actor."
+            exit 1
+          fi
+
       - name: Checkout stage
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           ref: stage
           fetch-depth: 0
+          # Use the PAT so subsequent `git push` commands (stage->main, tag) inherit
+          # admin-bypass on the main-branch ruleset. Default GITHUB_TOKEN cannot bypass.
+          token: ${{ secrets.RELEASE_TOKEN }}
+          persist-credentials: true
 
       - name: Validate version is semver
         env:

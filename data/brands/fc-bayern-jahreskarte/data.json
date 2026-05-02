@@ -4,10 +4,24 @@
   "brand": "FC Bayern Jahreskarte",
   "category": "sports",
   "region": "dach",
-  "nativePkpass": "full",
+  "nativePkpass": "none",
   "iosLiveActivity": false,
-  "watchSync": true,
+  "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "fc-bayern-jahreskarte-apple-wallet",
-  "sources": []
+  "notes": "From the 2026/27 season FC Bayern dropped Apple Wallet and Google Wallet support. Stadium access is now exclusively via the official FC Bayern or Allianz Arena app (DTC).",
+  "sources": [
+    {
+      "url": "https://fcbayern.com/en/news/2026/04/allianz-arena-access-from-2026-27-season-onwards",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "FC Bayern official announcement: external wallets (Apple Wallet, Google Wallet) no longer supported for stadium access from 2026/27 season; tickets only in FC Bayern / Allianz Arena app"
+    },
+    {
+      "url": "https://bulinews.com/bayern-commit-strictly-digital-ticketing-starting-the-2026-27-season",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "Press coverage confirming Apple Wallet / Google Wallet dropped from 2026/27 season"
+    }
+  ]
 }

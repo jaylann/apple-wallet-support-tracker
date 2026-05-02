@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed nativePkpass=partial; Eventim supports Apple Wallet for select ticket types but not all orders qualify. Source: [Eventim FAQ – Apple Wallet](https://www.eventim.de/faq/de_de/category/ticketkauf/subcategory/tipps-zum-kauf/wie-fuege-ich-tickets-der-apple-wallet-hinzu/).

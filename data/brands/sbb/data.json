@@ -9,5 +9,18 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "sbb-ticket-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.sbb.ch/en/help-and-contact/my-tickets/overview-of-tickets.html",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "SBB official: 'iPhone users can also add all their purchased tickets directly to the Apple Wallet'"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/sbb-mobile/id294855237",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "App Store: SBB Mobile lists 'Supports Wallet'"
+    }
+  ]
 }

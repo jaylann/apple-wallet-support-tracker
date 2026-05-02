@@ -9,5 +9,18 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "united-boarding-pass-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://9to5mac.com/2025/10/05/ios-26-wallet-app-new-boarding-pass-features-united-airlines-support/",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "9to5Mac confirms United first airline to support iOS 26 enhanced boarding passes with Live Activities Oct 2025"
+    },
+    {
+      "url": "https://www.macrumors.com/2025/10/06/apple-wallet-new-boarding-pass-united-airlines/",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "MacRumors: United launches iOS 26 Wallet boarding pass with Live Activity, airport maps, Find My luggage"
+    }
+  ]
 }

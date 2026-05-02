@@ -9,5 +9,12 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "eventbrite-ticket-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.eventbrite.com/help/en-us/articles/783059/how-to-use-the-eventbrite-app/",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Eventbrite app help confirms 'Add to Wallet' option; feature is organizer-dependent — not all events expose the Wallet button"
+    }
+  ]
 }

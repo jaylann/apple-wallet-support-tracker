@@ -12,5 +12,18 @@
   ],
   "lastChecked": "2026-05-02",
   "articleSlug": "ryanair-boarding-pass-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://apps.apple.com/gr/app/ryanair/id504270602",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "App Store listing confirms 'Supports Wallet'; boarding passes can be added to Apple Wallet"
+    },
+    {
+      "url": "https://help.ryanair.com/hc/en-gb/articles/360017683417-Mobile-Boarding-Passes",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "Ryanair help center: digital boarding passes require Ryanair App; Wallet button may be hidden behind in-app viewer"
+    }
+  ]
 }

@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed full pkpass and watchSync: App Store listing confirms Wallet support; Apple editorial confirms Starbucks Apple Watch app with balance and rewards; native pass with balance syncing via Starbucks app. Source: [Starbucks App Store listing](https://apps.apple.com/us/app/starbucks/id331177714).

@@ -10,5 +10,12 @@
   "lastChecked": "2026-05-02",
   "articleSlug": "stocard-shutting-down",
   "notes": "Stocard is winding down. Cards must be migrated to Klarna or rebuilt as pkpass.",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://vamers.com/2026/03/20/klarna-stocard-barcodes-loyalty/",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "Confirms Klarna shut down standalone Stocard app; users forced to migrate; Apple Watch support lost"
+    }
+  ]
 }
