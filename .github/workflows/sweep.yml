@@ -119,7 +119,9 @@ jobs:
           # Task tool enables parallel subagents. Higher max-turns budget
           # because the orchestrator + ~6 subagents collectively need more
           # turns than a sequential single-agent run.
-          claude_args: "--max-turns 120 --allowedTools WebSearch,WebFetch,Read,Edit,Bash,Task"
+          # --effort medium: balanced speed/cost/quality per Anthropic's
+          # recommended default for agentic, tool-heavy workflows.
+          claude_args: "--max-turns 120 --effort medium --allowedTools WebSearch,WebFetch,Read,Edit,Bash,Task"
         continue-on-error: true
 
       - name: Run Codex sweep

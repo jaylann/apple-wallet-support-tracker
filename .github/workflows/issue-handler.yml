@@ -152,7 +152,10 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: ${{ env.CLAUDE_PROMPT }}
-          claude_args: "--max-turns 30 --allowedTools WebSearch,WebFetch,Read,Edit,Bash"
+          # --effort medium: balanced for the single-brand verification
+          # task. Bump to 'high' if prompt-injection edge cases require
+          # deeper reasoning.
+          claude_args: "--max-turns 30 --effort medium --allowedTools WebSearch,WebFetch,Read,Edit,Bash"
         continue-on-error: true
 
       - name: Run Codex handler
