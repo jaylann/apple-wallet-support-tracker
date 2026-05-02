@@ -16,7 +16,18 @@ Two channels, different cadences:
 | Monthly sweep | `0 4 1 * *` cron (4 AM UTC, 1st of month) | Predictable, ~53 rows × 1–3 web searches |
 | Issue-driven fix | On `type:correction` or `type:new-brand` label | Per-issue, scoped to one row |
 
-Both run via `anthropics/claude-code-action@v1` against the configured `ANTHROPIC_API_KEY`. Monthly sweep is capped at `--max-turns 60`, issue handler at `--max-turns 30`.
+Both workflows accept an `agent` input on `workflow_dispatch` (`claude` | `codex`); cron defaults to `claude`. Monthly sweep is capped at `--max-turns 60`, issue handler at `--max-turns 30`.
+
+### Auth model
+
+Both agents bill against personal subscription tokens, not API credits — no API-key fallback by design.
+
+| Agent | Secret | Source |
+|---|---|---|
+| Claude | `CLAUDE_CODE_OAUTH_TOKEN` | `claude setup-token` (Claude Pro/Max) |
+| Codex | `CODEX_AUTH_JSON` | `codex login` then `cat ~/.codex/auth.json` (ChatGPT Plus/Pro) |
+
+Workflows fail loudly if the secret for the chosen agent is missing — this is intentional, so a forgotten rotation never silently switches to API billing.
 
 ## Why monthly
 

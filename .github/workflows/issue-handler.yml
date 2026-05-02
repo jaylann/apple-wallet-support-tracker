@@ -3,6 +3,17 @@ name: Issue Handler
 on:
   issues:
     types: [labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Issue number to re-process"
+        required: true
+        type: string
+      agent:
+        description: "Which research agent to use"
+        type: choice
+        default: claude
+        options: [claude, codex]
 
 permissions:
   contents: write
@@ -11,7 +22,9 @@ permissions:
 
 jobs:
   handle:
-    if: contains(fromJSON('["type:correction","type:new-brand"]'), github.event.label.name)
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      contains(fromJSON('["type:correction","type:new-brand"]'), github.event.label.name)
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -27,53 +40,109 @@ jobs:
 
       - run: npm ci
 
-      - name: Write issue context to file
+      - name: Resolve agent
+        id: agent
         env:
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_BODY: ${{ github.event.issue.body }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
-          ISSUE_LABEL: ${{ github.event.label.name }}
+          INPUT: ${{ inputs.agent }}
         run: |
-          mkdir -p .agent
-          {
-            echo "# Issue #$ISSUE_NUMBER ($ISSUE_LABEL)"
-            echo
-            echo "## Title"
-            echo "$ISSUE_TITLE"
-            echo
-            echo "## Body"
-            echo "$ISSUE_BODY"
-          } > .agent/issue.md
+          name="${INPUT:-claude}"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
 
-      - name: Run Claude Code issue handler
-        id: handler
+      - name: Resolve issue context
+        id: issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISPATCH_NUM: ${{ inputs.issue_number }}
+          EVENT_NUM: ${{ github.event.issue.number }}
+          EVENT_LABEL: ${{ github.event.label.name }}
+        run: |
+          set -euo pipefail
+          if [ -n "${DISPATCH_NUM:-}" ]; then
+            num="$DISPATCH_NUM"
+          else
+            num="$EVENT_NUM"
+          fi
+          mkdir -p .agent
+          gh issue view "$num" --json number,title,body,labels \
+            --jq '"# Issue #" + (.number|tostring) + "\n\n## Title\n" + .title + "\n\n## Labels\n" + ([.labels[].name] | join(", ")) + "\n\n## Body\n" + .body' \
+            > .agent/issue.md
+          echo "number=$num" >> "$GITHUB_OUTPUT"
+
+      - name: Validate Claude subscription token
+        if: steps.agent.outputs.name == 'claude'
+        env:
+          TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -z "${TOKEN:-}" ]; then
+            echo "::error::CLAUDE_CODE_OAUTH_TOKEN secret is not set."
+            exit 1
+          fi
+
+      - name: Validate Codex subscription auth
+        if: steps.agent.outputs.name == 'codex'
+        env:
+          AUTH: ${{ secrets.CODEX_AUTH_JSON }}
+        run: |
+          if [ -z "${AUTH:-}" ]; then
+            echo "::error::CODEX_AUTH_JSON secret is not set."
+            exit 1
+          fi
+
+      - name: Run Claude handler
+        if: steps.agent.outputs.name == 'claude'
+        id: claude_handler
         uses: anthropics/claude-code-action@v1
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt_file: prompts/issue-fix.md
           claude_args: "--max-turns 30 --allowedTools WebSearch,WebFetch,Read,Edit,Bash"
         continue-on-error: true
 
+      - name: Run Codex handler
+        if: steps.agent.outputs.name == 'codex'
+        id: codex_handler
+        env:
+          CODEX_AUTH_JSON: ${{ secrets.CODEX_AUTH_JSON }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.codex
+          printf '%s' "$CODEX_AUTH_JSON" > ~/.codex/auth.json
+          chmod 600 ~/.codex/auth.json
+          npm install -g @openai/codex
+          codex exec --full-auto --skip-git-repo-check "$(cat prompts/issue-fix.md)"
+        continue-on-error: true
+
+      - name: Resolve agent outcome
+        id: agent_outcome
+        run: |
+          if [ "${{ steps.agent.outputs.name }}" = "claude" ]; then
+            echo "outcome=${{ steps.claude_handler.outcome }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "outcome=${{ steps.codex_handler.outcome }}" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Validate after handler
         id: validate
-        if: steps.handler.outcome == 'success'
+        if: steps.agent_outcome.outputs.outcome == 'success'
         run: npm run validate
         continue-on-error: true
 
       - name: Open PR
         id: pr
-        if: steps.handler.outcome == 'success' && steps.validate.outcome == 'success'
+        if: steps.agent_outcome.outputs.outcome == 'success' && steps.validate.outcome == 'success'
         uses: peter-evans/create-pull-request@v6
         with:
           base: stage
-          branch: agent/issue-${{ github.event.issue.number }}
+          branch: agent/issue-${{ steps.issue.outputs.number }}-${{ steps.agent.outputs.name }}
           delete-branch: true
-          commit-message: "data: address issue #${{ github.event.issue.number }}"
-          title: "Address #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
+          commit-message: "data: address issue #${{ steps.issue.outputs.number }}"
+          title: "Address #${{ steps.issue.outputs.number }} (${{ steps.agent.outputs.name }})"
           body: |
-            Automated response to issue #${{ github.event.issue.number }}.
+            Automated response to issue #${{ steps.issue.outputs.number }}.
 
-            Closes #${{ github.event.issue.number }}
+            **Agent:** `${{ steps.agent.outputs.name }}`
+
+            Closes #${{ steps.issue.outputs.number }}
 
             ## Reviewer checklist
 
@@ -81,7 +150,7 @@ jobs:
             - [ ] Source cited in `sources[]` is the one provided in the issue (or a higher-priority alternative the agent found)
             - [ ] No fabricated URLs
           labels: |
-            ${{ github.event.label.name }}
+            ${{ github.event.label.name || 'type:correction' }}
             area:data
             agent-handled
 
@@ -89,20 +158,22 @@ jobs:
         if: steps.pr.outputs.pull-request-number != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_NUMBER: ${{ steps.issue.outputs.number }}
           PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}
+          AGENT: ${{ steps.agent.outputs.name }}
         run: |
           gh issue comment "$ISSUE_NUMBER" \
-            --body "Opened PR #$PR_NUMBER with the proposed change. A maintainer will review."
+            --body "Opened PR #$PR_NUMBER with the proposed change (agent: \`$AGENT\`). A maintainer will review."
 
       - name: Mark unable-to-verify on failure
-        if: steps.handler.outcome == 'failure' || steps.validate.outcome == 'failure'
+        if: steps.agent_outcome.outputs.outcome == 'failure' || steps.validate.outcome == 'failure'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_NUMBER: ${{ steps.issue.outputs.number }}
+          AGENT: ${{ steps.agent.outputs.name }}
         run: |
           gh issue edit "$ISSUE_NUMBER" --add-label "needs-human"
           gh issue comment "$ISSUE_NUMBER" \
-            --body "The agent was unable to verify the change automatically. See workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            --body "The \`$AGENT\` agent was unable to verify the change automatically. See workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
             Marked \`needs-human\` for manual review."

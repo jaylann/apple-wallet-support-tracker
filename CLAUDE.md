@@ -50,6 +50,19 @@ Available labels: see [CONTRIBUTING.md](CONTRIBUTING.md).
 - `prompts/issue-fix.md` is the narrow per-issue prompt. Should always close the loop with a comment on the issue.
 - Prompt edits are `area:prompts` and require CODEOWNERS review.
 
+### Switching between Claude and Codex
+
+Both `sweep.yml` and `issue-handler.yml` accept an `agent` input (`claude` | `codex`) on `workflow_dispatch`. Cron always runs Claude.
+
+Required secrets — workflows fail loudly if the chosen agent's secret is missing:
+
+| Agent | Secret | How to generate |
+|---|---|---|
+| `claude` | `CLAUDE_CODE_OAUTH_TOKEN` | `claude setup-token` locally, paste output as repo secret |
+| `codex` | `CODEX_AUTH_JSON` | `codex login` locally, paste contents of `~/.codex/auth.json` as repo secret |
+
+Both routes bill against your personal subscription, not API credits. No API-key fallback is configured by design.
+
 ## Local commands
 
 ```bash

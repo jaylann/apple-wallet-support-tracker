@@ -74,6 +74,10 @@ Downstream consumers should pin to `main` or a specific tag (e.g. `v1.0.0`) — 
 
 Every change — agent or human — flows through a PR with required validation, label gates, and CODEOWNERS review.
 
+### Agent backends
+
+Both agent workflows accept an `agent` input on `workflow_dispatch` (`claude` or `codex`). Cron always uses `claude`. Both bill against personal subscription tokens (`CLAUDE_CODE_OAUTH_TOKEN` or `CODEX_AUTH_JSON`); no API-key fallback. See [`CLAUDE.md`](CLAUDE.md) for token setup.
+
 See [`docs/methodology.md`](docs/methodology.md) for source priority rules and `full`/`partial`/`none` definitions.
 
 ## Reporting incorrect data
