@@ -93,10 +93,12 @@ Both routes bill against your personal subscription, not API credits. No API-key
 ## Local commands
 
 ```bash
-npm run validate           # full validation (warns on empty sources)
-npm run validate:strict    # also fails on empty sources — use before release
+npm run validate           # full validation (warns on empty sources & unreachable URLs)
+npm run validate:strict    # also fails on empty sources & unreachable URLs — use before release
 npm run reindex            # regenerate data/index.json from data/brands/*/data.json
 ```
+
+URL reachability is a warning by default because many brand sites (Akamai/Cloudflare/Imperva-fronted) refuse automated probes regardless of method or User-Agent — a probe failure is not always a real broken link. Run `validate:strict` before tagging a release to surface them as hard errors.
 
 After editing any `data/brands/<slug>/data.json`, always run `npm run reindex` instead of editing `data/index.json` by hand. Validate then runs as a check.
 

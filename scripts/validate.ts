@@ -10,7 +10,12 @@
  *   - All sources[].url respond 2xx (parallel HEAD with timeout)
  *   - lastModified >= max(brand lastChecked)
  *
- * --strict: also fails on rows with empty sources[].
+ * URL reachability is reported as warnings by default — many brand sites sit
+ * behind WAFs (Akamai, Cloudflare, Imperva) that block bot traffic regardless
+ * of UA/method, so a probe failure is not always a real broken link. Pass
+ * --strict to escalate URL warnings to errors (used for release validation).
+ *
+ * --strict: also fails on rows with empty sources[] AND on unreachable URLs.
  */
 
 import fs from "node:fs";
@@ -26,7 +31,9 @@ const INDEX_PATH = path.join(ROOT, "data/index.json");
 const BRAND_SCHEMA_PATH = path.join(ROOT, "schema/wallet-support.schema.json");
 const INDEX_SCHEMA_PATH = path.join(ROOT, "schema/index.schema.json");
 
-const URL_TIMEOUT_MS = 5_000;
+const URL_TIMEOUT_MS = 10_000;
+const URL_USER_AGENT =
+    "AppleWalletTrackerBot/1.0 (+https://github.com/jaylann/apple-wallet-support-tracker)";
 const STRICT = process.argv.includes("--strict");
 
 interface Source {
@@ -220,25 +227,35 @@ function emptySourceCheck(
         : { errors: [], warnings: [message] };
 }
 
+// Brand sites behind WAFs (Akamai, Cloudflare, Imperva) often refuse HEAD with
+// 403/405/503 or close the HTTP/2 stream, even when GET succeeds. We probe HEAD
+// first (cheap), then fall back to a 1KB ranged GET on any non-2xx response or
+// thrown error. Both attempts share one timeout budget.
 async function headOk(url: string): Promise<boolean> {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), URL_TIMEOUT_MS);
     try {
-        const res = await fetch(url, {
-            method: "HEAD",
-            redirect: "follow",
-            signal: controller.signal,
-        });
-        if (res.ok) return true;
-        if (res.status === 405 || res.status === 403) {
-            const getRes = await fetch(url, {
-                method: "GET",
+        try {
+            const headRes = await fetch(url, {
+                method: "HEAD",
                 redirect: "follow",
                 signal: controller.signal,
+                headers: { "user-agent": URL_USER_AGENT },
             });
-            return getRes.ok;
+            if (headRes.ok) return true;
+        } catch {
+            // fall through to GET
         }
-        return false;
+        const getRes = await fetch(url, {
+            method: "GET",
+            redirect: "follow",
+            signal: controller.signal,
+            headers: {
+                "user-agent": URL_USER_AGENT,
+                range: "bytes=0-1023",
+            },
+        });
+        return getRes.ok;
     } catch {
         return false;
     } finally {
@@ -257,6 +274,16 @@ async function checkUrls(loaded: LoadedBrand[]): Promise<string[]> {
     );
     const results = await Promise.all(checks);
     return results.filter((e): e is string => e !== null);
+}
+
+function classifyUrlIssues(messages: string[]): {
+    errors: string[];
+    warnings: string[];
+} {
+    if (messages.length === 0) return { errors: [], warnings: [] };
+    return STRICT
+        ? { errors: messages, warnings: [] }
+        : { errors: [], warnings: messages };
 }
 
 function report(result: CheckResult, brandCount: number, totalSources: number): void {
@@ -291,7 +318,9 @@ async function main(): Promise<void> {
     result.errors.push(...sourceCheck.errors);
     result.warnings.push(...sourceCheck.warnings);
 
-    result.errors.push(...(await checkUrls(loaded)));
+    const urlIssues = classifyUrlIssues(await checkUrls(loaded));
+    result.errors.push(...urlIssues.errors);
+    result.warnings.push(...urlIssues.warnings);
 
     const totalSources = loaded.reduce((acc, b) => acc + b.data.sources.length, 0);
     report(result, loaded.length, totalSources);
