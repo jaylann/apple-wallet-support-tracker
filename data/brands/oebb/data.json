@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "oebb",
+  "brand": "OEBB",
+  "category": "transit",
+  "region": "europe",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "oebb-ticket-apple-wallet",
+  "sources": []
+}

@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "aarp",
+  "brand": "AARP",
+  "category": "loyalty",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "aarp-card-apple-wallet",
+  "sources": []
+}

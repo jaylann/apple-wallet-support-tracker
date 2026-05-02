@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "lidl-plus",
+  "brand": "Lidl Plus",
+  "category": "loyalty",
+  "region": "europe",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "lidl-plus-apple-wallet",
+  "sources": []
+}

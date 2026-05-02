@@ -8,16 +8,42 @@ This repo is the source of truth for the Apple Wallet Support Tracker dataset co
 - **`main`** is release-only and updated exclusively by `.github/workflows/release.yml`.
 - Never push directly to `main`. Never open a PR against `main`.
 
+## Layout (v2.0.0+)
+
+```
+data/
+  index.json                      # Top-level directory of all brands
+  brands/
+    <slug>/
+      data.json                   # Per-brand structured row
+      research.md                 # Human-readable research log + provenance
+```
+
+`data.json` carries the facts; `research.md` carries why we believe them. Both must move together.
+
 ## Data quality bar
 
-Every change to `data/wallet-support.json` must:
+Every change to a brand must:
 
-1. Bump `lastChecked` on touched rows to today's ISO date.
+1. Bump `lastChecked` on the touched `brands/<slug>/data.json` to today's ISO date.
 2. Add at least one `sources[]` entry per touched row with `url`, `accessedAt`, `type`.
-3. Bump top-level `lastModified` to `max(rows[].lastChecked)`.
-4. Pass `npm run validate`.
+3. Append a `## History` entry to `brands/<slug>/research.md` describing what changed and why.
+4. Update the matching entry in `data/index.json` (mirror the new `lastChecked`) and bump top-level `lastModified` to `max(brand lastChecked)`.
+5. Pass `npm run validate` (which checks index ↔ folder consistency).
 
-If a fact cannot be verified, leave the row alone. Do **not** invent sources, do **not** bump `lastChecked` without a citation. Mark the row in PR notes for human review.
+If a fact cannot be verified, leave the data alone. Do **not** invent sources, do **not** bump `lastChecked` without a citation. Mark the row in PR notes for human review and add a `research.md` history entry noting the failed attempt.
+
+## Adding a new brand
+
+Triggered by an issue with the `type:new-brand` label. The issue handler workflow:
+
+1. Picks a slug (lowercase, ASCII, hyphen-separated).
+2. Creates `data/brands/<slug>/data.json` matching `schema/wallet-support.schema.json`.
+3. Creates `data/brands/<slug>/research.md` with the initial research log.
+4. Inserts a new entry in `data/index.json` (sorted by slug) and bumps `brandCount`.
+5. Opens a PR.
+
+Manual addition follows the same shape — see `prompts/issue-fix.md` for the exact procedure the agent uses.
 
 ## Source priority
 
@@ -36,7 +62,8 @@ Available labels: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Schema rules
 
-- The shape is defined in `schema/wallet-support.schema.json` (JSON Schema draft-07).
+- Per-brand row shape: `schema/wallet-support.schema.json`.
+- Index shape: `schema/index.schema.json`.
 - Adding a field is a minor version bump. Removing or restricting a field is a major version bump and requires an ADR in `docs/decisions/`.
 - `nativePkpass` definitions:
   - `full` — the brand consistently ships a native pkpass.

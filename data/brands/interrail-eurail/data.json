@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "interrail-eurail",
+  "brand": "Interrail / Eurail",
+  "category": "transit",
+  "region": "europe",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "interrail-eurail-pass-apple-wallet",
+  "notes": "The mobile pass lives inside the Rail Planner app and does not export to Wallet.",
+  "sources": []
+}

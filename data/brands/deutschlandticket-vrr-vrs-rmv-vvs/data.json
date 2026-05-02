@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "deutschlandticket-vrr-vrs-rmv-vvs",
+  "brand": "Deutschlandticket VRR/VRS/RMV/VVS",
+  "category": "transit",
+  "region": "dach",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "deutschlandticket-vrr-vrs-rmv-vvs-apple-wallet",
+  "sources": []
+}

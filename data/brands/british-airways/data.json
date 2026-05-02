@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "british-airways",
+  "brand": "British Airways",
+  "category": "airline",
+  "region": "uk-ireland",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "british-airways-boarding-pass-apple-wallet",
+  "sources": []
+}

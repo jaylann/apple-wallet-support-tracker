@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "wizz-air",
+  "brand": "Wizz Air",
+  "category": "airline",
+  "region": "europe",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "wizz-air-boarding-pass-apple-wallet",
+  "sources": []
+}

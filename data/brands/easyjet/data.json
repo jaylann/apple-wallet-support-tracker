@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "easyjet",
+  "brand": "easyJet",
+  "category": "airline",
+  "region": "europe",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "easyjet-boarding-pass-apple-wallet",
+  "sources": []
+}

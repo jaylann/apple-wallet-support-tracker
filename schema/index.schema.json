@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/jaylann/apple-wallet-support-tracker/schema/index.schema.json",
+  "title": "Apple Wallet Support — Index",
+  "description": "Top-level directory of all tracked brands. Lives at data/index.json. Mirrors the folders under data/brands/.",
+  "type": "object",
+  "required": ["$schemaVersion", "lastModified", "brandCount", "brands"],
+  "additionalProperties": false,
+  "properties": {
+    "$schemaVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "lastModified": {
+      "type": "string",
+      "format": "date",
+      "description": "Maximum lastChecked across all brands."
+    },
+    "brandCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of entries in brands[]. Must equal brands.length and match folder count under data/brands/."
+    },
+    "brands": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/indexEntry" }
+    }
+  },
+  "definitions": {
+    "indexEntry": {
+      "type": "object",
+      "required": ["slug", "brand", "category", "region", "lastChecked"],
+      "additionalProperties": false,
+      "properties": {
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "brand": { "type": "string", "minLength": 1 },
+        "category": {
+          "type": "string",
+          "enum": [
+            "airline",
+            "transit",
+            "loyalty",
+            "event",
+            "sports",
+            "hotel",
+            "cinema",
+            "credentials"
+          ]
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "global",
+            "north-america",
+            "europe",
+            "dach",
+            "uk-ireland",
+            "asia-pacific",
+            "gulf"
+          ]
+        },
+        "lastChecked": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

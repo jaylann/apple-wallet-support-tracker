@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "mvv-mvg-munich",
+  "brand": "MVV / MVG (Munich)",
+  "category": "transit",
+  "region": "dach",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "mvv-mvg-ticket-apple-wallet",
+  "sources": []
+}

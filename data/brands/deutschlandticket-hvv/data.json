@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "deutschlandticket-hvv",
+  "brand": "Deutschlandticket HVV",
+  "category": "transit",
+  "region": "dach",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "deutschlandticket-hvv-apple-wallet",
+  "sources": []
+}

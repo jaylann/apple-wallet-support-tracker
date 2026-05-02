@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "austrian-airlines",
+  "brand": "Austrian Airlines",
+  "category": "airline",
+  "region": "europe",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "austrian-airlines-bordkarte-apple-wallet",
+  "sources": []
+}

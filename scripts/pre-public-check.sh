@@ -33,7 +33,9 @@ fail()    { printf "${RED}${BOLD}FAIL${NC} %s\n" "$1"; FINDINGS=$((FINDINGS + 1)
 warn()    { printf "${YELLOW}WARN${NC} %s\n" "$1"; WARNINGS=$((WARNINGS + 1)); }
 
 section "1. Secret/token patterns in git history"
-SECRET_HITS=$(git log --all -p 2>/dev/null \
+# Exclude this script and other obvious self-matches (regex source files,
+# .gitleaks config) so we don't flag our own detector strings.
+SECRET_HITS=$(git log --all -p -- ':!scripts/pre-public-check.sh' ':!.gitleaks*' 2>/dev/null \
     | grep -inE 'sk-[a-zA-Z0-9]{20,}|sk-ant-[a-zA-Z0-9_-]{20,}|ghp_[a-zA-Z0-9]{30,}|gho_[a-zA-Z0-9]{30,}|ghu_[a-zA-Z0-9]{30,}|ghs_[a-zA-Z0-9]{30,}|github_pat_[a-zA-Z0-9_]{30,}|aws_secret_access_key|aws_access_key_id|"password"[[:space:]]*[:=]|"secret"[[:space:]]*[:=]|bearer[[:space:]]+[a-zA-Z0-9_.-]{20,}' \
     | head -50 || true)
 if [ -n "$SECRET_HITS" ]; then

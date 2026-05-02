@@ -1,0 +1,16 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "delta-air-lines",
+  "brand": "Delta Air Lines",
+  "category": "airline",
+  "region": "north-america",
+  "nativePkpass": "full",
+  "iosLiveActivity": true,
+  "watchSync": true,
+  "knownIssues": [
+    "iOS 26 Live Activity occasionally not appearing on the lock screen"
+  ],
+  "lastChecked": "2026-05-02",
+  "articleSlug": "delta-boarding-pass-live-activity-not-working",
+  "sources": []
+}

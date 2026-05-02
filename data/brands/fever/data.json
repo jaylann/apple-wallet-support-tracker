@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "fever",
+  "brand": "Fever",
+  "category": "event",
+  "region": "global",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "fever-tickets-apple-wallet",
+  "sources": []
+}

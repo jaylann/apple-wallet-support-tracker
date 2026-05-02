@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "lufthansa",
+  "brand": "Lufthansa",
+  "category": "airline",
+  "region": "europe",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "lufthansa-boarding-pass-apple-wallet",
+  "notes": "Native Add to Apple Wallet from the Lufthansa app and website. Live Flight Tracking announced for iOS 26 but not yet live.",
+  "sources": []
+}

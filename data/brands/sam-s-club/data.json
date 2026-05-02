@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "sam-s-club",
+  "brand": "Sam's Club",
+  "category": "loyalty",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "sams-club-card-apple-wallet",
+  "sources": []
+}

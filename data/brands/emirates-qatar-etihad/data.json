@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "emirates-qatar-etihad",
+  "brand": "Emirates / Qatar / Etihad",
+  "category": "airline",
+  "region": "gulf",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "emirates-qatar-etihad-boarding-pass-apple-wallet",
+  "sources": []
+}

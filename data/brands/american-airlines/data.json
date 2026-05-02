@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "american-airlines",
+  "brand": "American Airlines",
+  "category": "airline",
+  "region": "north-america",
+  "nativePkpass": "full",
+  "iosLiveActivity": true,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "american-airlines-boarding-pass-apple-wallet",
+  "sources": []
+}

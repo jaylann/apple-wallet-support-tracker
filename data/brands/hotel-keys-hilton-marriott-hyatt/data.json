@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "hotel-keys-hilton-marriott-hyatt",
+  "brand": "Hotel keys (Hilton, Marriott, Hyatt)",
+  "category": "hotel",
+  "region": "global",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "hotel-key-apple-wallet",
+  "notes": "Native room keys ship via the chain's app, not as a generic pkpass. Coverage varies by property.",
+  "sources": []
+}

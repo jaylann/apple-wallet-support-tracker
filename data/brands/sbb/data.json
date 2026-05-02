@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "sbb",
+  "brand": "SBB",
+  "category": "transit",
+  "region": "europe",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "sbb-ticket-apple-wallet",
+  "sources": []
+}

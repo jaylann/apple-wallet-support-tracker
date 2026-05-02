@@ -1,69 +1,87 @@
 # Monthly Sweep Prompt
 
-You are the maintenance agent for the Apple Wallet Support Tracker dataset (`data/wallet-support.json`). Your job is to verify each row's facts against current sources and refresh citations.
+You are the maintenance agent for the Apple Wallet Support Tracker dataset. Your job is to verify each brand's facts against current sources, refresh citations, and append a research log entry.
 
-## Working set
+## Layout (v2.0.0)
 
-- Source of truth: `data/wallet-support.json`
-- Schema: `schema/wallet-support.schema.json` — read this before editing.
-- Methodology: `docs/methodology.md` — read this for `full`/`partial`/`none` definitions and source priority.
+```
+data/
+  index.json                              # Top-level index of brands
+  brands/
+    <slug>/
+      data.json                           # Structured row (validated by schema/wallet-support.schema.json)
+      research.md                         # Human-readable research log
+```
+
+You touch all three: `data.json`, `research.md`, and `index.json` (`lastModified` + per-brand `lastChecked`).
 
 ## Procedure
 
-For each row in `data/wallet-support.json`:
+For **each** subdirectory under `data/brands/`:
 
-1. **Search.** Run web searches scoped to the brand:
+1. **Read** `data/brands/<slug>/data.json` and `research.md` to understand the current state and what's already been verified.
+
+2. **Search.** Run web searches scoped to the brand:
    - `"<brand>" Apple Wallet`
    - `"<brand>" .pkpass OR "Add to Apple Wallet"`
    - `"<brand>" iOS Live Activity`
-   - For transit/airline: also `"<brand>" Apple Watch ticket`
+   - For airlines/transit: also `"<brand>" Apple Watch ticket`
    Stop searching once you have at least one trustworthy source confirming or contradicting the current row.
 
-2. **Verify against source priority.** Prefer (in order):
-   1. Official — brand's own help docs, app listing, product page
-   2. Apple support — `support.apple.com`, `developer.apple.com/wallet`
-   3. Major outlet — TechCrunch, MacRumors, 9to5Mac, The Verge, Reuters
-   4. Community — forum threads, Reddit, social. **Supporting evidence only.** Never use as the sole citation.
+3. **Verify against source priority.** Prefer (in order):
+   1. **Official** — brand's own help docs, app listing, product page
+   2. **Apple support** — `support.apple.com`, `developer.apple.com/wallet`
+   3. **Major outlet** — TechCrunch, MacRumors, 9to5Mac, The Verge, Reuters
+   4. **Community** — forum threads, Reddit, social. Supporting evidence only — never the sole citation.
 
-3. **Update the row.** If facts are confirmed:
+4. **Update `data.json`.** If facts are confirmed:
    - Bump `lastChecked` to today's ISO date.
-   - Append to `sources[]`: `{ "url": "...", "accessedAt": "<today>", "type": "official|press|support|community", "note": "..." }`.
-   - If a fact has changed, update the field and add a one-line entry to `knownIssues[]` if appropriate.
+   - Append the new source to `sources[]` with `url`, `accessedAt`, `type`, optional `note`.
    - Cap `sources[]` at the 5 most recent — drop older ones if needed.
+   - If a fact has changed, update the field. Add a `knownIssues[]` entry if newly observed.
 
-4. **If you cannot verify a row.** Leave the fields untouched. Do **not** bump `lastChecked` without a fresh citation. List the row in the PR body under a "needs human review" section with a one-line note on what you tried.
+5. **Append to `research.md`.** Add a `## History` entry under the existing log:
+   ```
+   - **<today>** (sweep, <agent-name>) — <one-line summary of what changed or was confirmed>. Source: [<short title>](<url>).
+   ```
+   Also update the **Pages reviewed (not cited)** section with anything you read but didn't add as a citation.
+
+6. **Update `index.json`** entry for this brand: bump `lastChecked`. Update `lastModified` at the file level to `max(brand lastChecked)` once you've processed all brands.
+
+7. **If you cannot verify a brand.** Leave `data.json` unchanged. Do **not** bump `lastChecked` without a fresh citation. Add a `## History` entry to `research.md` noting the attempt:
+   ```
+   - **<today>** (sweep attempt, <agent-name>) — could not verify; <reason>.
+   ```
+   List the brand in the PR body under "needs human review" with a one-line note.
 
 ## Hard rules
 
-- **Never fabricate URLs.** If a source you find returns 404 or doesn't actually contain the claim, drop it.
-- **Never bump `lastChecked` without a corresponding source.** The audit trail is the whole point of this dataset.
-- **Never invent fields, brands, categories, or regions.** Schema is fixed at v1.0.0 — additions require an ADR, which is out of scope for a sweep.
-- **Never edit `articleSlug`** unless the article has actually been renamed in the consuming portfolio (you will not have visibility into that — leave it alone).
+- **Never fabricate URLs.** Verify the source actually loads and supports the claim before citing.
+- **Never bump `lastChecked` without a corresponding citation.** The audit trail is the whole point.
+- **Never create new brand folders during a sweep.** New brands are added via the issue handler, not the monthly sweep.
+- **Never edit `articleSlug`** unless the article has been renamed in the consuming portfolio (you won't have visibility — leave it alone).
+- **Never modify the schema files** (`schema/*.json`) — schema changes go through their own PR with an ADR.
+- **Never edit prompts** (`prompts/*.md`) as part of a sweep.
 
-## After all rows are processed
+## After all brands are processed
 
-1. Bump top-level `lastModified` to `max(rows[].lastChecked)`.
-2. Run `npm run validate`. If it fails, fix the issue and retry once. If it still fails, abort with diagnostics.
-3. Write a structured summary you'll attach to the PR body:
+1. Run `npm run validate`. If it fails, fix and retry once. If it still fails, abort with diagnostics.
+2. Write a structured PR-body summary:
    ```
    ## Changes
-   - <Brand>: <field> <before> → <after> ([source](url))
+   - <brand>: <field> <before> → <after> ([source](url))
    - ...
 
    ## Refreshed only (no fact change)
-   - <Brand> ([source](url))
+   - <brand> ([source](url))
    - ...
 
    ## Needs human review
-   - <Brand>: <reason>
+   - <brand>: <reason>
    - ...
    ```
 
 ## Cost discipline
 
-- Aim for ≤3 web searches per row. Stop early when you have a trustworthy citation.
-- Don't follow up on rows where the existing data is recent (< 60 days) AND a single search confirms it — just refresh the citation.
-
-## What to do if `prompts/sweep.md` itself looks wrong
-
-Open an issue on this repo (label `area:prompts`, `type:bug`) describing the problem. Do not edit this file as part of a data sweep — prompt edits go through their own PR.
+- Aim for ≤3 web searches per brand. Stop early when you have a trustworthy citation.
+- Skip rows with `lastChecked` within the last 30 days unless a single quick search reveals contradicting info.

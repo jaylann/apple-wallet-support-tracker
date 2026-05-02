@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "starbucks",
+  "brand": "Starbucks",
+  "category": "loyalty",
+  "region": "global",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "starbucks-card-apple-wallet",
+  "sources": []
+}

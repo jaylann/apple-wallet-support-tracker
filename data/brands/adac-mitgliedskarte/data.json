@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "adac-mitgliedskarte",
+  "brand": "ADAC Mitgliedskarte",
+  "category": "loyalty",
+  "region": "dach",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "adac-mitgliedskarte-apple-wallet",
+  "sources": []
+}

@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "flixbus",
+  "brand": "FlixBus",
+  "category": "transit",
+  "region": "europe",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "flixbus-ticket-apple-wallet",
+  "sources": []
+}

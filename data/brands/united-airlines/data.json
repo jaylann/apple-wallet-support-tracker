@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "united-airlines",
+  "brand": "United Airlines",
+  "category": "airline",
+  "region": "north-america",
+  "nativePkpass": "full",
+  "iosLiveActivity": true,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "united-boarding-pass-apple-wallet",
+  "sources": []
+}

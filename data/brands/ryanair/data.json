@@ -1,0 +1,16 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "ryanair",
+  "brand": "Ryanair",
+  "category": "airline",
+  "region": "europe",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "knownIssues": [
+    "Wallet button often hidden behind in-app boarding pass viewer"
+  ],
+  "lastChecked": "2026-05-02",
+  "articleSlug": "ryanair-boarding-pass-apple-wallet",
+  "sources": []
+}

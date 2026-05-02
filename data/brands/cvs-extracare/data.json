@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "cvs-extracare",
+  "brand": "CVS ExtraCare",
+  "category": "loyalty",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "cvs-extracare-card-apple-wallet",
+  "sources": []
+}

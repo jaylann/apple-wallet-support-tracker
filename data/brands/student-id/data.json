@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "student-id",
+  "brand": "Student ID",
+  "category": "credentials",
+  "region": "global",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "student-id-apple-wallet",
+  "notes": "Apple's Student ID program covers ~100 universities. Outside that program, schools issue PDFs only.",
+  "sources": []
+}

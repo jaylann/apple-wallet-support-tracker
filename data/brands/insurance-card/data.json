@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "insurance-card",
+  "brand": "Insurance card",
+  "category": "credentials",
+  "region": "global",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "insurance-card-apple-wallet",
+  "sources": []
+}

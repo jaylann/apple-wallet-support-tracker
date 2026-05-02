@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "eventbrite",
+  "brand": "Eventbrite",
+  "category": "event",
+  "region": "global",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "eventbrite-ticket-apple-wallet",
+  "sources": []
+}

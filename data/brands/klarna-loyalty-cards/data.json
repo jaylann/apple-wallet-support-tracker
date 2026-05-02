@@ -1,0 +1,16 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "klarna-loyalty-cards",
+  "brand": "Klarna (loyalty cards)",
+  "category": "loyalty",
+  "region": "global",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "knownIssues": [
+    "Migration from Stocard sometimes fails with a generic technical error"
+  ],
+  "lastChecked": "2026-05-02",
+  "articleSlug": "klarna-loyalty-cards-apple-wallet",
+  "sources": []
+}

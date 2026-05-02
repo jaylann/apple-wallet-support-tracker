@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "stocard-legacy",
+  "brand": "Stocard (legacy)",
+  "category": "loyalty",
+  "region": "global",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "stocard-shutting-down",
+  "notes": "Stocard is winding down. Cards must be migrated to Klarna or rebuilt as pkpass.",
+  "sources": []
+}

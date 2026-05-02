@@ -2,7 +2,7 @@
 
 [![Validation](https://github.com/jaylann/apple-wallet-support-tracker/actions/workflows/test.yml/badge.svg?branch=stage)](https://github.com/jaylann/apple-wallet-support-tracker/actions/workflows/test.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Schema: v1.0.0](https://img.shields.io/badge/Schema-v1.0.0-blue.svg)](schema/wallet-support.schema.json)
+[![Schema: v2.0.0](https://img.shields.io/badge/Schema-v2.0.0-blue.svg)](schema/wallet-support.schema.json)
 
 An open dataset tracking native Apple Wallet (`.pkpass`) support across airlines, transit operators, loyalty programs, event ticketing, sports, hotels, cinemas, and credentials. Each row records:
 
@@ -14,33 +14,57 @@ An open dataset tracking native Apple Wallet (`.pkpass`) support across airlines
 
 The dataset powers the [Apple Wallet Support Tracker page](https://neatpass.app/wallet-support-tracker) on neatpass.app. It is maintained by a monthly automated agent sweep plus community-filed corrections.
 
+## Layout
+
+```
+data/
+  index.json                              # Top-level directory of all brands
+  brands/
+    <slug>/
+      data.json                           # Per-brand structured data (one row)
+      research.md                         # Human-readable research log + provenance
+```
+
+The **index** is the fast-path for consumers — list all brands, filter by category/region — without loading every file. The **per-brand `data.json`** holds the full row. The **`research.md`** documents which pages were reviewed, which sources were cited as proof, and a chronological history of changes.
+
 ## Consuming the data
 
-### Direct JSON
+### Index
 
 ```bash
-curl https://raw.githubusercontent.com/jaylann/apple-wallet-support-tracker/main/data/wallet-support.json
+curl https://raw.githubusercontent.com/jaylann/apple-wallet-support-tracker/main/data/index.json
+```
+
+### One brand
+
+```bash
+curl https://raw.githubusercontent.com/jaylann/apple-wallet-support-tracker/main/data/brands/lufthansa/data.json
 ```
 
 Pin to a release tag for reproducibility:
 
 ```bash
-curl https://raw.githubusercontent.com/jaylann/apple-wallet-support-tracker/v1.0.0/data/wallet-support.json
+curl https://raw.githubusercontent.com/jaylann/apple-wallet-support-tracker/v2.0.0/data/index.json
 ```
 
-### Schema
+### Schemas
 
-The shape is defined in [`schema/wallet-support.schema.json`](schema/wallet-support.schema.json) (JSON Schema draft-07). Validate locally:
+- Brand row: [`schema/wallet-support.schema.json`](schema/wallet-support.schema.json)
+- Index: [`schema/index.schema.json`](schema/index.schema.json)
+
+Validate locally:
 
 ```bash
 npm install
 npm run validate
 ```
 
-### TypeScript
+### TypeScript shape
 
 ```ts
 interface WalletSupportRow {
+  $schemaVersion: string;
+  slug: string;
   brand: string;
   category: "airline" | "transit" | "loyalty" | "event" | "sports" | "hotel" | "cinema" | "credentials";
   region: "global" | "north-america" | "europe" | "dach" | "uk-ireland" | "asia-pacific" | "gulf";

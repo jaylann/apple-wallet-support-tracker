@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "dm-active-beauty",
+  "brand": "DM Active Beauty",
+  "category": "loyalty",
+  "region": "dach",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "dm-active-beauty-apple-wallet",
+  "sources": []
+}

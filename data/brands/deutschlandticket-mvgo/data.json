@@ -1,0 +1,13 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "deutschlandticket-mvgo",
+  "brand": "Deutschlandticket MVGo",
+  "category": "transit",
+  "region": "dach",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "deutschlandticket-mvgo-apple-wallet",
+  "sources": []
+}

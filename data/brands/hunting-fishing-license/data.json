@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "hunting-fishing-license",
+  "brand": "Hunting / Fishing license",
+  "category": "credentials",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "hunting-license-apple-wallet",
+  "notes": "State portals issue PDFs only. Wallet pass is a personal reference, not a legal replacement.",
+  "sources": []
+}

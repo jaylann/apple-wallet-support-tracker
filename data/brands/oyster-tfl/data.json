@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "oyster-tfl",
+  "brand": "Oyster / TfL",
+  "category": "transit",
+  "region": "uk-ireland",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "oyster-tfl-apple-wallet",
+  "notes": "Apple Pay Express Transit covers contactless payments. Oyster cards themselves are not pkpass.",
+  "sources": []
+}

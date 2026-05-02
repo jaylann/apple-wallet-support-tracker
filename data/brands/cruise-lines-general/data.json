@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "cruise-lines-general",
+  "brand": "Cruise lines (general)",
+  "category": "airline",
+  "region": "global",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "cruise-boarding-pass-apple-wallet",
+  "notes": "Most cruise lines email a PDF and rely on their own app. Wallet support requires manual conversion.",
+  "sources": []
+}

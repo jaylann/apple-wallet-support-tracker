@@ -1,0 +1,17 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "ticketmaster",
+  "brand": "Ticketmaster",
+  "category": "event",
+  "region": "global",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "knownIssues": [
+    "Add to Wallet button intermittently missing on transferred tickets",
+    "Pass disabled on second device due to anti-screenshot lock"
+  ],
+  "lastChecked": "2026-05-02",
+  "articleSlug": "ticketmaster-add-to-wallet-button-missing",
+  "sources": []
+}

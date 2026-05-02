@@ -1,0 +1,14 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "costco",
+  "brand": "Costco",
+  "category": "loyalty",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "articleSlug": "costco-card-apple-wallet",
+  "notes": "Costco's app shows a digital membership card but does not issue a pkpass.",
+  "sources": []
+}

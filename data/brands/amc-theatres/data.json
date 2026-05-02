@@ -1,0 +1,16 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "amc-theatres",
+  "brand": "AMC Theatres",
+  "category": "cinema",
+  "region": "north-america",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "knownIssues": [
+    "Add to Wallet step occasionally fails after checkout"
+  ],
+  "lastChecked": "2026-05-02",
+  "articleSlug": "amc-ticket-wont-add-to-apple-wallet",
+  "sources": []
+}

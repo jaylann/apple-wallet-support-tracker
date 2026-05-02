@@ -1,0 +1,16 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "amtrak",
+  "brand": "Amtrak",
+  "category": "transit",
+  "region": "north-america",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "knownIssues": [
+    "Wallet add button intermittently disappears on rebooked tickets"
+  ],
+  "lastChecked": "2026-05-02",
+  "articleSlug": "amtrak-ticket-apple-wallet-not-working",
+  "sources": []
+}
