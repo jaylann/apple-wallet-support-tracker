@@ -95,7 +95,10 @@ Both routes bill against your personal subscription, not API credits. No API-key
 ```bash
 npm run validate           # full validation (warns on empty sources)
 npm run validate:strict    # also fails on empty sources — use before release
+npm run reindex            # regenerate data/index.json from data/brands/*/data.json
 ```
+
+After editing any `data/brands/<slug>/data.json`, always run `npm run reindex` instead of editing `data/index.json` by hand. Validate then runs as a check.
 
 ## Commit style
 

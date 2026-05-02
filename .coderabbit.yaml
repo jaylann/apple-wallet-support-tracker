@@ -1,0 +1,64 @@
+# CodeRabbit configuration. https://docs.coderabbit.ai/getting-started/configure-coderabbit
+# Inspired by jaylann/Cast/.coderabbit.yaml.
+
+language: en-US
+early_access: false
+
+reviews:
+  profile: chill
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+
+  path_filters:
+    - "!data/brands/*/research.md" # human-readable provenance, not source
+    - "!**/*.lock"
+    - "!package-lock.json"
+
+  path_instructions:
+    - path: "data/brands/**/data.json"
+      instructions: |
+        For data row PRs, focus on:
+        - All `sources[].url` are real URLs that load and support the cited claim. Flag anything that looks fabricated, redirects to a homepage, or is an unrelated marketing page.
+        - `lastChecked` matches the most recent `accessedAt` in `sources[]`.
+        - `nativePkpass` follows the methodology: `full` only when the native pkpass path is consistent and primary; `partial` covers inconsistent or hidden flows; `none` when no native path exists.
+        - For `community` source type, there must be at least one higher-priority source backing the same claim.
+
+    - path: "data/index.json"
+      instructions: |
+        Verify `brandCount` matches `brands.length`. Verify `lastModified` is >= max(brand `lastChecked`). Flag any drift between index entries and the actual `data/brands/<slug>/data.json` files.
+
+    - path: "schema/**"
+      instructions: |
+        Schema changes are major-version events. Verify the PR includes:
+        - A bump of `$schemaVersion` in affected files.
+        - An ADR in `docs/decisions/` describing the migration.
+        - A `CHANGELOG.md` entry under `[Unreleased]`.
+
+    - path: "prompts/**"
+      instructions: |
+        Prompt changes silently affect every future agent run. Be specific about what changed and whether it tightens or loosens guardrails. Flag any removal of "hard rules" sections, changes to source priority ordering, or relaxed citation requirements.
+
+    - path: ".github/workflows/**"
+      instructions: |
+        Workflow changes are security-sensitive. Flag any new use of `pull_request_target`, any expansion of `permissions:`, any new third-party action that isn't pinned to a commit SHA, and any handling of secrets that could echo into logs.
+
+  auto_review:
+    enabled: true
+    drafts: false
+    base_branches:
+      - "stage"
+    ignore_title_keywords:
+      - "WIP"
+      - "[skip review]"
+
+chat:
+  auto_reply: true
+
+knowledge_base:
+  learnings:
+    scope: local
+  pull_requests:
+    scope: local

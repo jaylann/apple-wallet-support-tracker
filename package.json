@@ -16,7 +16,8 @@
   "type": "module",
   "scripts": {
     "validate": "tsx scripts/validate.ts",
-    "validate:strict": "tsx scripts/validate.ts --strict"
+    "validate:strict": "tsx scripts/validate.ts --strict",
+    "reindex": "tsx scripts/reindex.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

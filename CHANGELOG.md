@@ -4,6 +4,21 @@ All notable changes to this dataset are documented here. The format is based on 
 
 ## [Unreleased]
 
+### Added
+
+- Parallel-subagent sweep orchestrator (`prompts/sweep.md` + `prompts/sweep-batch.md`). The orchestrator dispatches up to 8 concurrent `Task` subagents that each verify a batch of brands. Cuts sweep wall-clock time from ~30–45 min to under 10.
+- `npm run reindex` (`scripts/reindex.ts`) — regenerates `data/index.json` from per-brand files. Replaces by-hand index edits.
+- `.coderabbit.yaml` — automated review on agent PRs with path-specific instructions for data/, schema/, prompts/, and workflows.
+- `sweep.yml` inputs: `brands_filter` (CSV of slugs, scoped sweep) and `dry_run` (run agent without opening PR).
+- Workflow run summaries: both `sweep.yml` and `issue-handler.yml` write structured Markdown to `$GITHUB_STEP_SUMMARY`.
+- Idempotency guard on `issue-handler.yml`: skips if an `agent/issue-N-<agent>` branch already exists.
+
+### Changed
+
+- `prompts/issue-fix.md` hardened against prompt-injection. Issue bodies are wrapped in `<untrusted-input>` delimiters by the workflow; the prompt explicitly instructs the agent to treat that content as data and ignore any directives inside.
+- All third-party GitHub Actions pinned to commit SHA (`actions/checkout`, `actions/setup-node`, `actions/labeler`, `peter-evans/create-pull-request`, `anthropics/claude-code-action`).
+- Repo setting: branches auto-deleted on merge (`gh repo edit --delete-branch-on-merge`).
+
 ## [2.0.0] — 2026-05-02
 
 ### Changed (BREAKING)
