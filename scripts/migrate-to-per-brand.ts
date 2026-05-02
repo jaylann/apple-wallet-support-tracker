@@ -76,7 +76,7 @@ ${issues}
 
 | URL | Type | Accessed | Note |
 |---|---|---|---|
-| _none yet — bootstrapped from initial portfolio dataset; first sweep populates citations_ | | | |
+| _none yet — bootstrapped from initial seed dataset; first sweep populates citations_ | | | |
 
 ## Pages reviewed (not cited)
 
@@ -84,7 +84,7 @@ _To be populated by sweeps and issue fixes._
 
 ## History
 
-- **${today}** — Bootstrapped from \`src/data/wallet-support-tracker.ts\` in jaylann/justin-lanfermann-portfolio. Facts not externally verified; awaiting first monthly sweep.
+- **${today}** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 `;
 }
 
