@@ -9,6 +9,13 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "dice-ticket-apple-wallet",
-  "notes": "DICE deliberately keeps tickets in-app to combat resale. No Wallet path is offered.",
-  "sources": []
+  "notes": "DICE deliberately keeps tickets in-app to combat resale. No Wallet path is offered. Note: DICE was acquired by Fever in June 2025.",
+  "sources": [
+    {
+      "url": "https://dicefm.zendesk.com/hc/en-gb/articles/18201556722961-Reselling-Tickets-on-DICE-and-Preventing-Scams",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "DICE help centre confirms tickets are in-app only with anti-resale QR system; no Wallet path documented"
+    }
+  ]
 }

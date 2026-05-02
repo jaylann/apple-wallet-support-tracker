@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Updated nativePkpass from none → partial: App Store listing confirms "Supports Wallet"; Sam's Club app has an Add to Apple Wallet option for the membership card, though many users report reliability issues. Source: [Sam's Club App Store listing](https://apps.apple.com/us/app/sams-club-pickup-delivery/id382497397).

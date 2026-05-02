@@ -10,5 +10,24 @@
   "lastChecked": "2026-05-02",
   "articleSlug": "hotel-key-apple-wallet",
   "notes": "Native room keys ship via the chain's app, not as a generic pkpass. Coverage varies by property.",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://support.apple.com/en-us/118273",
+      "type": "support",
+      "accessedAt": "2026-05-02",
+      "note": "Apple Support: adding hotel room keys to Apple Wallet — iPhone and Apple Watch both supported"
+    },
+    {
+      "url": "https://newsroom.hyatt.com/news-releases?item=124174",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Hyatt newsroom: first hotel brand to offer room keys in Apple Wallet on iPhone and Apple Watch"
+    },
+    {
+      "url": "https://appleinsider.com/articles/22/01/25/apple-wallet-digital-key-use-at-hyatt-hotels-shown-off-in-new-video",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "AppleInsider: Apple Wallet digital key in action at Hyatt hotels"
+    }
+  ]
 }

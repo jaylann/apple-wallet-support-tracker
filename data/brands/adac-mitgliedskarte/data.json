@@ -9,5 +9,12 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "adac-mitgliedskarte-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.adac.de/mein-adac/meine-mitgliedschaft/adac-wallet/infoseite/",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "ADAC official page confirms digital Mitgliedskarte as Apple Wallet pass; company/business memberships excluded"
+    }
+  ]
 }

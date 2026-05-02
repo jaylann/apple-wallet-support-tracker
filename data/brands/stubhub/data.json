@@ -9,5 +9,12 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "stubhub-ticket-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://watcher.guru/news/how-to-add-stubhub-tickets-to-your-apple-wallet",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "Confirms Add to Apple Wallet button available in My Tickets; not all ticket types eligible"
+    }
+  ]
 }

@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Corrected nativePkpass from partial → none: PAYBACK officially does not offer Apple Wallet or Google Wallet integration for the loyalty card; users must use the PAYBACK app. Source: [Giga.de PAYBACK Apple Wallet article](https://www.giga.de/artikel/payback-karte-in-wallet-einfuegen-geht-das-apple-google/).

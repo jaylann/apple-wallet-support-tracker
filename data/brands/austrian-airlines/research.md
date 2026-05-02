@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed `full` pkpass and Watch sync; Austrian Airlines introduced Apple Wallet boarding pass in May 2019 and feature remains active; no Live Activity support found. Source: [Austrian Airlines Presents New Boarding Pass](https://www.austrianairlines.ag/en/2019/05/17/austrian-airlines-presents-new-boarding-pass/).

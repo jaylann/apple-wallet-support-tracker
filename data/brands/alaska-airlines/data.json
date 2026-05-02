@@ -9,5 +9,12 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "alaska-airlines-boarding-pass-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/alaska-hawaiian/id356143077",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "App Store listing confirms boarding pass, Mileage Plan rewards, and Lounge card support in Apple Wallet; Apple Watch compatible"
+    }
+  ]
 }

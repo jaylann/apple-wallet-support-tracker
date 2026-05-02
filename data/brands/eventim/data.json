@@ -9,5 +9,12 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "eventim-ticket-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.eventim.de/faq/de_de/category/ticketkauf/subcategory/tipps-zum-kauf/wie-fuege-ich-tickets-der-apple-wallet-hinzu/",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Eventim DE FAQ page confirms Apple Wallet support for select ticket types; not all orders qualify — partial remains accurate"
+    }
+  ]
 }

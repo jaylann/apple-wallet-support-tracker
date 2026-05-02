@@ -4,10 +4,18 @@
   "brand": "PAYBACK",
   "category": "loyalty",
   "region": "dach",
-  "nativePkpass": "partial",
+  "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "payback-karte-apple-wallet",
-  "sources": []
+  "notes": "PAYBACK officially offers no Apple Wallet or Google Wallet integration for the loyalty card. Users must use the PAYBACK app. The PAYBACK American Express credit card can be added to Wallet as a payment card, but that is not the loyalty pass.",
+  "sources": [
+    {
+      "url": "https://www.giga.de/artikel/payback-karte-in-wallet-einfuegen-geht-das-apple-google/",
+      "accessedAt": "2026-05-02",
+      "type": "press",
+      "note": "Giga.de citing official PAYBACK position: 'Der Anbieter des Bonus-Programms bietet keine Möglichkeit, die Payback-Karte in der Apple- oder Google-Wallet zu speichern'"
+    }
+  ]
 }

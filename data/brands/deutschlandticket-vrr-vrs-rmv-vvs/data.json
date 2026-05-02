@@ -4,10 +4,17 @@
   "brand": "Deutschlandticket VRR/VRS/RMV/VVS",
   "category": "transit",
   "region": "dach",
-  "nativePkpass": "none",
+  "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "deutschlandticket-vrr-vrs-rmv-vvs-apple-wallet",
-  "sources": []
+  "notes": "VRS Ticketshop delivers a PKPASS file by email alongside the PDF for all tickets including Deutschlandticket. VRR, RMV, and VVS Wallet export status was not confirmed in this sweep.",
+  "sources": [
+    {
+      "url": "https://www.vrs-ticketshop.de/en/Save-ticket-in-the-Wallet-app/",
+      "accessedAt": "2026-05-02",
+      "type": "official"
+    }
+  ]
 }

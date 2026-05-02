@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed `none`: Lidl Plus App Store listing shows no Apple Wallet support; user reviews explicitly request the feature, confirming it is not yet available. Source: [Lidl Plus App Store](https://apps.apple.com/rs/app/lidl-plus/id1238611143).

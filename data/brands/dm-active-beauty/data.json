@@ -9,5 +9,12 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "dm-active-beauty-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://apps.apple.com/at/app/dm-active-beauty-payback/id1318650898",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "dm Active Beauty app on App Store; no Apple Wallet pass feature listed; loyalty card is in-app only via PAYBACK integration"
+    }
+  ]
 }

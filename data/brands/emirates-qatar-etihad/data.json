@@ -9,5 +9,12 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "emirates-qatar-etihad-boarding-pass-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.emirates.com/us/english/help/faq-topics/mobile-and-the-emirates-app/faq/what-is-a-mobile-boarding-pass/",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Emirates FAQ confirms Apple Wallet boarding pass available for iPhone users who check in via the Emirates app; requires app check-in and 'Save to device' option — hence partial"
+    }
+  ]
 }

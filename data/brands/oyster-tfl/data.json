@@ -10,5 +10,18 @@
   "lastChecked": "2026-05-02",
   "articleSlug": "oyster-tfl-apple-wallet",
   "notes": "Apple Pay Express Transit covers contactless payments. Oyster cards themselves are not pkpass.",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.apple.com/uk/apple-pay/transport/",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "Apple UK: TfL Express Mode supported via Apple Pay, not pkpass Oyster card"
+    },
+    {
+      "url": "https://www.findingtheuniverse.com/pay-public-transport-london-oyster-contactless-best/",
+      "accessedAt": "2026-05-02",
+      "type": "press",
+      "note": "Confirms Apple Pay Express Transit works; Oyster card cannot be added to Apple Wallet"
+    }
+  ]
 }

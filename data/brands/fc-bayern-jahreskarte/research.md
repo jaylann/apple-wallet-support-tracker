@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Changed nativePkpass full → none, watchSync true → false. FC Bayern officially announced that from the 2026/27 season Apple Wallet and Google Wallet are no longer supported for stadium access; tickets will only be accessible via the official FC Bayern or Allianz Arena app (DTC). Source: [FC Bayern – New Digital Ticket 2026/27](https://fcbayern.com/en/news/2026/04/allianz-arena-access-from-2026-27-season-onwards).

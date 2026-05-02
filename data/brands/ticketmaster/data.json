@@ -5,7 +5,7 @@
   "category": "event",
   "region": "global",
   "nativePkpass": "partial",
-  "iosLiveActivity": false,
+  "iosLiveActivity": true,
   "watchSync": true,
   "knownIssues": [
     "Add to Wallet button intermittently missing on transferred tickets",
@@ -13,5 +13,18 @@
   ],
   "lastChecked": "2026-05-02",
   "articleSlug": "ticketmaster-add-to-wallet-button-missing",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://business.ticketmaster.com/press-release/apple-wallet-experience/",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Ticketmaster press release confirming enhanced Apple Wallet tickets with Live Activities launched iOS 18 Oct 2024"
+    },
+    {
+      "url": "https://help.ticketmaster.com/hc/en-us/articles/9612381551761-How-do-I-add-tickets-to-Apple-Wallet",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Official help article; confirms partial coverage — not all ticket types eligible"
+    }
+  ]
 }

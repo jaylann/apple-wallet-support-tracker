@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Upgraded nativePkpass none→partial; BVG Tickets app (separate from BVG Fahrinfo) allows exporting Deutschlandticket to Wallet via Ticketspeicher → three-dot menu; manual monthly re-add required. Source: [teltarif.de](https://www.teltarif.de/deutschlandticket-apple-wallet-bvg/news/91678.html).

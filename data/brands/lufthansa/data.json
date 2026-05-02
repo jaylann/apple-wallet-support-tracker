@@ -10,5 +10,24 @@
   "lastChecked": "2026-05-02",
   "articleSlug": "lufthansa-boarding-pass-apple-wallet",
   "notes": "Native Add to Apple Wallet from the Lufthansa app and website. Live Flight Tracking announced for iOS 26 but not yet live.",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/lufthansa/id299219152",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Lufthansa App Store listing — confirms Add to Apple Wallet for boarding passes"
+    },
+    {
+      "url": "https://9to5mac.com/2025/12/22/apple-wallets-ios-26-boarding-passes-now-offered-by-three-major-airlines/",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "9to5Mac (Dec 2025): Lufthansa Group committed to iOS 26 enhanced boarding pass with Live Activity but not yet live; United, Delta, Southwest already live"
+    },
+    {
+      "url": "https://lufthansaflyer.boardingarea.com/lufthansa-boarding-passes-compatible-with-passbook/",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "Lufthansa Flyer: Lufthansa boarding passes compatible with Apple Wallet (pkpass)"
+    }
+  ]
 }
