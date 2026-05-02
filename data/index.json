@@ -1,7 +1,7 @@
 {
   "$schemaVersion": "2.0.0",
   "lastModified": "2026-05-02",
-  "brandCount": 53,
+  "brandCount": 54,
   "brands": [
     {
       "slug": "aarp",
@@ -253,6 +253,13 @@
       "brand": "Lufthansa",
       "category": "airline",
       "region": "europe",
+      "lastChecked": "2026-05-02"
+    },
+    {
+      "slug": "mathaeser",
+      "brand": "Mathäser",
+      "category": "cinema",
+      "region": "dach",
       "lastChecked": "2026-05-02"
     },
     {

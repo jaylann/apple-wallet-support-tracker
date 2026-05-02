@@ -1,0 +1,31 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "mathaeser",
+  "brand": "Mathäser",
+  "category": "cinema",
+  "region": "dach",
+  "nativePkpass": "partial",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-05-02",
+  "sources": [
+    {
+      "url": "https://www.mathaeser.de/mm/agb",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "AGB explicitly references Passbook as electronic ticket delivery option"
+    },
+    {
+      "url": "https://www.mathaeser.de/mm/angebote/unsere-app/35",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "Official app promotion page"
+    },
+    {
+      "url": "https://www.mathaeser.de/mm/faqs",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "FAQ mentions Wallet-Datei for CineCard download"
+    }
+  ]
+}
