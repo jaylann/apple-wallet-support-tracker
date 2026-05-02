@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Upgraded nativePkpass none→partial; MVG FAQ confirms MVGO app Add to Apple Wallet path via My Tickets → ticket options; monthly manual re-add required, no automatic Wallet updates. Source: [MVG FAQ Deutschlandticket](https://www.mvg.de/services/faq/deutschlandticket/handy-2.html).

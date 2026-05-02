@@ -10,5 +10,18 @@
   "lastChecked": "2026-05-02",
   "articleSlug": "student-id-apple-wallet",
   "notes": "Apple's Student ID program covers ~100 universities. Outside that program, schools issue PDFs only.",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://support.apple.com/en-us/118274",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Apple support page confirming Student ID in Wallet on iPhone and Apple Watch; participation limited to enrolled schools"
+    },
+    {
+      "url": "https://9to5mac.com/2026/03/23/apple-wallet-student-ids-expanding-to-the-university-of-texas-next-year/",
+      "type": "press",
+      "accessedAt": "2026-05-02",
+      "note": "University of Texas joining Apple Wallet Student ID program in 2027-28; program still partial/institution-gated"
+    }
+  ]
 }

@@ -4,10 +4,17 @@
   "brand": "Deutschlandticket BVG",
   "category": "transit",
   "region": "dach",
-  "nativePkpass": "none",
+  "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "deutschlandticket-bvg-apple-wallet",
-  "sources": []
+  "notes": "Wallet export available via the separate BVG Tickets app (Ticketspeicher section, three-dot menu). Must be repeated manually each month; the main BVG Fahrinfo app does not support Wallet export.",
+  "sources": [
+    {
+      "url": "https://www.teltarif.de/deutschlandticket-apple-wallet-bvg/news/91678.html",
+      "accessedAt": "2026-05-02",
+      "type": "press"
+    }
+  ]
 }

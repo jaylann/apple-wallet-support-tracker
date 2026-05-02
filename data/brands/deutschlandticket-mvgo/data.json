@@ -4,10 +4,17 @@
   "brand": "Deutschlandticket MVGo",
   "category": "transit",
   "region": "dach",
-  "nativePkpass": "none",
+  "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "deutschlandticket-mvgo-apple-wallet",
-  "sources": []
+  "notes": "MVGO app supports Add to Apple Wallet via My Tickets → ticket options menu. Ticket must be manually re-downloaded and re-added each month; no automatic Wallet updates.",
+  "sources": [
+    {
+      "url": "https://www.mvg.de/services/faq/deutschlandticket/handy-2.html",
+      "accessedAt": "2026-05-02",
+      "type": "official"
+    }
+  ]
 }

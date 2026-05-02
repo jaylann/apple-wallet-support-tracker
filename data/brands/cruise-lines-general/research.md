@@ -32,3 +32,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed nativePkpass:none for the general category; Royal Caribbean is a notable exception with a native Wallet button but cruise lines as a whole do not offer pkpass. Source: [Royal Caribbean FAQ](https://www.royalcaribbean.com/faq/questions/will-my-boarding-pass-be-viewable-in-the-app-or-my-digital-wallet).

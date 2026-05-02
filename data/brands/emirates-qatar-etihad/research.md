@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed nativePkpass=partial for Emirates; Apple Wallet boarding pass available only for iPhone users who check in via the Emirates app and select 'Save to device'; not available via web check-in. Source: [Emirates Mobile Boarding Pass FAQ](https://www.emirates.com/us/english/help/faq-topics/mobile-and-the-emirates-app/faq/what-is-a-mobile-boarding-pass/).

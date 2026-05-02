@@ -32,3 +32,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed `none`: state portals issue PDF/app-based licenses; issuing authority must provide wallet link; no universal native pkpass standard. Source: [Apple Community thread](https://discussions.apple.com/thread/255998895).

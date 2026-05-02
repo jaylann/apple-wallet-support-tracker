@@ -9,5 +9,12 @@
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "lidl-plus-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://apps.apple.com/rs/app/lidl-plus/id1238611143",
+      "type": "official",
+      "accessedAt": "2026-05-02",
+      "note": "Lidl Plus App Store listing — user reviews request Apple Wallet support; not currently offered"
+    }
+  ]
 }

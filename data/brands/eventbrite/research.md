@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed nativePkpass=full; Eventbrite app supports 'Add to Wallet' for tickets; availability is organizer-dependent and inconsistent across events but the platform ships pkpass natively. Source: [Using the Eventbrite App](https://www.eventbrite.com/help/en-us/articles/783059/how-to-use-the-eventbrite-app/).

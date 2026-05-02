@@ -9,5 +9,12 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "british-airways-boarding-pass-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.britishairways.com/content/information/checking-in-and-boarding/ba-on-your-mobile",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "BA official mobile page confirms Passbook/Wallet boarding pass download via BA app; Apple Watch shows flight details and departure countdown"
+    }
+  ]
 }

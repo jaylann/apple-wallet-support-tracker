@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Upgraded nativePkpass none→partial; VRS Ticketshop confirmed delivering a PKPASS file by email for all tickets; VRR, RMV, and VVS Wallet export not confirmed in this sweep. Source: [VRS Ticketshop Wallet guide](https://www.vrs-ticketshop.de/en/Save-ticket-in-the-Wallet-app/).

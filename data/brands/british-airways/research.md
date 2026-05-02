@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed `full` pkpass and Watch sync; BA app downloads boarding pass to Wallet, Apple Watch shows flight number, route, and departure countdown; no Live Activity. Source: [British Airways — BA on Your Mobile](https://www.britishairways.com/content/information/checking-in-and-boarding/ba-on-your-mobile).

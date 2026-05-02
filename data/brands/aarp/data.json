@@ -4,10 +4,17 @@
   "brand": "AARP",
   "category": "loyalty",
   "region": "north-america",
-  "nativePkpass": "none",
+  "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": false,
   "lastChecked": "2026-05-02",
   "articleSlug": "aarp-card-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://www.aarp.org/membership/benefits/digital-member-welcome/",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "AARP official digital membership page confirms Add to Apple Wallet support via aarp.org/digitalcard/ or AARP Now app"
+    }
+  ]
 }

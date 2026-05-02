@@ -9,5 +9,18 @@
   "watchSync": true,
   "lastChecked": "2026-05-02",
   "articleSlug": "starbucks-card-apple-wallet",
-  "sources": []
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/starbucks/id331177714",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "App Store: Starbucks app lists 'Supports Wallet'; app description confirms multiple Starbucks Cards can be saved"
+    },
+    {
+      "url": "https://apps.apple.com/us/story/id1474397862",
+      "accessedAt": "2026-05-02",
+      "type": "official",
+      "note": "Apple editorial: Buy Starbucks with Apple Watch; confirms Starbucks Watch app with balance and rewards display"
+    }
+  ]
 }

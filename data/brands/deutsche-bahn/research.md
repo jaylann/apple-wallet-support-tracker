@@ -32,3 +32,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
+- **2026-05-02** (sweep, claude-subagent) — Confirmed nativePkpass:partial; DB Navigator exports domestic long-distance tickets to Wallet but Deutschlandticket and regional fares remain locked in-app. Source: [Apple Community DE thread](https://communities.apple.com/de/thread/254856514).
