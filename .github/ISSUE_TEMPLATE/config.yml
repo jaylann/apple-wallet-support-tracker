@@ -6,6 +6,5 @@ contact_links:
   - name: README
     url: https://github.com/jaylann/apple-wallet-support-tracker#readme
     about: How to consume the dataset, schema overview, contribution model.
-  - name: Security vulnerability
-    url: https://github.com/jaylann/apple-wallet-support-tracker/security/advisories/new
-    about: Report a security issue privately. Do not file a public issue.
+  # NOTE: GitHub auto-adds a "Report a security vulnerability" entry from
+  # SECURITY.md — do not duplicate it here.

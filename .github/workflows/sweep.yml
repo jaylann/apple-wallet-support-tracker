@@ -24,6 +24,7 @@ permissions:
   contents: write
   pull-requests: write
   issues: write
+  id-token: write # required by claude-code-action for OIDC
 
 concurrency:
   group: sweep
@@ -99,13 +100,22 @@ jobs:
             exit 1
           fi
 
+      - name: Load Claude sweep prompt
+        if: steps.agent.outputs.name == 'claude'
+        run: |
+          {
+            echo 'CLAUDE_PROMPT<<PROMPT_EOF'
+            cat prompts/sweep.md
+            echo 'PROMPT_EOF'
+          } >> "$GITHUB_ENV"
+
       - name: Run Claude sweep
         if: steps.agent.outputs.name == 'claude'
         id: claude_sweep
         uses: anthropics/claude-code-action@fefa07e9c665b7320f08c3b525980457f22f58aa # v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-          prompt_file: prompts/sweep.md
+          prompt: ${{ env.CLAUDE_PROMPT }}
           # Task tool enables parallel subagents. Higher max-turns budget
           # because the orchestrator + ~6 subagents collectively need more
           # turns than a sequential single-agent run.
