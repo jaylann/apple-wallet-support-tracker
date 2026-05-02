@@ -82,6 +82,47 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Compute month
+        id: month
+        if: steps.idempotency.outputs.skip == 'false'
+        run: echo "month=$(date -u +%Y-%m)" >> "$GITHUB_OUTPUT"
+
+      - name: Resolve monthly milestone (find or create)
+        id: milestone
+        if: steps.idempotency.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MONTH: ${{ steps.month.outputs.month }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          title="Sweep $MONTH"
+          num=$(gh api "repos/$REPO/milestones?state=open&per_page=100" --jq "[.[] | select(.title == \"$title\")] | .[0].number // empty")
+          if [ -z "$num" ]; then
+            num=$(gh api -X POST "repos/$REPO/milestones" -f title="$title" -f description="Agent activity for $MONTH (sweep + issue handler)" --jq '.number')
+            echo "Created milestone '$title' (#$num)"
+          else
+            echo "Reusing milestone '$title' (#$num)"
+          fi
+          echo "number=$num" >> "$GITHUB_OUTPUT"
+          echo "title=$title" >> "$GITHUB_OUTPUT"
+
+      - name: Mark issue as in-progress
+        if: steps.idempotency.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUM: ${{ steps.issue.outputs.number }}
+          AGENT: ${{ steps.agent.outputs.name }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          MILESTONE_TITLE: ${{ steps.milestone.outputs.title }}
+        run: |
+          set -euo pipefail
+          # --remove-label fails if the label isn't present; ignore so a fresh issue still works.
+          gh issue edit "$NUM" --add-label "agent:in-progress" --milestone "$MILESTONE_TITLE"
+          gh issue edit "$NUM" --remove-label "agent:done" 2>/dev/null || true
+          gh issue edit "$NUM" --remove-label "needs-human" 2>/dev/null || true
+          gh issue comment "$NUM" --body "🤖 \`$AGENT\` agent picked this up — [workflow run]($RUN_URL)"
+
       - name: Write issue context (sandboxed)
         if: steps.idempotency.outputs.skip == 'false'
         env:
@@ -228,10 +269,12 @@ jobs:
           delete-branch: true
           commit-message: "data: address issue #${{ steps.issue.outputs.number }}"
           title: "Address #${{ steps.issue.outputs.number }} (${{ steps.agent.outputs.name }})"
+          milestone: ${{ steps.milestone.outputs.number }}
           body: |
             Automated response to issue #${{ steps.issue.outputs.number }}.
 
             **Agent:** `${{ steps.agent.outputs.name }}`
+            **Workflow run:** ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
             Closes #${{ steps.issue.outputs.number }}
 
@@ -253,8 +296,11 @@ jobs:
           PR_NUMBER: ${{ steps.pr.outputs.pull-request-number }}
           AGENT: ${{ steps.agent.outputs.name }}
         run: |
+          set -euo pipefail
+          gh issue edit "$ISSUE_NUMBER" --add-label "agent:done"
+          gh issue edit "$ISSUE_NUMBER" --remove-label "agent:in-progress" 2>/dev/null || true
           gh issue comment "$ISSUE_NUMBER" \
-            --body "Opened PR #$PR_NUMBER with the proposed change (agent: \`$AGENT\`). A maintainer will review."
+            --body "✅ Opened PR #$PR_NUMBER (agent: \`$AGENT\`). A maintainer will review."
 
       - name: Mark unable-to-verify on failure
         if: |
@@ -264,9 +310,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_NUMBER: ${{ steps.issue.outputs.number }}
           AGENT: ${{ steps.agent.outputs.name }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
+          set -euo pipefail
           gh issue edit "$ISSUE_NUMBER" --add-label "needs-human"
+          gh issue edit "$ISSUE_NUMBER" --remove-label "agent:in-progress" 2>/dev/null || true
           gh issue comment "$ISSUE_NUMBER" \
-            --body "The \`$AGENT\` agent was unable to verify the change automatically. See workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            --body "❌ The \`$AGENT\` agent was unable to verify the change automatically. See [workflow run]($RUN_URL).
 
             Marked \`needs-human\` for manual review."
