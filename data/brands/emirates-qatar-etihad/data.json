@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "emirates-qatar-etihad-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -15,6 +15,12 @@
       "type": "official",
       "accessedAt": "2026-05-02",
       "note": "Emirates FAQ confirms Apple Wallet boarding pass available for iPhone users who check in via the Emirates app; requires app check-in and 'Save to device' option — hence partial"
+    },
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-goes-digital-phases-out-paper-boarding-passes-for-flights-departing-dubai/",
+      "type": "official",
+      "accessedAt": "2026-06-01",
+      "note": "Emirates media centre confirms digital boarding passes (including Apple Wallet) are now standard; paper passes phased out for Dubai departures — reinforces partial (app check-in required)"
     }
   ]
 }

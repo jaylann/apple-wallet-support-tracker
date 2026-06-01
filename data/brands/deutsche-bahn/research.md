@@ -33,3 +33,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Confirmed nativePkpass:partial; DB Navigator exports domestic long-distance tickets to Wallet but Deutschlandticket and regional fares remain locked in-app. Source: [Apple Community DE thread](https://communities.apple.com/de/thread/254856514).
+- **2026-06-01** (sweep, claude-subagent) — Confirmed nativePkpass:partial unchanged; DB Navigator Wallet export works for domestic long-distance tickets via three-dot menu but Deutschlandticket and regional fares remain unsupported. Source: [NeatPass Deutsche Bahn Apple Wallet guide](https://de.neatpass.app/learn/deutsche-bahn-apple-wallet).

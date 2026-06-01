@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Confirmed partial pkpass: Wallet supported for D-Ticket, Jobticket, 365-Euro-Ticket and MVV Abo subscriptions only; single tickets excluded; manual monthly re-add required. Source: [MVG official Wallet FAQ](https://www.mvg.de/abos-tickets/abos/hilfe-handyticket/anzeige-wallet-app.html).
+- **2026-06-01** (sweep, claude-subagent) — Re-confirmed partial: MVG official FAQ still active, Wallet support for subscription tickets unchanged; manual monthly re-add requirement persists. Source: [MVG Wallet FAQ](https://www.mvg.de/abos-tickets/abos/hilfe-handyticket/anzeige-wallet-app.html).

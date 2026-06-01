@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Upgraded nativePkpass none→partial; CVS app has official Add to Apple Wallet button under Show Card but flow is frequently reported as silently failing. Source: [CVS ExtraCare digital card](https://www.cvs.com/extracare/digital-card/).
+- **2026-06-01** (sweep, claude-subagent) — Confirmed nativePkpass:partial unchanged; Apple Community threads continue to document silent failures adding the ExtraCare card to Wallet; CVS official page still shows the Add to Apple Wallet path. Source: [Apple Discussions – Cannot add CVS Extracare card to Apple Wallet](https://discussions.apple.com/thread/255959644).

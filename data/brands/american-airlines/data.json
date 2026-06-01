@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": true,
   "watchSync": true,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "american-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -15,6 +15,12 @@
       "accessedAt": "2026-05-02",
       "type": "press",
       "note": "MacRumors confirms American Airlines supports iOS 26 boarding passes with Apple Maps, destination guides, and luggage tracking; first major US carrier with new format"
+    },
+    {
+      "url": "https://9to5mac.com/2026/04/13/apple-wallet-boarding-passes-american-airlines-ios-26/",
+      "accessedAt": "2026-06-01",
+      "type": "press",
+      "note": "9to5Mac confirms AA is biggest US airline to add iOS 26 Wallet boarding pass support with Live Activities, Maps integration, and AirTag luggage tracking"
     }
   ]
 }

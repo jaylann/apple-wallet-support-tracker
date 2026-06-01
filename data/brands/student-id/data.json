@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "student-id-apple-wallet",
   "notes": "Apple's Student ID program covers ~100 universities. Outside that program, schools issue PDFs only.",
   "sources": [
@@ -22,6 +22,12 @@
       "type": "press",
       "accessedAt": "2026-05-02",
       "note": "University of Texas joining Apple Wallet Student ID program in 2027-28; program still partial/institution-gated"
+    },
+    {
+      "url": "https://appleinsider.com/articles/26/03/23/students-attending-university-of-texas-in-2027-to-get-ids-in-apple-wallet",
+      "type": "press",
+      "accessedAt": "2026-06-01",
+      "note": "AppleInsider confirms UT Austin (55,000+ students) joining Apple Wallet Student ID program for 2027-28; partial coverage confirmed"
     }
   ]
 }

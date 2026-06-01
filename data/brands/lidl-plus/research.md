@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Confirmed `none`: Lidl Plus App Store listing shows no Apple Wallet support; user reviews explicitly request the feature, confirming it is not yet available. Source: [Lidl Plus App Store](https://apps.apple.com/rs/app/lidl-plus/id1238611143).
+- **2026-06-01** (sweep, claude-subagent) — Re-confirmed `none`: Apple Community thread and App Store listing confirm Lidl Plus still has no native Apple Wallet export; multiple tutorial videos describe only third-party workarounds. Source: [Apple Community: unable to add Lidl card to Apple Wallet](https://discussions.apple.com/thread/256023797).

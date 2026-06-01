@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "fever-tickets-apple-wallet",
   "notes": "Fever acquired DICE in June 2025. Apple Wallet support is available via the Fever app for some events (sports, concerts) but not consistently across all event types.",
   "sources": [
@@ -16,6 +16,12 @@
       "type": "official",
       "accessedAt": "2026-05-02",
       "note": "Fever business page confirms fans can save tickets to Apple or Google Wallet; availability appears event/venue dependent — partial remains accurate"
+    },
+    {
+      "url": "https://support.feverup.com/hc/en-us/articles/6012557084436-Where-can-I-find-my-tickets",
+      "type": "official",
+      "accessedAt": "2026-06-01",
+      "note": "Fever support page confirms Apple Wallet integration available for ticket access; event/venue dependent availability"
     }
   ]
 }

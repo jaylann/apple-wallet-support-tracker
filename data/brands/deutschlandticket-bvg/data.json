@@ -7,13 +7,18 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "deutschlandticket-bvg-apple-wallet",
   "notes": "Wallet export available via the separate BVG Tickets app (Ticketspeicher section, three-dot menu). Must be repeated manually each month; the main BVG Fahrinfo app does not support Wallet export.",
   "sources": [
     {
       "url": "https://www.teltarif.de/deutschlandticket-apple-wallet-bvg/news/91678.html",
       "accessedAt": "2026-05-02",
+      "type": "press"
+    },
+    {
+      "url": "https://neatpass.app/learn/bvg-ticket-apple-wallet",
+      "accessedAt": "2026-06-01",
       "type": "press"
     }
   ]

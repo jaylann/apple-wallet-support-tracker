@@ -7,21 +7,21 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "oebb-ticket-apple-wallet",
   "notes": "ÖBB app supports Apple Pay for payments but does not offer native pkpass/Apple Wallet ticket storage. Users can place tickets as home-screen widgets only.",
   "sources": [
     {
       "url": "https://www.oebb.at/en/tickets-kundenkarten/online-mobile-ticketing/oebb-app",
-      "accessedAt": "2026-05-02",
+      "accessedAt": "2026-06-01",
       "type": "official",
       "note": "ÖBB official app page: no mention of Apple Wallet pkpass support; only Apple Pay for payments and home-screen widgets"
     },
     {
-      "url": "https://apps.apple.com/at/app/oebb-tickets/id1041401604",
-      "accessedAt": "2026-05-02",
+      "url": "https://apps.apple.com/us/app/%C3%B6bb-tickets/id1041401604",
+      "accessedAt": "2026-06-01",
       "type": "official",
-      "note": "App Store listing does not include Wallet support badge; only Apple Pay for payment is mentioned"
+      "note": "App Store listing does not include Wallet support badge; only Apple Pay for payment is mentioned; no pkpass support confirmed"
     }
   ]
 }

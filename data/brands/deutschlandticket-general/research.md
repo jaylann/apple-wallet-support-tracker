@@ -33,3 +33,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Upgraded nativePkpass none→partial and corrected note; HVV, BVG, MVGo, and VRS confirmed offering native Wallet export; DB Navigator and many others do not; all require monthly manual re-add. Source: [NeatPass Deutschlandticket guide](https://neatpass.app/learn/deutschlandticket-apple-wallet).
+- **2026-06-01** (sweep, claude-subagent) — Confirmed nativePkpass:partial unchanged; HVV, BVG, MVGo, and VRS all verified still supporting Wallet export with manual monthly re-add required. Source: [Macwelt Deutschlandticket Apple Wallet guide](https://www.macwelt.de/article/1812791/deutschland-ticket-apple-wallet-iphone.html).

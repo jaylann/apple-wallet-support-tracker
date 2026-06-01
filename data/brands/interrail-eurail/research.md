@@ -33,3 +33,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Confirmed `none`: Eurail community moderator stated Apple/Google Wallet not supported; pass must stay in Rail Planner app; feature flagged as future exploration. Source: [Eurail community forum](https://community.eurail.com/eurail-interrail-passes-41/apple-google-wallet-for-mobile-pass-20407).
+- **2026-06-01** (sweep, claude-subagent) — Re-confirmed `none`: Eurail community forum still shows no Apple Wallet support; pass requires internet connection in Rail Planner app; feature remains a future request only. Source: [Eurail community forum: Apple/Google Wallet for Mobile Pass](https://community.eurail.com/eurail-interrail-passes-41/apple-google-wallet-for-mobile-pass-20407).

@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "aarp-card-apple-wallet",
   "sources": [
     {
@@ -15,6 +15,12 @@
       "accessedAt": "2026-05-02",
       "type": "official",
       "note": "AARP official digital membership page confirms Add to Apple Wallet support via aarp.org/digitalcard/ or AARP Now app"
+    },
+    {
+      "url": "https://help.aarp.org/s/article/how-do-i-add-my-membership-card-to-apple-wallet",
+      "accessedAt": "2026-06-01",
+      "type": "official",
+      "note": "AARP help article confirms Add to Apple Wallet via AARP Now app or aarp.org/digitalcard/; notes intermittent button failures reported by some users"
     }
   ]
 }

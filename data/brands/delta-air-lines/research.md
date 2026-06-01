@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Downgraded iosLiveActivity true→false; Delta launched iOS 26 Live Activity boarding passes in Nov 2025 but reverted to legacy implementation due to bugs per 9to5Mac April 2026 report; nativePkpass:full and watchSync confirmed unchanged. Source: [9to5Mac Apr 2026](https://9to5mac.com/2026/04/13/apple-wallet-boarding-passes-american-airlines-ios-26/).
+- **2026-06-01** (sweep, claude-subagent) — Confirmed iosLiveActivity:false still current; Delta remains committed to re-launching iOS 26 boarding passes but no re-launch date announced as of June 2026; nativePkpass:full and watchSync:true unchanged. Source: [9to5Mac Apr 2026](https://9to5mac.com/2026/04/13/apple-wallet-boarding-passes-american-airlines-ios-26/).

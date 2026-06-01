@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "starbucks-card-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-05-02",
       "type": "official",
       "note": "Apple editorial: Buy Starbucks with Apple Watch; confirms Starbucks Watch app with balance and rewards display"
+    },
+    {
+      "url": "https://blog.jericommerce.com/guides/add-loyalty-cards-apple-wallet",
+      "accessedAt": "2026-06-01",
+      "type": "press",
+      "note": "2026 guide ranks Starbucks highest among national chains for Apple Wallet integration; full-featured digital pass with balance syncing and push notifications confirmed"
     }
   ]
 }
