@@ -10,12 +10,12 @@
   "knownIssues": [
     "Delta launched iOS 26 Live Activity boarding passes in November 2025 but reverted to the legacy implementation due to bugs and performance issues; no re-launch date announced"
   ],
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "delta-boarding-pass-live-activity-not-working",
   "sources": [
     {
       "url": "https://9to5mac.com/2026/04/13/apple-wallet-boarding-passes-american-airlines-ios-26/",
-      "accessedAt": "2026-05-02",
+      "accessedAt": "2026-06-01",
       "type": "press"
     },
     {

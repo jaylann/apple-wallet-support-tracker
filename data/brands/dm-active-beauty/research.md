@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Confirmed nativePkpass=none; dm Active Beauty loyalty card is in-app only via PAYBACK integration; no native Apple Wallet pass offered by dm. Source: [dm Active Beauty App – App Store](https://apps.apple.com/at/app/dm-active-beauty-payback/id1318650898).
+- **2026-06-01** (sweep, claude-subagent) — Re-confirmed nativePkpass=none; App Store listing and search confirm no Apple Wallet integration; loyalty card remains in-app via PAYBACK. Source: [dm active beauty (PAYBACK) – App Store](https://apps.apple.com/at/app/dm-active-beauty-payback/id1318650898).

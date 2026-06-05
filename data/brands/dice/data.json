@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "dice-ticket-apple-wallet",
   "notes": "DICE deliberately keeps tickets in-app to combat resale. No Wallet path is offered. Note: DICE was acquired by Fever in June 2025.",
   "sources": [
@@ -16,6 +16,12 @@
       "type": "official",
       "accessedAt": "2026-05-02",
       "note": "DICE help centre confirms tickets are in-app only with anti-resale QR system; no Wallet path documented"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/dice-live-shows/id898358948",
+      "type": "official",
+      "accessedAt": "2026-06-01",
+      "note": "DICE App Store listing confirms tickets are accessed in-app; no Apple Wallet integration listed"
     }
   ]
 }

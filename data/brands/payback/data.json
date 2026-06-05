@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "payback-karte-apple-wallet",
   "notes": "PAYBACK officially offers no Apple Wallet or Google Wallet integration for the loyalty card. Users must use the PAYBACK app. The PAYBACK American Express credit card can be added to Wallet as a payment card, but that is not the loyalty pass.",
   "sources": [
@@ -16,6 +16,12 @@
       "accessedAt": "2026-05-02",
       "type": "press",
       "note": "Giga.de citing official PAYBACK position: 'Der Anbieter des Bonus-Programms bietet keine Möglichkeit, die Payback-Karte in der Apple- oder Google-Wallet zu speichern'"
+    },
+    {
+      "url": "https://www.payback.group/en/press/press-releases/detail/the-payback-app-is-becoming-a-wallet-for-all-customer-cards",
+      "accessedAt": "2026-06-01",
+      "type": "official",
+      "note": "PAYBACK press release: new in-app Card Manager for storing third-party loyalty cards within PAYBACK app — this is an in-app wallet, not Apple Wallet pkpass integration"
     }
   ]
 }

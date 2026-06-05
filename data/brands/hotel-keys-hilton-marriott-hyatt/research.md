@@ -33,3 +33,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Confirmed `partial` + `watchSync: true`: Hyatt is first hotel brand to offer room keys in Apple Wallet on iPhone and Apple Watch; Hilton also widely supported; coverage varies by property as noted. Source: [Hyatt newsroom](https://newsroom.hyatt.com/news-releases?item=124174).
+- **2026-06-01** (sweep, claude-subagent) — Re-confirmed `partial` + `watchSync: true`; Apple Support page and Hyatt digital key landing page confirm continued support; no changes to status. Source: [Apple Support: hotel room keys in Apple Wallet](https://support.apple.com/en-us/118273).

@@ -1,6 +1,6 @@
 {
   "$schemaVersion": "2.0.0",
-  "lastModified": "2026-05-02",
+  "lastModified": "2026-06-01",
   "brandCount": 54,
   "brands": [
     {
@@ -8,378 +8,378 @@
       "brand": "AARP",
       "category": "loyalty",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "adac-mitgliedskarte",
       "brand": "ADAC Mitgliedskarte",
       "category": "loyalty",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "alaska-airlines",
       "brand": "Alaska Airlines",
       "category": "airline",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "amc-theatres",
       "brand": "AMC Theatres",
       "category": "cinema",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "american-airlines",
       "brand": "American Airlines",
       "category": "airline",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "amtrak",
       "brand": "Amtrak",
       "category": "transit",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "austrian-airlines",
       "brand": "Austrian Airlines",
       "category": "airline",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "british-airways",
       "brand": "British Airways",
       "category": "airline",
       "region": "uk-ireland",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "costco",
       "brand": "Costco",
       "category": "loyalty",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "cruise-lines-general",
       "brand": "Cruise lines (general)",
       "category": "airline",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "cvs-extracare",
       "brand": "CVS ExtraCare",
       "category": "loyalty",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "delta-air-lines",
       "brand": "Delta Air Lines",
       "category": "airline",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "deutsche-bahn",
       "brand": "Deutsche Bahn",
       "category": "transit",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "deutschlandticket-bvg",
       "brand": "Deutschlandticket BVG",
       "category": "transit",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "deutschlandticket-general",
       "brand": "Deutschlandticket (general)",
       "category": "transit",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "deutschlandticket-hvv",
       "brand": "Deutschlandticket HVV",
       "category": "transit",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "deutschlandticket-mvgo",
       "brand": "Deutschlandticket MVGo",
       "category": "transit",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "deutschlandticket-vrr-vrs-rmv-vvs",
       "brand": "Deutschlandticket VRR/VRS/RMV/VVS",
       "category": "transit",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "dice",
       "brand": "DICE",
       "category": "event",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "dm-active-beauty",
       "brand": "DM Active Beauty",
       "category": "loyalty",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "easyjet",
       "brand": "easyJet",
       "category": "airline",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "emirates-qatar-etihad",
       "brand": "Emirates / Qatar / Etihad",
       "category": "airline",
       "region": "gulf",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "eurostar",
       "brand": "Eurostar",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "eventbrite",
       "brand": "Eventbrite",
       "category": "event",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "eventim",
       "brand": "Eventim",
       "category": "event",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "fc-bayern-jahreskarte",
       "brand": "FC Bayern Jahreskarte",
       "category": "sports",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "fever",
       "brand": "Fever",
       "category": "event",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "flixbus",
       "brand": "FlixBus",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "hotel-keys-hilton-marriott-hyatt",
       "brand": "Hotel keys (Hilton, Marriott, Hyatt)",
       "category": "hotel",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "hunting-fishing-license",
       "brand": "Hunting / Fishing license",
       "category": "credentials",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "insurance-card",
       "brand": "Insurance card",
       "category": "credentials",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "interrail-eurail",
       "brand": "Interrail / Eurail",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "klarna-loyalty-cards",
       "brand": "Klarna (loyalty cards)",
       "category": "loyalty",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "klimaticket-oe",
       "brand": "Klimaticket OE",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "lidl-plus",
       "brand": "Lidl Plus",
       "category": "loyalty",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "lufthansa",
       "brand": "Lufthansa",
       "category": "airline",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "mathaeser",
       "brand": "Mathäser",
       "category": "cinema",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "mvv-mvg-munich",
       "brand": "MVV / MVG (Munich)",
       "category": "transit",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "oebb",
       "brand": "OEBB",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "oyster-tfl",
       "brand": "Oyster / TfL",
       "category": "transit",
       "region": "uk-ireland",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "payback",
       "brand": "PAYBACK",
       "category": "loyalty",
       "region": "dach",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "ryanair",
       "brand": "Ryanair",
       "category": "airline",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "sam-s-club",
       "brand": "Sam's Club",
       "category": "loyalty",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "sbb",
       "brand": "SBB",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "sncf-connect",
       "brand": "SNCF Connect",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "starbucks",
       "brand": "Starbucks",
       "category": "loyalty",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "stocard-legacy",
       "brand": "Stocard (legacy)",
       "category": "loyalty",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "stubhub",
       "brand": "StubHub",
       "category": "event",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "student-id",
       "brand": "Student ID",
       "category": "credentials",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "swisspass",
       "brand": "SwissPass",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "ticketmaster",
       "brand": "Ticketmaster",
       "category": "event",
       "region": "global",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "trenitalia",
       "brand": "Trenitalia",
       "category": "transit",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "united-airlines",
       "brand": "United Airlines",
       "category": "airline",
       "region": "north-america",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     },
     {
       "slug": "wizz-air",
       "brand": "Wizz Air",
       "category": "airline",
       "region": "europe",
-      "lastChecked": "2026-05-02"
+      "lastChecked": "2026-06-01"
     }
   ]
 }

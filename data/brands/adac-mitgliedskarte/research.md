@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-05-02** — Bootstrapped from initial seed dataset. Facts not externally verified; awaiting first monthly sweep.
 - **2026-05-02** (sweep, claude-subagent) — Confirmed `partial`; ADAC offers Apple Wallet pass for personal members but not company/business (Firmen-Mitgliedschaft) memberships. Source: [Die digitale ADAC Mitgliedskarte](https://www.adac.de/mein-adac/meine-mitgliedschaft/adac-wallet/infoseite/).
+- **2026-06-01** (sweep, claude-subagent) — Confirmed `partial`; official page still active; ADAC pass distributed via Passcreator since end of 2023, recommended to use Apple Wallet (not third-party); business memberships still excluded. Source: [Die digitale ADAC Mitgliedskarte](https://www.adac.de/mein-adac/meine-mitgliedschaft/adac-wallet/infoseite/).

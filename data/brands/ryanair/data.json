@@ -10,12 +10,12 @@
   "knownIssues": [
     "Wallet button often hidden behind in-app boarding pass viewer"
   ],
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "ryanair-boarding-pass-apple-wallet",
   "sources": [
     {
       "url": "https://apps.apple.com/gr/app/ryanair/id504270602",
-      "accessedAt": "2026-05-02",
+      "accessedAt": "2026-06-01",
       "type": "official",
       "note": "App Store listing confirms 'Supports Wallet'; boarding passes can be added to Apple Wallet"
     },

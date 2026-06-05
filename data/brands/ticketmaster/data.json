@@ -11,7 +11,7 @@
     "Add to Wallet button intermittently missing on transferred tickets",
     "Pass disabled on second device due to anti-screenshot lock"
   ],
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "ticketmaster-add-to-wallet-button-missing",
   "sources": [
     {
@@ -25,6 +25,12 @@
       "type": "official",
       "accessedAt": "2026-05-02",
       "note": "Official help article; confirms partial coverage — not all ticket types eligible"
+    },
+    {
+      "url": "https://business.ticketmaster.co.uk/blog/2026/03/25/apple-and-ticketmaster-expand-event-discovery/",
+      "type": "official",
+      "accessedAt": "2026-06-01",
+      "note": "March 2026: Apple and Ticketmaster expand partnership with Concert Discovery in Apple Music (iOS 26.4); Live Activity Wallet integration continues"
     }
   ]
 }

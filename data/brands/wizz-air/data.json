@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-05-02",
+  "lastChecked": "2026-06-01",
   "articleSlug": "wizz-air-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -15,6 +15,12 @@
       "type": "official",
       "accessedAt": "2026-05-02",
       "note": "Official Wizz Air FAQ confirms iOS boarding pass can be saved to Wallet; some airports not yet supported"
+    },
+    {
+      "url": "https://www.wizzair.com/en-gb/help-centre/check-in-and-boarding/check-in/check-in-process",
+      "type": "official",
+      "accessedAt": "2026-06-01",
+      "note": "Official Wizz Air help centre confirms boarding pass can be saved to Apple Wallet during check-in; partial airport coverage unchanged"
     }
   ]
 }
