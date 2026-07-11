@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "seattle-orca",
+  "brand": "ORCA (Seattle)",
+  "category": "transit",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "seattle-orca-card-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.geekwire.com/2026/seattles-orca-transit-system-gets-major-tech-upgrade-with-new-tap-to-pay-feature/",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "GeekWire (2026): new Tap to Pay uses Apple Pay/bank cards; the ORCA card itself stays unavailable in Apple Wallet (Google Wallet only)."
+    },
+    {
+      "url": "https://seattletransitblog.com/2026/02/02/tap-to-pay-soft-launches-on-rapidride-g/",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "Seattle Transit Blog (Feb 2026): open-loop Tap to Pay soft-launched; no native ORCA card in Apple Wallet."
+    }
+  ]
+}

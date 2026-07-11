@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "greggs-rewards",
+  "brand": "Greggs Rewards",
+  "category": "loyalty",
+  "region": "uk-ireland",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "greggs-rewards-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.greggs.com/app",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Official Greggs app page — the loyalty QR lives in the app under Scan, with no Add to Apple Wallet button."
+    },
+    {
+      "url": "https://www.myvouchercodes.co.uk/resources/food-and-drink/everything-you-need-to-know-about-the-greggs-rewards-app",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "Guide: Greggs offers no native Apple/Google Wallet pass; use app then Scan to show the QR at the till."
+    }
+  ]
+}

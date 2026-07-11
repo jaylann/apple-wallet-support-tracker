@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "westjet",
+  "brand": "WestJet",
+  "category": "airline",
+  "region": "north-america",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "westjet-boarding-pass-apple-wallet",
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/westjet/id858846387",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "WestJet App Store listing: access electronic boarding passes, plus Apple Wallet support badge."
+    },
+    {
+      "url": "https://www.iphoneincanada.ca/2016/06/08/westjet-ios-wallet-usa/",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "iPhoneinCanada: the WestJet iOS app added Apple Wallet boarding passes scanned at the gate."
+    }
+  ]
+}

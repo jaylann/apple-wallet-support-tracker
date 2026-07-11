@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "safeway-for-u",
+  "brand": "Safeway for U",
+  "category": "loyalty",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "safeway-for-u-card-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.safeway.com/faq/foru.html",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Safeway for U FAQ: the Member/Wallet card QR is viewed inside the Safeway app (Rewards then Wallet); it is Safeway's own barcode screen, not an Apple Wallet pass."
+    },
+    {
+      "url": "https://discussions.apple.com/thread/253754488",
+      "accessedAt": "2026-07-11",
+      "type": "community",
+      "note": "Apple Community: the Safeway loyalty card cannot be added to Apple Wallet; no official Add to Apple Wallet exists."
+    }
+  ]
+}

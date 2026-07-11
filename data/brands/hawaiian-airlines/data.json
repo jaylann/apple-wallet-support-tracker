@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "hawaiian-airlines",
+  "brand": "Hawaiian Airlines",
+  "category": "airline",
+  "region": "north-america",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "hawaiian-airlines-boarding-pass-apple-wallet",
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/alaska-hawaiian/id356143077",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Unified Alaska Hawaiian iOS app; add boarding pass, rewards and Lounge card to Apple Wallet after check-in."
+    },
+    {
+      "url": "https://news.alaskaair.com/guest-experience/alaska-airlines-and-hawaiian-airlines-app/",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Alaska/Hawaiian newsroom: unified app rollout; the standalone Hawaiian app was retired in April 2026."
+    }
+  ]
+}
