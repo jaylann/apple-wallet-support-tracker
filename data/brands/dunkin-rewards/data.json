@@ -1,0 +1,20 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "dunkin-rewards",
+  "brand": "Dunkin' Rewards",
+  "category": "loyalty",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "dunkin-rewards-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.dunkindonuts.com/en/dunkinrewards",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Dunkin' Rewards: earn by scanning your Rewards ID in-store or ordering in the Dunkin' app; no Apple Wallet pass for the Rewards ID."
+    }
+  ]
+}

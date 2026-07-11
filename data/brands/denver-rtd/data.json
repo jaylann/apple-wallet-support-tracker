@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "denver-rtd",
+  "brand": "Denver RTD",
+  "category": "transit",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "denver-rtd-ticket-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.rtd-denver.com/fares-passes/tap-n-ride",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "RTD Tap-n-Ride is open-loop contactless (tap a bank card or Apple Pay at validators); no native RTD card in Apple Wallet."
+    },
+    {
+      "url": "https://www.masabi.com/2025/11/25/denver-regional-transportation-district-launches-open-payments-with-masabi/",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "Masabi launch (Nov 2025): RTD uses open-payments contactless bank cards / mobile wallets, not a native transit card in Wallet."
+    }
+  ]
+}

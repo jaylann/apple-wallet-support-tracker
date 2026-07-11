@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "nectar-card",
+  "brand": "Nectar",
+  "category": "loyalty",
+  "region": "uk-ireland",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "nectar-card-apple-wallet",
+  "sources": [
+    {
+      "url": "https://help.nectar.com/help/faqs/qr-code/how-do-i-add-my-nectar-card-to-google-wallet-or-apple-wallet",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Nectar help FAQ: in the Nectar app tap the QR code then Add to wallet; an official native Apple Wallet pass."
+    },
+    {
+      "url": "https://apps.apple.com/gb/app/nectar-shop-collect-points/id385266473",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Official Nectar iOS app listing; the app provides the digital card and Add to Wallet flow."
+    }
+  ]
+}

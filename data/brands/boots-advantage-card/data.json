@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "boots-advantage-card",
+  "brand": "Boots Advantage Card",
+  "category": "loyalty",
+  "region": "uk-ireland",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "boots-advantage-card-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.boots-uk.com/newsroom/features/boots-advantage-card-now-available-in-the-apple-wallet-and-google-pay/",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Boots UK newsroom: the Advantage Card is now available in Apple Wallet and Google Pay, added from the Boots app."
+    },
+    {
+      "url": "https://www.boots.com/shopping/advantage-card/advantage-card-help",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Boots Advantage Card Help: open the Boots app, My Card, then Add to Apple/Google Wallet."
+    }
+  ]
+}

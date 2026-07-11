@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "sydney-opal",
+  "brand": "Opal (Sydney)",
+  "category": "transit",
+  "region": "asia-pacific",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "sydney-opal-card-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.themandarin.com.au/225679-opal-digital-card-and-wallet-trial-quietly-unplugged-ahead-of-planned-overhaul/",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "The Mandarin: the digital Opal card/wallet trial was quietly discontinued (2023); no native Opal card in Apple Wallet."
+    },
+    {
+      "url": "https://transportnsw.info/tickets-fares/contactless-payments",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Transport for NSW contactless payments page: riders pay with Apple Pay (incl. Express Mode) on Opal readers — open-loop contactless, not a provisioned Opal card in Wallet."
+    }
+  ]
+}

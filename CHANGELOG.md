@@ -6,6 +6,7 @@ All notable changes to this dataset are documented here. The format is based on 
 
 ### Added
 
+- 25 new brands (dataset now 79), sourced from the NeatPass Learn articles and verified with web search: airlines (Avianca, Frontier, Hawaiian, LATAM, WestJet), transit (Denver RTD, Seattle ORCA, Sydney Opal, OV-chipkaart, Wiener Linien), loyalty (Boots Advantage Card, Chick-fil-A One, Douglas Beauty Card, Dunkin' Rewards, Greggs Rewards, IKEA Family, Kroger Plus Card, Nectar, Safeway for U, Ulta Beauty Rewards), gym memberships (Equinox, LA Fitness, Planet Fitness), and credentials (Global Entry / TSA PreCheck, Veteran ID Card).
 - Parallel-subagent sweep orchestrator (`prompts/sweep.md` + `prompts/sweep-batch.md`). The orchestrator dispatches up to 8 concurrent `Task` subagents that each verify a batch of brands. Cuts sweep wall-clock time from ~30–45 min to under 10.
 - `npm run reindex` (`scripts/reindex.ts`) — regenerates `data/index.json` from per-brand files. Replaces by-hand index edits.
 - `.coderabbit.yaml` — automated review on agent PRs with path-specific instructions for data/, schema/, prompts/, and workflows.

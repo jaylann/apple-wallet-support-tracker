@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "ov-chipkaart",
+  "brand": "OV-chipkaart",
+  "category": "transit",
+  "region": "europe",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "ov-chipkaart-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.iculture.nl/nieuws/ovpay-pas-chipkaart-opvolger-apple-pay-express/",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "iCulture: the OV-chipkaart cannot be added to Apple Wallet; OVpay contactless is used now; a digital OV-pas is only planned."
+    },
+    {
+      "url": "https://dutchreview.com/news/ov-pas-replaces-ov-chipkaart/",
+      "accessedAt": "2026-07-11",
+      "type": "press",
+      "note": "DutchReview: the OV-chipkaart is being replaced by the OV-pas; no barcode or native Wallet pass for the chipkaart."
+    }
+  ]
+}

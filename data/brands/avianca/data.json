@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "avianca",
+  "brand": "Avianca",
+  "category": "airline",
+  "region": "global",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "avianca-boarding-pass-apple-wallet",
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/avianca/id590816148",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Avianca App Store listing shows the Apple Wallet support badge; the app issues the boarding pass after check-in."
+    },
+    {
+      "url": "https://www.avianca.com/en/your-booking/online-check-in/",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Avianca online check-in; boarding pass obtainable via the app or avianca.com after check-in."
+    }
+  ]
+}

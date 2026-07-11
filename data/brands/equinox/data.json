@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "equinox",
+  "brand": "Equinox",
+  "category": "sports",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "equinox-membership-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.equinox.com/faq",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Equinox membership FAQ; check-in uses the EQX+ app barcode, with no official Apple Wallet membership pass offered."
+    },
+    {
+      "url": "https://www.equinoxplus.com/app",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Official Equinox+ app page; the membership barcode lives in the app, with no Apple Wallet pass referenced."
+    }
+  ]
+}

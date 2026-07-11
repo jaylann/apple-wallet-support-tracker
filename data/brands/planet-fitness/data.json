@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "planet-fitness",
+  "brand": "Planet Fitness",
+  "category": "sports",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "planet-fitness-membership-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.planetfitness.com/mobileapp",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Official Planet Fitness app page; check-in uses the app's dynamic digital key-tag barcode, not an Apple Wallet pass."
+    },
+    {
+      "url": "https://discussions.apple.com/thread/255555877",
+      "accessedAt": "2026-07-11",
+      "type": "community",
+      "note": "Apple Community: Planet Fitness shows only an in-app QR/barcode; a third-party workaround is needed to reach Wallet."
+    }
+  ]
+}

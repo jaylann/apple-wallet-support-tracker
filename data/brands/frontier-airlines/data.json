@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "frontier-airlines",
+  "brand": "Frontier Airlines",
+  "category": "airline",
+  "region": "north-america",
+  "nativePkpass": "full",
+  "iosLiveActivity": false,
+  "watchSync": true,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "frontier-airlines-boarding-pass-apple-wallet",
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/frontier-airlines/id1041410548",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Frontier App Store listing shows the Apple Wallet support badge and in-app boarding pass access."
+    },
+    {
+      "url": "https://faq.flyfrontier.com/help/where-is-the-mobile-boarding-pass-available",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Frontier FAQ: the iOS app is used to check in and get the mobile boarding pass."
+    }
+  ]
+}

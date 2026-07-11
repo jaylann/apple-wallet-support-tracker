@@ -1,0 +1,26 @@
+{
+  "$schemaVersion": "2.0.0",
+  "slug": "chick-fil-a-one",
+  "brand": "Chick-fil-A One",
+  "category": "loyalty",
+  "region": "north-america",
+  "nativePkpass": "none",
+  "iosLiveActivity": false,
+  "watchSync": false,
+  "lastChecked": "2026-07-11",
+  "articleSlug": "chick-fil-a-one-apple-wallet",
+  "sources": [
+    {
+      "url": "https://www.chick-fil-a.com/customer-support/chick-fil-a-one-membership-program/points-and-rewards/can-i-receive-points-without-using-mobile-pay",
+      "accessedAt": "2026-07-11",
+      "type": "official",
+      "note": "Chick-fil-A support: scan the One QR code available through the app or online; no Apple Wallet option offered."
+    },
+    {
+      "url": "https://discussions.apple.com/thread/254933962",
+      "accessedAt": "2026-07-11",
+      "type": "community",
+      "note": "Apple Community: users report Chick-fil-A stopped supporting the Wallet card; the QR is now only in the app."
+    }
+  ]
+}

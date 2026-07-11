@@ -1,7 +1,7 @@
 {
   "$schemaVersion": "2.0.0",
-  "lastModified": "2026-06-01",
-  "brandCount": 54,
+  "lastModified": "2026-07-11",
+  "brandCount": 79,
   "brands": [
     {
       "slug": "aarp",
@@ -53,11 +53,32 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "avianca",
+      "brand": "Avianca",
+      "category": "airline",
+      "region": "global",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "boots-advantage-card",
+      "brand": "Boots Advantage Card",
+      "category": "loyalty",
+      "region": "uk-ireland",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "british-airways",
       "brand": "British Airways",
       "category": "airline",
       "region": "uk-ireland",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "chick-fil-a-one",
+      "brand": "Chick-fil-A One",
+      "category": "loyalty",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "costco",
@@ -86,6 +107,13 @@
       "category": "airline",
       "region": "north-america",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "denver-rtd",
+      "brand": "Denver RTD",
+      "category": "transit",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "deutsche-bahn",
@@ -144,6 +172,20 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "douglas-beauty-card",
+      "brand": "Douglas Beauty Card",
+      "category": "loyalty",
+      "region": "europe",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "dunkin-rewards",
+      "brand": "Dunkin' Rewards",
+      "category": "loyalty",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "easyjet",
       "brand": "easyJet",
       "category": "airline",
@@ -156,6 +198,13 @@
       "category": "airline",
       "region": "gulf",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "equinox",
+      "brand": "Equinox",
+      "category": "sports",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "eurostar",
@@ -200,6 +249,34 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "frontier-airlines",
+      "brand": "Frontier Airlines",
+      "category": "airline",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "global-entry-tsa-precheck",
+      "brand": "Global Entry / TSA PreCheck",
+      "category": "credentials",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "greggs-rewards",
+      "brand": "Greggs Rewards",
+      "category": "loyalty",
+      "region": "uk-ireland",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "hawaiian-airlines",
+      "brand": "Hawaiian Airlines",
+      "category": "airline",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "hotel-keys-hilton-marriott-hyatt",
       "brand": "Hotel keys (Hilton, Marriott, Hyatt)",
       "category": "hotel",
@@ -212,6 +289,13 @@
       "category": "credentials",
       "region": "north-america",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "ikea-family",
+      "brand": "IKEA Family",
+      "category": "loyalty",
+      "region": "global",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "insurance-card",
@@ -242,6 +326,27 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "kroger-plus-card",
+      "brand": "Kroger Plus Card",
+      "category": "loyalty",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "la-fitness",
+      "brand": "LA Fitness",
+      "category": "sports",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "latam-airlines",
+      "brand": "LATAM Airlines",
+      "category": "airline",
+      "region": "global",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "lidl-plus",
       "brand": "Lidl Plus",
       "category": "loyalty",
@@ -270,11 +375,25 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "nectar-card",
+      "brand": "Nectar",
+      "category": "loyalty",
+      "region": "uk-ireland",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "oebb",
       "brand": "OEBB",
       "category": "transit",
       "region": "europe",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "ov-chipkaart",
+      "brand": "OV-chipkaart",
+      "category": "transit",
+      "region": "europe",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "oyster-tfl",
@@ -291,11 +410,25 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "planet-fitness",
+      "brand": "Planet Fitness",
+      "category": "sports",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "ryanair",
       "brand": "Ryanair",
       "category": "airline",
       "region": "europe",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "safeway-for-u",
+      "brand": "Safeway for U",
+      "category": "loyalty",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "sam-s-club",
@@ -310,6 +443,13 @@
       "category": "transit",
       "region": "europe",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "seattle-orca",
+      "brand": "ORCA (Seattle)",
+      "category": "transit",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "sncf-connect",
@@ -354,6 +494,13 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "sydney-opal",
+      "brand": "Opal (Sydney)",
+      "category": "transit",
+      "region": "asia-pacific",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "ticketmaster",
       "brand": "Ticketmaster",
       "category": "event",
@@ -368,11 +515,39 @@
       "lastChecked": "2026-06-01"
     },
     {
+      "slug": "ulta-beauty-rewards",
+      "brand": "Ulta Beauty Rewards",
+      "category": "loyalty",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
       "slug": "united-airlines",
       "brand": "United Airlines",
       "category": "airline",
       "region": "north-america",
       "lastChecked": "2026-06-01"
+    },
+    {
+      "slug": "veteran-id-card",
+      "brand": "Veteran ID Card",
+      "category": "credentials",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "westjet",
+      "brand": "WestJet",
+      "category": "airline",
+      "region": "north-america",
+      "lastChecked": "2026-07-11"
+    },
+    {
+      "slug": "wiener-linien",
+      "brand": "Wiener Linien",
+      "category": "transit",
+      "region": "europe",
+      "lastChecked": "2026-07-11"
     },
     {
       "slug": "wizz-air",
