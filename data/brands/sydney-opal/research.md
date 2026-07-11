@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. No native Opal transit card in Apple Wallet; the digital Opal trial was discontinued in June 2023. Riders use Apple Pay Express Mode (open-loop contactless) on Opal readers. A next-gen Opal system is expected around 2027.
+- **2026-07-11** (issue-fix, claude) — Review fix: replaced the 2023 Transport for NSW news URL (now redirects to the news index) with the evergreen contactless-payments page, which covers Apple Pay + Express Mode on the Opal network.

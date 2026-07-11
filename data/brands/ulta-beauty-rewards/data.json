@@ -17,10 +17,10 @@
       "note": "Ulta directs members to present the Member ID barcode inside the Ulta Beauty app in store; no official Apple Wallet pass for the free rewards barcode."
     },
     {
-      "url": "https://d.comenity.net/ac/ultabeautyrewardsmastercard/public/help/apple-pay",
+      "url": "https://d.comenity.net/ac/ultabeautyrewards/public/help/apple-pay",
       "accessedAt": "2026-07-11",
       "type": "support",
-      "note": "Comenity help page for adding the separate Ultamate Rewards Mastercard to Apple Pay — a payment card, distinct from the rewards barcode."
+      "note": "Comenity (card servicer) help page for adding the separate Ulta Beauty Rewards Mastercard to Apple Pay — a payment card, distinct from the free rewards barcode."
     }
   ]
 }
