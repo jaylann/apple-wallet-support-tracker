@@ -4,6 +4,8 @@ All notable changes to this dataset are documented here. The format is based on 
 
 ## [Unreleased]
 
+## [2.1.0] — 2026-07-13
+
 ### Added
 
 - 25 new brands (dataset now 79), sourced from the NeatPass Learn articles and verified with web search: airlines (Avianca, Frontier, Hawaiian, LATAM, WestJet), transit (Denver RTD, Seattle ORCA, Sydney Opal, OV-chipkaart, Wiener Linien), loyalty (Boots Advantage Card, Chick-fil-A One, Douglas Beauty Card, Dunkin' Rewards, Greggs Rewards, IKEA Family, Kroger Plus Card, Nectar, Safeway for U, Ulta Beauty Rewards), gym memberships (Equinox, LA Fitness, Planet Fitness), and credentials (Global Entry / TSA PreCheck, Veteran ID Card).
