@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "sources": [
     {
       "url": "https://www.mathaeser.de/mm/agb",
@@ -29,7 +29,7 @@
     },
     {
       "url": "https://apps.apple.com/de/app/math%C3%A4ser/id1177522864",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "type": "official",
       "note": "App Store listing confirms Wallet-Datei (pkpass) available for CineCard download; partial rating confirmed"
     }

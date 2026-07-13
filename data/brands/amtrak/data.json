@@ -10,20 +10,20 @@
   "knownIssues": [
     "Wallet add button intermittently disappears on rebooked tickets"
   ],
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "amtrak-ticket-apple-wallet-not-working",
   "sources": [
     {
-      "url": "https://www.amtrak.com/mobile",
-      "accessedAt": "2026-05-02",
-      "type": "official",
-      "note": "Amtrak app page references Apple Wallet eTicket support; community reports confirm inconsistent availability on rebooked tickets"
-    },
-    {
       "url": "https://apps.apple.com/us/app/amtrak/id405074003",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "type": "official",
       "note": "Amtrak App Store listing confirms eTicket to Apple Wallet support including multi-ride and monthly passes; known intermittent issues persist"
+    },
+    {
+      "url": "https://discussions.apple.com/thread/255778064",
+      "accessedAt": "2026-07-13",
+      "type": "community",
+      "note": "Apple Community thread confirms Apple Wallet transfer from Amtrak ticket intermittently failing as of 2026; single-trip tickets more reliable than multi-ride passes"
     }
   ]
 }

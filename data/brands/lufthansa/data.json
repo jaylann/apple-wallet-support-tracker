@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "lufthansa-boarding-pass-apple-wallet",
   "notes": "Native Add to Apple Wallet from the Lufthansa app and website. Live Flight Tracking announced for iOS 26 but not yet live.",
   "sources": [
@@ -34,6 +34,12 @@
       "type": "press",
       "accessedAt": "2026-06-01",
       "note": "Lufthansa Flyer: Lufthansa boarding passes compatible with Apple Wallet (pkpass)"
+    },
+    {
+      "url": "https://www.heise.de/en/news/Apple-Wallet-These-Airlines-Are-Joining-Apple-s-Improved-Boarding-Passes-10779757.html",
+      "type": "press",
+      "accessedAt": "2026-07-13",
+      "note": "Heise.de (2026): Lufthansa Group listed as committed to iOS 26 enhanced boarding pass with Live Activity; not yet live as of Jul 2026"
     }
   ]
 }

@@ -7,20 +7,20 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "austrian-airlines-bordkarte-apple-wallet",
   "sources": [
     {
-      "url": "https://www.austrianairlines.ag/en/2019/05/17/austrian-airlines-presents-new-boarding-pass/",
-      "accessedAt": "2026-05-02",
+      "url": "https://www.austrian.com/xx/en/austrian-app",
+      "accessedAt": "2026-07-13",
       "type": "official",
-      "note": "Austrian Airlines press release confirms Apple Wallet boarding pass support; feature confirmed still active via official app page"
+      "note": "Austrian Airlines app page confirms boarding pass added to digital wallet post check-in; Lufthansa Group is iOS 26 partner but live rollout not yet confirmed for Austrian as of July 2026"
     },
     {
-      "url": "https://www.austrian.com/xx/en/austrian-app",
-      "accessedAt": "2026-06-01",
+      "url": "https://apps.apple.com/be/app/austrian/id400224803",
+      "accessedAt": "2026-07-13",
       "type": "official",
-      "note": "Austrian Airlines app page confirms boarding pass saved automatically after check-in and can be added to digital wallet; no iOS 26 enhanced pass support yet"
+      "note": "Austrian Airlines App Store listing active; mobile boarding pass and Apple Wallet support confirmed"
     }
   ]
 }

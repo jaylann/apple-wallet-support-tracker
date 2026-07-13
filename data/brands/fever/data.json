@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "fever-tickets-apple-wallet",
   "notes": "Fever acquired DICE in June 2025. Apple Wallet support is available via the Fever app for some events (sports, concerts) but not consistently across all event types.",
   "sources": [
@@ -22,6 +22,12 @@
       "type": "official",
       "accessedAt": "2026-06-01",
       "note": "Fever support page confirms Apple Wallet integration available for ticket access; event/venue dependent availability"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/fever-events-tickets/id497702817",
+      "type": "official",
+      "accessedAt": "2026-07-13",
+      "note": "Fever App Store listing confirmed live; Apple Wallet ticket integration still available; partial classification re-confirmed"
     }
   ]
 }

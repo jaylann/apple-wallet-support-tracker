@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "sbb-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-06-01",
       "type": "official",
       "note": "App Store: SBB Mobile lists 'Supports Wallet'"
+    },
+    {
+      "url": "https://www.sbb.ch/en/help-and-contact/my-tickets/overview-of-tickets.html",
+      "accessedAt": "2026-07-13",
+      "type": "official",
+      "note": "SBB official ticket overview (July 2026): purchased tickets can be added to Apple Wallet; Swiss Travel Pass Flex pkpass available after day activation; standard Swiss Travel Pass remains PDF-only"
     }
   ]
 }

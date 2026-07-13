@@ -4,6 +4,10 @@ All notable changes to this dataset are documented here. The format is based on 
 
 ## [Unreleased]
 
+### Changed
+
+- Monthly sweep 2026-07: verified all 79 brands; refreshed citations for 53 brands (lastChecked bumped to 2026-07-13); confirmed Ryanair's mandatory digital-only boarding pass policy (in effect since Nov 2025) in source notes; 25 brands checked within the last 30 days were skipped per cost-discipline rules.
+
 ## [2.1.0] — 2026-07-13
 
 ### Added

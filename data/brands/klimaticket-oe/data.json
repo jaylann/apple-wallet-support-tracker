@@ -7,25 +7,25 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "klimaticket-oe-apple-wallet",
   "sources": [
     {
       "url": "https://www.klimaticket.at/en/home/",
       "type": "official",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Klimaticket official site — ticket managed via transport association apps (ÖBB, WESTbahn, Wiener Linien); no native pkpass"
     },
     {
       "url": "https://creatingfaces.at/en/blog/klimaticket-in-apple-wallet-bekommen-getestet",
       "type": "community",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Creatingfaces blog: unofficial workaround using Pass2U Wallet app to import Klimaticket QR code — not an official feature"
     },
     {
       "url": "https://luegm.dev/posts/walletpass/",
       "type": "community",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Developer blog: unofficial workaround to generate a pkpass from Klimaticket data — not an official feature"
     }
   ]

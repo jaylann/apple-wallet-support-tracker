@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "stocard-shutting-down",
   "notes": "Stocard is winding down. Cards must be migrated to Klarna or rebuilt as pkpass.",
   "sources": [
@@ -22,6 +22,12 @@
       "type": "community",
       "accessedAt": "2026-06-01",
       "note": "MacRumors forum confirms Stocard shutdown still in effect as of 2026; users seeking replacement apps; Klarna does not support Apple Watch"
+    },
+    {
+      "url": "https://neatpass.app/learn/stocard-shutting-down",
+      "type": "press",
+      "accessedAt": "2026-07-13",
+      "note": "NeatPass (July 2026): Stocard shutdown remains in effect; Klarna app does not offer Apple Wallet pass export or Apple Watch support; nativePkpass=none confirmed"
     }
   ]
 }
