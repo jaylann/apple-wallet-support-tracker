@@ -200,7 +200,25 @@ jobs:
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Ensure sweep summary file exists
+        if: always()
+        run: |
+          # create-pull-request reads body-path, and hard-fails if the file is
+          # missing. A sweep that forgot to write the summary would therefore
+          # fail the PR step and vanish silently. Guarantee the file so the PR
+          # (and the failure issue) can always be created.
+          if [ ! -f .agent/sweep-summary.md ]; then
+            mkdir -p .agent
+            {
+              echo "## Sweep summary"
+              echo ""
+              echo "_The sweep agent did not write \`.agent/sweep-summary.md\`. Fallback body — inspect the [run log](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) for what actually changed._"
+            } > .agent/sweep-summary.md
+            echo "::warning::sweep-summary.md was missing; wrote a fallback body."
+          fi
+
       - name: Open PR with sweep results
+        id: open_pr
         if: |
           steps.agent_outcome.outputs.outcome == 'success' &&
           steps.validate.outcome == 'success' &&
@@ -220,7 +238,14 @@ jobs:
             agent-handled
 
       - name: Open issue on sweep failure
-        if: steps.agent_outcome.outputs.outcome == 'failure' || steps.validate.outcome == 'failure'
+        # Also fires when the PR step itself fails (e.g. create-pull-request
+        # errors) — previously only agent/validate failures notified, so a
+        # broken PR step failed silently with no issue and no PR.
+        if: >-
+          always() &&
+          (steps.agent_outcome.outputs.outcome == 'failure' ||
+          steps.validate.outcome == 'failure' ||
+          steps.open_pr.outcome == 'failure')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MILESTONE_TITLE: ${{ steps.milestone.outputs.title }}
@@ -234,5 +259,6 @@ jobs:
             Agent: ${{ steps.agent.outputs.name }}
             Sweep step outcome: ${{ steps.agent_outcome.outputs.outcome }}
             Validate step outcome: ${{ steps.validate.outcome }}
+            PR step outcome: ${{ steps.open_pr.outcome }}
 
             Investigate and either re-run the workflow manually or land a fix."
