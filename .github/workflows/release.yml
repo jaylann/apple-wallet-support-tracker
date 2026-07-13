@@ -58,15 +58,22 @@ jobs:
           fi
           echo "Tag v$VERSION is available."
 
-      - name: Verify CHANGELOG mentions this version
-        env:
-          VERSION: ${{ inputs.version }}
+      - name: Verify CHANGELOG [Unreleased] has content
         run: |
-          if ! grep -qE "^## \[$VERSION\]" CHANGELOG.md; then
-            echo "::error::CHANGELOG.md does not contain a '## [$VERSION]' section. Update CHANGELOG before releasing."
+          # New work always accumulates under "## [Unreleased]". The release
+          # itself renames that heading to the dispatched version (see the "Cut
+          # CHANGELOG" step below), so here we only require the section to exist
+          # and be non-empty — never that the version already appears.
+          if ! grep -qE '^## \[Unreleased\]' CHANGELOG.md; then
+            echo "::error::CHANGELOG.md has no '## [Unreleased]' section. Accumulate changes there; the release renames it to the version you dispatch."
             exit 1
           fi
-          echo "CHANGELOG entry for $VERSION present."
+          section="$(awk '/^## \[Unreleased\]/{f=1;next} /^## \[/{f=0} f' CHANGELOG.md)"
+          if ! printf '%s' "$section" | grep -qE '[^[:space:]]'; then
+            echo "::error::CHANGELOG '## [Unreleased]' section is empty — nothing to release. Land changes under [Unreleased] first."
+            exit 1
+          fi
+          echo "[Unreleased] section has content; it will be cut into this release."
 
       - name: Verify latest stage CI run is green
         env:
@@ -102,6 +109,32 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Cut CHANGELOG (Unreleased -> version) and commit to stage
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          DATE="$(date -u +%Y-%m-%d)"
+          # Rename "## [Unreleased]" to "## [X.Y.Z] — <date>" and open a fresh,
+          # empty "## [Unreleased]" above it so subsequent work keeps landing
+          # there. This is the Keep-a-Changelog "cut" step and the single place
+          # the version string is written into the CHANGELOG.
+          awk -v ver="$VERSION" -v date="$DATE" '
+            !cut && /^## \[Unreleased\]/ {
+              print "## [Unreleased]"
+              print ""
+              print "## [" ver "] — " date
+              cut = 1
+              next
+            }
+            { print }
+          ' CHANGELOG.md > CHANGELOG.md.tmp
+          mv CHANGELOG.md.tmp CHANGELOG.md
+          git add CHANGELOG.md
+          git commit -m "chore(release): cut CHANGELOG for v$VERSION"
+          # Land the cut on stage first; the fast-forward below carries it to main.
+          git push origin stage
 
       - name: Fast-forward main to stage
         run: |

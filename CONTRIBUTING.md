@@ -20,6 +20,21 @@ Thanks for helping keep the Apple Wallet Support Tracker accurate.
 
 See [`docs/decisions/0002-staged-release-model.md`](docs/decisions/0002-staged-release-model.md) for the full reasoning.
 
+## Versioning and changelog
+
+This dataset follows [Semantic Versioning](https://semver.org/):
+
+| Bump | When | Examples |
+|---|---|---|
+| **major** (`X`) | Breaking schema change | Restructure `data/`, rename/remove a field, bump `$schemaVersion` |
+| **minor** (`Y`) | Backward-compatible additions | New brand(s), the **monthly sweep**, a new optional field |
+| **patch** (`Z`) | Corrections / housekeeping | Fix a wrong field, refresh a citation, docs, CI |
+
+All changes accumulate under the `## [Unreleased]` heading of [`CHANGELOG.md`](CHANGELOG.md) as they land — **never** under a versioned heading. At release time, `release.yml` renames `## [Unreleased]` to `## [X.Y.Z] — <date>` (the version you dispatch) and opens a fresh, empty `## [Unreleased]`. Concretely:
+
+- **Contributors and agents:** add your entry under `## [Unreleased]`. Do not invent a version number — there is exactly one place the version is written, and the release workflow owns it.
+- **Releasing:** pick the version from the table above and dispatch the **Release** workflow (`Actions → Release → Run workflow`, enter e.g. `2.1.0`). It verifies `[Unreleased]` is non-empty, cuts it into the version, fast-forwards `stage → main`, tags `vX.Y.Z`, and publishes the GitHub Release.
+
 ## Local development
 
 ```bash
@@ -46,6 +61,7 @@ npm run validate
    - Bump `lastChecked` on rows you touch.
    - Add at least one entry to `sources[]` with a valid URL, `accessedAt` (today's ISO date), and `type`.
    - Bump top-level `lastModified` to the latest `lastChecked`.
+   - Add a `## [Unreleased]` entry to `CHANGELOG.md` (see [Versioning and changelog](#versioning-and-changelog)).
 3. Run `npm run validate` locally — must be green.
 4. Push and open a PR against `stage`. Fill out the PR template.
 5. Wait for `test` and `required-labels` checks. CodeRabbit (when enabled) will leave inline comments.
