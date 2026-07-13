@@ -10,7 +10,7 @@
   "knownIssues": [
     "Wallet button often hidden behind in-app boarding pass viewer"
   ],
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "ryanair-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -21,9 +21,9 @@
     },
     {
       "url": "https://help.ryanair.com/hc/en-gb/articles/360017683417-Mobile-Boarding-Passes",
-      "accessedAt": "2026-05-02",
+      "accessedAt": "2026-07-13",
       "type": "official",
-      "note": "Ryanair help center: digital boarding passes require Ryanair App; Wallet button may be hidden behind in-app viewer"
+      "note": "Ryanair help center: digital boarding passes require Ryanair App; Wallet button may be hidden behind in-app viewer; paper boarding passes no longer accepted since Nov 2025"
     }
   ]
 }

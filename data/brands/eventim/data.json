@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "eventim-ticket-apple-wallet",
   "sources": [
     {
@@ -15,6 +15,12 @@
       "type": "official",
       "accessedAt": "2026-06-01",
       "note": "Eventim DE FAQ page confirms Apple Wallet support for select ticket types; not all orders qualify — partial remains accurate"
+    },
+    {
+      "url": "https://www.eventim.de/faq/en_en/category/ticketkauf/subcategory/tips-for-buying/how-do-i-add-tickets-to-the-apple-wallet/",
+      "type": "official",
+      "accessedAt": "2026-07-13",
+      "note": "Eventim EN FAQ page still live confirming Apple Wallet support for select ticket types; partial classification re-confirmed"
     }
   ]
 }

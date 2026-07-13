@@ -7,9 +7,9 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "hotel-key-apple-wallet",
-  "notes": "Native room keys ship via the chain's app, not as a generic pkpass. Coverage varies by property.",
+  "notes": "Native room keys ship via the chain's app, not as a generic pkpass. Coverage varies by property. Hyatt leads with full Apple Wallet NFC key support; Hilton and Marriott use Bluetooth-based digital keys via their own apps.",
   "sources": [
     {
       "url": "https://support.apple.com/en-us/118273",
@@ -28,6 +28,12 @@
       "type": "press",
       "accessedAt": "2026-06-01",
       "note": "AppleInsider: Apple Wallet digital key in action at Hyatt hotels"
+    },
+    {
+      "url": "https://www.travelandtourworld.com/news/article/crmjzf70k7wx/",
+      "type": "press",
+      "accessedAt": "2026-07-13",
+      "note": "2026: Hyatt keys stored in Apple Wallet (NFC); Hilton and Marriott use Bluetooth digital keys in own apps — partial re-confirmed"
     }
   ]
 }

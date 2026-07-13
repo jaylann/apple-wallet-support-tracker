@@ -7,12 +7,12 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "adac-mitgliedskarte-apple-wallet",
   "sources": [
     {
       "url": "https://www.adac.de/mein-adac/meine-mitgliedschaft/adac-wallet/infoseite/",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "type": "official",
       "note": "ADAC official page confirms digital Mitgliedskarte as Apple Wallet pass for personal members; company/business memberships excluded; powered by Passcreator since end of 2023"
     }

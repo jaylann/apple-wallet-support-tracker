@@ -7,14 +7,20 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "british-airways-boarding-pass-apple-wallet",
   "sources": [
     {
       "url": "https://www.britishairways.com/content/information/checking-in-and-boarding/ba-on-your-mobile",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "type": "official",
       "note": "BA official mobile page confirms Passbook/Wallet boarding pass download via BA app; Apple Watch shows flight details and departure countdown; some codeshare routes require printed passes"
+    },
+    {
+      "url": "https://www.headforpoints.com/2026/07/06/new-british-airways-app/",
+      "accessedAt": "2026-07-13",
+      "type": "press",
+      "note": "Head for Points review of new BA app (July 2026) explicitly confirms BA does not support iOS 26 Live Activity boarding pass features; reverted to basic 'dumb' Wallet pass"
     }
   ]
 }

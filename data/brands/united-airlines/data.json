@@ -7,9 +7,15 @@
   "nativePkpass": "full",
   "iosLiveActivity": true,
   "watchSync": true,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "united-boarding-pass-apple-wallet",
   "sources": [
+    {
+      "url": "https://9to5mac.com/2026/04/13/apple-wallet-boarding-passes-american-airlines-ios-26/",
+      "type": "press",
+      "accessedAt": "2026-07-13",
+      "note": "9to5Mac April 2026: American Airlines joins United and others with iOS 26 enhanced boarding passes; confirms United support remains active"
+    },
     {
       "url": "https://9to5mac.com/2025/10/05/ios-26-wallet-app-new-boarding-pass-features-united-airlines-support/",
       "type": "press",

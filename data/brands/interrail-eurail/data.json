@@ -7,20 +7,20 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "interrail-eurail-pass-apple-wallet",
   "notes": "The mobile pass lives inside the Rail Planner app and does not export to Wallet.",
   "sources": [
     {
       "url": "https://community.eurail.com/eurail-interrail-passes-41/apple-google-wallet-for-mobile-pass-20407",
       "type": "official",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Eurail community (official moderated forum): Apple/Google Wallet not supported; flagged as future feature request"
     },
     {
       "url": "https://apps.apple.com/us/app/eurail-interrail-rail-planner/id579547877",
       "type": "official",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Rail Planner App Store listing — pass lives in app, no Apple Wallet export"
     }
   ]

@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "starbucks-card-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-06-01",
       "type": "press",
       "note": "2026 guide ranks Starbucks highest among national chains for Apple Wallet integration; full-featured digital pass with balance syncing and push notifications confirmed"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/starbucks/id331177714",
+      "accessedAt": "2026-07-13",
+      "type": "official",
+      "note": "App Store listing re-verified July 2026: Starbucks app still lists Supports Wallet; nativePkpass=full and watchSync=true confirmed unchanged"
     }
   ]
 }

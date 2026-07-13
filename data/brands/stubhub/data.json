@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "stubhub-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "type": "official",
       "accessedAt": "2026-06-01",
       "note": "Official StubHub support article confirming mobile ticket access via app; Apple Wallet option available for supported ticket types"
+    },
+    {
+      "url": "https://support.stubhub.com/articles/61000276805-access-mobile-tickets",
+      "type": "official",
+      "accessedAt": "2026-07-13",
+      "note": "Re-verified July 2026: StubHub support article still confirms Add to Apple Wallet available for eligible mobile tickets; not all ticket types supported; nativePkpass=partial confirmed"
     }
   ]
 }

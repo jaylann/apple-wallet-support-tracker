@@ -7,14 +7,14 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "trenitalia-ticket-apple-wallet",
   "sources": [
     {
       "url": "https://www.trenitalia.com/en/information/faq-app-trenitalia-6-0.html",
       "type": "official",
-      "accessedAt": "2026-05-02",
-      "note": "Official FAQ confirms Add to Wallet available post-purchase; Regional Digital Ticket currently cannot be added to Apple Wallet"
+      "accessedAt": "2026-07-13",
+      "note": "Official FAQ confirms Add to Wallet available post-purchase via My Journeys; Regional Digital Ticket currently cannot be added to Apple Wallet"
     },
     {
       "url": "https://neatpass.app/learn/train-ticket-apple-wallet-europe",

@@ -10,25 +10,25 @@
   "knownIssues": [
     "Klarna shut down the standalone Stocard app; loyalty cards are now in-app only with no Apple Wallet export and no Apple Watch support"
   ],
-  "lastChecked": "2026-06-01",
+  "lastChecked": "2026-07-13",
   "articleSlug": "klarna-loyalty-cards-apple-wallet",
   "sources": [
     {
       "url": "https://vamers.com/2026/03/20/klarna-stocard-barcodes-loyalty/",
       "type": "press",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Vamers (Mar 2026): Klarna shut down Stocard; loyalty cards now in Klarna app only — no Apple Wallet export, no Apple Watch app"
     },
     {
       "url": "https://www.klarna.com/us/loyalty-cards/",
       "type": "official",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Klarna official loyalty cards page — cards stored in Klarna app only, no mention of Apple Wallet export"
     },
     {
       "url": "https://discussions.apple.com/thread/255917292",
       "type": "community",
-      "accessedAt": "2026-06-01",
+      "accessedAt": "2026-07-13",
       "note": "Apple Community: users confirm cannot add Klarna loyalty cards to Apple Wallet or Apple Watch"
     }
   ]
