@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. No official Global Entry card in Apple Wallet; CBP requires the physical card and identity verification at kiosks/Ready Lanes. TSA PreCheck rides on the boarding pass via the Known Traveler Number.
+- **2026-08-01** (sweep, claude-subagent) — Re-confirmed nativePkpass=none; CBP Global Entry Mobile app page re-verified live; search confirms TSA PreCheck cannot be added as standalone Wallet card in 2026; KTN indicator appears on boarding pass only. Source: [CBP – Global Entry Mobile Application](https://www.cbp.gov/travel/trusted-traveler-programs/global-entry/global-entry-mobile-application).

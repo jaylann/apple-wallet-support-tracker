@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "eventbrite-ticket-apple-wallet",
   "sources": [
     {
@@ -15,6 +15,12 @@
       "type": "official",
       "accessedAt": "2026-07-13",
       "note": "Eventbrite app help confirms 'Add to Wallet' option; feature is organizer-dependent — not all events expose the Wallet button"
+    },
+    {
+      "url": "https://networkbuildz.com/add-eventbrite-tickets-to-apple-wallet/",
+      "type": "community",
+      "accessedAt": "2026-08-01",
+      "note": "2026 guide confirms Add to Apple Wallet path still works via Eventbrite app or mobile web; organizer-dependent availability noted"
     }
   ]
 }

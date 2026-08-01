@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "mvv-mvg-ticket-apple-wallet",
   "sources": [
     {
@@ -15,6 +15,12 @@
       "accessedAt": "2026-07-13",
       "type": "official",
       "note": "MVG official FAQ: Wallet supported for D-Ticket, Jobticket, 365-Euro-Ticket, MVV Abo; manual monthly re-add required"
+    },
+    {
+      "url": "https://www.mvg.de/abos-tickets/abos/hilfe-handyticket/anzeige-wallet-app.html",
+      "accessedAt": "2026-08-01",
+      "type": "official",
+      "note": "Aug 2026 re-check: MVG Wallet FAQ still live; subscription-only Wallet support unchanged; partial status confirmed"
     }
   ]
 }

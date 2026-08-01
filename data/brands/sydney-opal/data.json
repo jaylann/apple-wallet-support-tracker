@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "sydney-opal-card-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "official",
       "note": "Transport for NSW contactless payments page: riders pay with Apple Pay (incl. Express Mode) on Opal readers — open-loop contactless, not a provisioned Opal card in Wallet."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Opal_Next_Gen",
+      "accessedAt": "2026-08-01",
+      "type": "press",
+      "note": "Wikipedia: Opal Next Gen (Opal 2.0) targeting rollout around 2028; no native Apple Wallet pass available as of August 2026."
     }
   ]
 }

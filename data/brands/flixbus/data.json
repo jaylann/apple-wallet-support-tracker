@@ -7,14 +7,14 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "flixbus-ticket-apple-wallet",
   "sources": [
     {
       "url": "https://global.flixbus.com/service/bus-app",
       "type": "official",
-      "accessedAt": "2026-07-13",
-      "note": "FlixBus app page — tickets displayed in-app; no mention of Apple Wallet or pkpass export; re-confirmed July 2026"
+      "accessedAt": "2026-08-01",
+      "note": "FlixBus app page — tickets displayed in-app; no mention of Apple Wallet or pkpass export; re-confirmed August 2026"
     },
     {
       "url": "https://discussions.apple.com/thread/253886134",

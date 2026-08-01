@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. Wiener Linien has no Apple Wallet integration; the WienMobil app keeps tickets in-app. A contactless Tap+Ride pilot (payment, not a Wallet ticket) runs at selected stations.
+- **2026-08-01** (sweep, claude-subagent) — Re-verified nativePkpass=none; official Tap+Ride page confirms open-loop contactless payment only; no native Apple Wallet ticket pass. No field changes. Source: [Tap+Ride (Wiener Linien)](https://www.wienerlinien.at/tapandride).

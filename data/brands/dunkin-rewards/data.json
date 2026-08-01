@@ -7,14 +7,14 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "dunkin-rewards-apple-wallet",
   "sources": [
     {
       "url": "https://www.dunkindonuts.com/en/dunkinrewards",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-08-01",
       "type": "official",
-      "note": "Dunkin' Rewards: earn by scanning your Rewards ID in-store or ordering in the Dunkin' app; no Apple Wallet pass for the Rewards ID."
+      "note": "Dunkin' Rewards in-app only; no Apple Wallet pass for Rewards ID. (Dunkin' Card stored-value pass supports Wallet but is a separate payment product.)"
     }
   ]
 }

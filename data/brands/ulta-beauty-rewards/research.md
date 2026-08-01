@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-07-11** (new-brand, claude) — New brand. No official native Apple Wallet support for the free Ulta Beauty Rewards member barcode. (The separate paid Ultamate Rewards credit card can be added to Apple Pay for payment.)
 - **2026-07-11** (issue-fix, claude) — Review fix: Comenity Apple Pay help URL updated to its post-redirect canonical path (ultabeautyrewards, not ultabeautyrewardsmastercard).
+- **2026-08-01** (sweep, claude-subagent) — Re-verified nativePkpass=none; Ulta Beauty Rewards T&Cs and search results confirm no native Wallet loyalty pass; members still use the in-app barcode. No field changes. Source: [Ulta Beauty Rewards Terms & Conditions (ulta.com)](https://www.ulta.com/rewards/terms-and-conditions).

@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. Partial: no Add-to-Wallet inside the IKEA app (shows a QR only), but IKEA offers an Add to Apple Wallet link at the bottom of IKEA Family emails — a hidden/limited official path.
+- **2026-08-01** (sweep, claude-subagent) — Re-confirmed `partial`; IKEA Family FAQ still describes adding card to Apple Wallet via email link; no in-app button added; YouTube tutorials confirm the email-based path is the only official route. Source: [IKEA Family FAQ](https://www.ikea.com/us/en/ikea-family/ikea-family-faq-pub89c591d0/).

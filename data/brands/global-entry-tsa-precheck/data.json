@@ -7,12 +7,12 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "global-entry-tsa-precheck-apple-wallet",
   "sources": [
     {
       "url": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry/global-entry-mobile-application",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-08-01",
       "type": "official",
       "note": "CBP Global Entry Mobile app uses facial recognition, not an Apple Wallet card; no official Wallet pass. TSA PreCheck rides on the boarding pass via the KTN."
     },
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "press",
       "note": "The physical Global Entry card is required at some land lanes; it is CBP-issued plastic, not a Wallet credential."
+    },
+    {
+      "url": "https://www.citizendailypost.com/faq/can-you-add-your-tsa-precheck-to-apple-wallet",
+      "accessedAt": "2026-08-01",
+      "type": "community",
+      "note": "2026: TSA PreCheck cannot be added to Apple Wallet as a standalone card; KTN displays on the boarding pass Wallet pass only"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "swisspass-apple-wallet",
   "notes": "SwissPass remains a physical card with NFC. The official app does not export to Wallet.",
   "sources": [
@@ -28,6 +28,12 @@
       "type": "community",
       "accessedAt": "2026-07-13",
       "note": "myswissalps.com community (Jul 2026): standard SwissPass still not in Apple Wallet; Swiss Travel Pass Flex pkpass via Rail Europe only; nativePkpass=none confirmed"
+    },
+    {
+      "url": "https://help.raileurope.com/article/43909-can-i-add-my-train-tickets-to-apple-wallet",
+      "type": "official",
+      "accessedAt": "2026-08-01",
+      "note": "Swiss Travel Pass Flex available as pkpass via Rail Europe only; standard SwissPass subscription card physical-only; nativePkpass=none confirmed."
     }
   ]
 }

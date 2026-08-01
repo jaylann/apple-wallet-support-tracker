@@ -4,23 +4,29 @@
   "brand": "Kroger Plus Card",
   "category": "loyalty",
   "region": "north-america",
-  "nativePkpass": "none",
+  "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "kroger-plus-card-apple-wallet",
   "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/kroger/id403901186",
+      "accessedAt": "2026-08-01",
+      "type": "official",
+      "note": "Kroger App Store listing explicitly states 'Add your Plus Card to Apple Wallet' as a distinct feature from Kroger Pay, confirming native wallet pass support."
+    },
     {
       "url": "https://www.kroger.com/d/kroger-mobile-pay",
       "accessedAt": "2026-07-11",
       "type": "official",
-      "note": "Kroger Pay uses a one-time in-app QR carrying the Shopper's Card and payment; Kroger's own method, not an Apple Wallet loyalty pass."
+      "note": "Kroger Pay uses a one-time in-app QR carrying the Shopper's Card and payment; Kroger's own method, separate from the Apple Wallet loyalty pass."
     },
     {
       "url": "https://discussions.apple.com/thread/255259065",
       "accessedAt": "2026-07-11",
       "type": "community",
-      "note": "Apple Community: there is no native way to add the Kroger Plus / Shopper's Card to Apple Wallet as a pass."
+      "note": "Apple Community (July 2026): user noted no native way to add Plus Card to Wallet — predates App Store listing update confirming Wallet support."
     }
   ]
 }

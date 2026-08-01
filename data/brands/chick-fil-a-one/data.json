@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "chick-fil-a-one-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "community",
       "note": "Apple Community: users report Chick-fil-A stopped supporting the Wallet card; the QR is now only in the app."
+    },
+    {
+      "url": "https://www.chick-fil-a.com/customer-support/chick-fil-a-one-membership-program/points-and-rewards/can-i-receive-points-without-using-mobile-pay",
+      "accessedAt": "2026-08-01",
+      "type": "official",
+      "note": "Re-verified Aug 2026 sweep: official support page still shows no Apple Wallet option; QR code remains in-app only."
     }
   ]
 }

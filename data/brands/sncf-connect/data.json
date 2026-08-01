@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "sncf-connect-ticket-apple-wallet",
   "notes": "Apple Wallet supported for TGV INOUI, eligible TER, and Eurostar tickets; some TER regional services may still be excluded depending on operator.",
   "sources": [
@@ -22,6 +22,12 @@
       "accessedAt": "2026-07-13",
       "type": "official",
       "note": "Re-verified July 2026: SNCF Connect Apple Wallet page still active; OUIGO excluded from Wallet integration; TGV INOUI, eligible TER, and Eurostar remain supported; nativePkpass=partial confirmed"
+    },
+    {
+      "url": "https://www.sncf-connect.com/en-en/tools/apple-wallet",
+      "accessedAt": "2026-08-01",
+      "type": "official",
+      "note": "SNCF Connect Apple Wallet page live Aug 2026; Add to Wallet for TGV INOUI, eligible TER, Eurostar; OUIGO excluded; nativePkpass=partial confirmed."
     }
   ]
 }

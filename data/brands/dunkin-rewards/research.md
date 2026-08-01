@@ -28,3 +28,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. No official Apple Wallet pass for the Dunkin' Rewards ID; it is kept in the Dunkin' app. (The separate Dunkin' Card stored-value pass is for payment, not rewards accrual.)
+- **2026-08-01** (sweep, claude-subagent) — Confirmed nativePkpass=none unchanged; Dunkin' Rewards ID remains in-app only; the Dunkin' Card (stored-value payment pass) supports Wallet but is a separate product not in scope for this row. Source: [Dunkin' Rewards](https://www.dunkindonuts.com/en/dunkinrewards).

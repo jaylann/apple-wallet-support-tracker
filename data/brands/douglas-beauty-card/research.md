@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. The Douglas app can add the Beauty Card to Apple Wallet; the card was rebuilt as an app-generated hybrid pass, so the official route depends on the Douglas app.
+- **2026-08-01** (sweep, claude-subagent) — Confirmed nativePkpass=full unchanged; Douglas App Store listing still shows Add to Wallet capability for the Beauty Card. Source: [Douglas Perfumes & Cosmetics – App Store](https://apps.apple.com/lt/app/douglas-perfumes-cosmetics/id394685685).

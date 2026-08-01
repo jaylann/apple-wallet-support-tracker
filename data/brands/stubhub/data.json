@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "stubhub-ticket-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "type": "official",
       "accessedAt": "2026-07-13",
       "note": "Re-verified July 2026: StubHub support article still confirms Add to Apple Wallet available for eligible mobile tickets; not all ticket types supported; nativePkpass=partial confirmed"
+    },
+    {
+      "url": "https://www.techbloat.com/how-to-add-stubhub-tickets-to-apple-wallet.html",
+      "type": "press",
+      "accessedAt": "2026-08-01",
+      "note": "TechBloat (August 2026): confirms Add to Apple Wallet button present in StubHub My Tickets for eligible mobile tickets; partial coverage unchanged; nativePkpass=partial confirmed."
     }
   ]
 }

@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. LATAM issues native Apple Wallet boarding passes after check-in via the LATAM app or latamairlines.com; an intermittent in-app generation error can block the handoff. No iOS 26 enhanced airline pass as of 2026.
+- **2026-08-01** (sweep, claude-subagent) — Re-confirmed `full`; LATAM App Store listing and help center confirm Apple Wallet boarding pass support; FlyerTalk thread notes intermittent in-app generation errors but feature remains available. Source: [LATAM App Store listing](https://apps.apple.com/us/app/latam-flights-hotels-cars/id1497908631).

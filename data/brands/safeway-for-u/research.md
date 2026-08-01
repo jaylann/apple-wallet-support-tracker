@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. No official Add to Apple Wallet button; the 'Wallet' tab in the for U app is Safeway's own barcode screen. One for U Member Card covers all Albertsons banners (Safeway, Albertsons, Vons, Jewel-Osco, Shaw's, ACME).
+- **2026-08-01** (sweep, claude-subagent) — Re-confirmed nativePkpass=none; Safeway for U FAQ still describes in-app barcode screen only; no Add to Apple Wallet pass; no status change. Source: [Safeway for U FAQ](https://www.safeway.com/faq/foru.html).

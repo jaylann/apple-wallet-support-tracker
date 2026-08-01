@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. The official Apple Wallet option was removed; the Chick-fil-A One member QR code now lives in the app only.
+- **2026-08-01** (sweep, claude-subagent) — Confirmed nativePkpass:none; official support page still shows no Apple Wallet option; member QR code remains in-app only. Source: [Chick-fil-A support](https://www.chick-fil-a.com/customer-support/chick-fil-a-one-membership-program/points-and-rewards/can-i-receive-points-without-using-mobile-pay).

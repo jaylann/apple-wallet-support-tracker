@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "eventim-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "type": "official",
       "accessedAt": "2026-07-13",
       "note": "Eventim EN FAQ page still live confirming Apple Wallet support for select ticket types; partial classification re-confirmed"
+    },
+    {
+      "url": "https://tickts.co.uk/blog/adding-event-tickets-to-apple-wallet",
+      "type": "community",
+      "accessedAt": "2026-08-01",
+      "note": "2026 iPhone guide to event tickets in Apple Wallet references Eventim as a supported platform with select ticket type availability; partial classification unchanged"
     }
   ]
 }

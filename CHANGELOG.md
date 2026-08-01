@@ -4,6 +4,10 @@ All notable changes to this dataset are documented here. The format is based on 
 
 ## [Unreleased]
 
+### Changed
+
+- Monthly sweep 2026-08: verified all 79 brands; refreshed citations for 78 brands (lastChecked bumped to 2026-08-01); corrected Kroger Plus Card from `nativePkpass: none` to `partial` — App Store listing confirms "Add your Plus Card to Apple Wallet" feature.
+
 ## [2.2.0] — 2026-07-13
 
 ### Changed

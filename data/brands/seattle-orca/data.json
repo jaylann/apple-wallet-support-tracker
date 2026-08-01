@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "seattle-orca-card-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "press",
       "note": "Seattle Transit Blog (Feb 2026): open-loop Tap to Pay soft-launched; no native ORCA card in Apple Wallet."
+    },
+    {
+      "url": "https://seattletransitblog.com/2025/12/23/orca-updates-in-2026/",
+      "accessedAt": "2026-08-01",
+      "type": "press",
+      "note": "ORCA came to Google Wallet in 2024; no Apple Wallet native ORCA card; open-loop Apple Pay accepted at readers; nativePkpass=none confirmed."
     }
   ]
 }

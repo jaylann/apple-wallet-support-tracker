@@ -7,14 +7,14 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "avianca-boarding-pass-apple-wallet",
   "sources": [
     {
       "url": "https://apps.apple.com/us/app/avianca/id590816148",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-08-01",
       "type": "official",
-      "note": "Avianca App Store listing shows the Apple Wallet support badge; the app issues the boarding pass after check-in."
+      "note": "Avianca App Store listing shows the Apple Wallet support badge; the app issues the boarding pass after check-in; no iOS 26 enhanced pass features as of August 2026."
     },
     {
       "url": "https://www.avianca.com/en/your-booking/online-check-in/",

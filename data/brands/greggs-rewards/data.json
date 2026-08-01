@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "greggs-rewards-apple-wallet",
   "sources": [
     {
@@ -18,9 +18,9 @@
     },
     {
       "url": "https://www.myvouchercodes.co.uk/resources/food-and-drink/everything-you-need-to-know-about-the-greggs-rewards-app",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-08-01",
       "type": "press",
-      "note": "Guide: Greggs offers no native Apple/Google Wallet pass; use app then Scan to show the QR at the till."
+      "note": "2026 review: Greggs offers no native Apple Wallet pass; loyalty QR lives in the Greggs app Scan screen only; no Add to Apple Wallet button"
     }
   ]
 }
