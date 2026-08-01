@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "ulta-beauty-rewards-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "support",
       "note": "Comenity (card servicer) help page for adding the separate Ulta Beauty Rewards Mastercard to Apple Pay — a payment card, distinct from the free rewards barcode."
+    },
+    {
+      "url": "https://www.ulta.com/rewards/terms-and-conditions",
+      "accessedAt": "2026-08-01",
+      "type": "official",
+      "note": "Ulta Beauty Rewards T&Cs; no mention of native Apple Wallet loyalty pass — membership barcode remains in-app only."
     }
   ]
 }

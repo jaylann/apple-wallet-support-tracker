@@ -7,12 +7,12 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "denver-rtd-ticket-apple-wallet",
   "sources": [
     {
       "url": "https://www.rtd-denver.com/fares-passes/tap-n-ride",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-08-01",
       "type": "official",
       "note": "RTD Tap-n-Ride is open-loop contactless (tap a bank card or Apple Pay at validators); no native RTD card in Apple Wallet."
     },

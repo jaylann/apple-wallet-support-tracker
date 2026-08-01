@@ -7,18 +7,18 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "cruise-boarding-pass-apple-wallet",
   "notes": "Most cruise lines email a PDF and rely on their own app. Wallet support requires manual conversion. Royal Caribbean is a notable exception with a native Add to Apple Wallet button in their app.",
   "sources": [
     {
       "url": "https://www.royalcaribbean.com/faq/questions/will-my-boarding-pass-be-viewable-in-the-app-or-my-digital-wallet",
-      "accessedAt": "2026-07-13",
+      "accessedAt": "2026-08-01",
       "type": "official"
     },
     {
       "url": "https://neatpass.app/learn/cruise-boarding-pass-apple-wallet",
-      "accessedAt": "2026-07-13",
+      "accessedAt": "2026-08-01",
       "type": "press"
     }
   ]

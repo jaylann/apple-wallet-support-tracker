@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. No official Planet Fitness Apple Wallet membership pass; the member number is on the key tag / in the app (barcode tied to the account, not the tier). Categorized as sports (dataset has no fitness category).
+- **2026-08-01** (sweep, claude-subagent) — Re-confirmed none: Planet Fitness app page still shows no Apple Wallet membership pass; check-in still uses in-app barcode only; none status confirmed. Source: [Planet Fitness mobile app page](https://www.planetfitness.com/mobileapp).

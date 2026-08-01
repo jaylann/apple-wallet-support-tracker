@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "frontier-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -18,9 +18,9 @@
     },
     {
       "url": "https://faq.flyfrontier.com/help/where-is-the-mobile-boarding-pass-available",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-08-01",
       "type": "official",
-      "note": "Frontier FAQ: the iOS app is used to check in and get the mobile boarding pass."
+      "note": "Frontier FAQ: the iOS app is used to check in and get the mobile boarding pass; still live August 2026"
     }
   ]
 }

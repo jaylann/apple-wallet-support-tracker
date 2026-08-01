@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "safeway-for-u-card-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "community",
       "note": "Apple Community: the Safeway loyalty card cannot be added to Apple Wallet; no official Add to Apple Wallet exists."
+    },
+    {
+      "url": "https://www.safeway.com/faq/foru.html",
+      "accessedAt": "2026-08-01",
+      "type": "official",
+      "note": "Re-verified August 2026: Safeway for U FAQ still describes in-app barcode only; no Add to Apple Wallet pass; nativePkpass=none confirmed unchanged."
     }
   ]
 }

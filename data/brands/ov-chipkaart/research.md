@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. The OV-chipkaart is a contactless smartcard with no barcode and cannot be added to Apple Wallet; it is being phased out by end of 2027. The Netherlands uses OVpay (tap a bank card or Apple Pay). A digital OV-pas for Apple Wallet is planned but not yet available.
+- **2026-08-01** (sweep, claude-subagent) — Re-confirmed none: digital OV-pas planned for end of 2026 but not yet available; OV-chipkaart still has no Apple Wallet pass; none status confirmed. Source: [iCulture: OVpay/OV-pas Apple Pay](https://www.iculture.nl/nieuws/ovpay-pas-chipkaart-opvolger-apple-pay-express/).

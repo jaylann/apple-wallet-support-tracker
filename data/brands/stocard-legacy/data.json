@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "stocard-shutting-down",
   "notes": "Stocard is winding down. Cards must be migrated to Klarna or rebuilt as pkpass.",
   "sources": [
@@ -28,6 +28,12 @@
       "type": "press",
       "accessedAt": "2026-07-13",
       "note": "NeatPass (July 2026): Stocard shutdown remains in effect; Klarna app does not offer Apple Wallet pass export or Apple Watch support; nativePkpass=none confirmed"
+    },
+    {
+      "url": "https://vamers.com/2026/03/20/klarna-stocard-barcodes-loyalty/",
+      "type": "press",
+      "accessedAt": "2026-08-01",
+      "note": "Vamers (August 2026 re-check): Stocard shutdown and Klarna migration still documented; no Apple Wallet pass export or Apple Watch support in Klarna; nativePkpass=none confirmed unchanged."
     }
   ]
 }

@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. No official LA Fitness Apple Wallet membership pass; the member number sits on the key tag / in the LA Fitness app. Categorized as sports (dataset has no fitness category).
+- **2026-08-01** (sweep, claude-subagent) — Re-confirmed `none`; LA Fitness still has no native Apple Wallet membership pass; TikTok tutorials and NeatPass guides all describe in-app barcode or third-party workarounds only. Source: [NeatPass: gym card Apple Wallet](https://neatpass.app/learn/gym-card-apple-wallet).

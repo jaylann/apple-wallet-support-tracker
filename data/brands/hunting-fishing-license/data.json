@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-13",
+  "lastChecked": "2026-08-01",
   "articleSlug": "hunting-license-apple-wallet",
   "notes": "State portals issue PDFs only. Wallet pass is a personal reference, not a legal replacement.",
   "sources": [
@@ -22,6 +22,12 @@
       "type": "press",
       "accessedAt": "2026-07-13",
       "note": "KREM: Washington's MyWDFW app for digital licenses in 2026 — state-specific app, not native pkpass"
+    },
+    {
+      "url": "https://fishinglicenceusa.com/never-forget-your-fishing-license-again-add-it-to-apple-wallet.html",
+      "type": "press",
+      "accessedAt": "2026-08-01",
+      "note": "Fishing Licence USA: no universal pkpass standard; issuing authority must generate the pass; state portals issue PDFs only"
     }
   ]
 }

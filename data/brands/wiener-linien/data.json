@@ -7,12 +7,12 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "wiener-linien-ticket-apple-wallet",
   "sources": [
     {
       "url": "https://www.wienerlinien.at/tapandride",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-08-01",
       "type": "official",
       "note": "Wiener Linien Tap+Ride pilot uses open-loop cards/Apple Express Mode; WienMobil keeps tickets in-app, no native Apple Wallet pass."
     },

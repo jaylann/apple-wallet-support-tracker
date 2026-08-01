@@ -29,3 +29,4 @@ _To be populated by sweeps and issue fixes._
 ## History
 
 - **2026-07-11** (new-brand, claude) — New brand. WestJet issues native Apple Wallet boarding passes after check-in via the WestJet app; the button can be missing on the website/emailed passes. No iOS 26 enhanced airline pass as of 2026 (unlike fellow Canadian carrier Air Canada).
+- **2026-08-01** (sweep, claude-subagent) — Re-verified nativePkpass=full; WestJet App Store listing confirms Apple Wallet boarding pass support; Apple Support CA lists WestJet among supported airlines. No iOS 26 Live Activity found for WestJet — iosLiveActivity remains false. Source: [Use your boarding pass in Apple Wallet (Apple Support CA)](https://support.apple.com/en-ca/123179).

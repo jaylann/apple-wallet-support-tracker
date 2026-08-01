@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-07-11",
+  "lastChecked": "2026-08-01",
   "articleSlug": "ikea-family-card-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "community",
       "note": "Apple Community: users point to the IKEA Family email as the source of the Add to Wallet link."
+    },
+    {
+      "url": "https://www.ikea.com/us/en/ikea-family/ikea-family-faq-pub89c591d0/",
+      "accessedAt": "2026-08-01",
+      "type": "official",
+      "note": "Re-confirmed partial: IKEA Family FAQ still describes adding card to Apple Wallet via IKEA Family email link; no in-app button added."
     }
   ]
 }
