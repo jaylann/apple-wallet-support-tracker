@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "deutschlandticket-apple-wallet",
   "notes": "Wallet support varies by issuing Verbund. HVV, BVG, MVGo, and VRS offer native pkpass export. DB Navigator and many other issuers do not. Monthly manual re-add is required across all providers that support Wallet.",
   "sources": [
@@ -20,6 +20,12 @@
       "url": "https://www.macwelt.de/article/1812791/deutschland-ticket-apple-wallet-iphone.html",
       "accessedAt": "2026-07-13",
       "type": "press"
+    },
+    {
+      "url": "https://neatpass.app/learn/deutschlandticket-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "press",
+      "note": "Re-verified Sep 2026: HVV, BVG, MVGo, and VRS still offering native Wallet export; DB Navigator excluded; monthly manual re-add required."
     }
   ]
 }

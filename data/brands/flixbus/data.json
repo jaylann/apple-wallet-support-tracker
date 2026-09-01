@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "flixbus-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "type": "community",
       "accessedAt": "2026-06-01",
       "note": "Apple community thread on adding bus tickets to Wallet — workarounds only, no native FlixBus support confirmed"
+    },
+    {
+      "url": "https://neatpass.app/learn/flixbus-ticket-apple-wallet",
+      "type": "community",
+      "accessedAt": "2026-09-01",
+      "note": "2026 guide: FlixBus ticket flow uses app, emailed PDF, and Manage My Booking; no native Add to Apple Wallet button; partial label flagged for human review"
     }
   ]
 }

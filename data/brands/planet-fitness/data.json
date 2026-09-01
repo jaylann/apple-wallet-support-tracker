@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "planet-fitness-membership-apple-wallet",
   "sources": [
     {
@@ -24,9 +24,9 @@
     },
     {
       "url": "https://www.planetfitness.com/mobileapp",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-09-01",
       "type": "official",
-      "note": "Aug 2026 re-check: Planet Fitness app page shows no Apple Wallet membership pass; check-in still uses in-app barcode only; none status confirmed"
+      "note": "Sep 2026 re-check: Planet Fitness app page shows no Apple Wallet membership pass; check-in still uses in-app barcode only; none status confirmed"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "interrail-eurail-pass-apple-wallet",
   "notes": "The mobile pass lives inside the Rail Planner app and does not export to Wallet.",
   "sources": [
@@ -22,6 +22,12 @@
       "type": "official",
       "accessedAt": "2026-07-13",
       "note": "Rail Planner App Store listing — pass lives in app, no Apple Wallet export"
+    },
+    {
+      "url": "https://www.seat61.com/how-to-use-a-eurail-pass.htm",
+      "type": "press",
+      "accessedAt": "2026-09-01",
+      "note": "Seat61 Eurail Pass Guide 2026: pass must stay in Rail Planner app, requires internet once per 24h before journey; no Apple Wallet export"
     }
   ]
 }

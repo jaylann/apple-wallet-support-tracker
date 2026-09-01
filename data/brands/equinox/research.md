@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-07-11** (new-brand, claude) — New brand. No official Equinox Apple Wallet membership pass; the membership barcode lives in the EQX+ app and clubs use scanless check-in or barcode scan. Categorized as sports (dataset has no fitness category).
 - **2026-08-01** (sweep, claude-subagent) — Confirmed nativePkpass=none unchanged; Equinox FAQ confirms digital check-in via EQX+ app with no Apple Wallet membership pass offered. Source: [Equinox FAQ](https://www.equinox.com/faq).
+- **2026-09-01** (sweep, claude-subagent) — Confirmed nativePkpass=none unchanged; Equinox membership check-in remains EQX+ app-based; no official Apple Wallet membership pass launched; search found no new announcements. Source: [Equinox FAQ](https://www.equinox.com/faq).

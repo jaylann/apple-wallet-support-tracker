@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "klimaticket-oe-apple-wallet",
   "sources": [
     {
@@ -19,8 +19,8 @@
     {
       "url": "https://creatingfaces.at/en/blog/klimaticket-in-apple-wallet-bekommen-getestet",
       "type": "community",
-      "accessedAt": "2026-07-13",
-      "note": "Creatingfaces blog: unofficial workaround using Pass2U Wallet app to import Klimaticket QR code — not an official feature"
+      "accessedAt": "2026-09-01",
+      "note": "Creatingfaces blog: unofficial workaround using Pass2U Wallet app to import Klimaticket QR code — not an official feature; plastic card + ÖBB app remains canonical access in 2026"
     },
     {
       "url": "https://luegm.dev/posts/walletpass/",

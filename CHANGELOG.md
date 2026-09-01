@@ -6,6 +6,7 @@ All notable changes to this dataset are documented here. The format is based on 
 
 ### Changed
 
+- Monthly sweep 2026-09: verified all 79 brands; refreshed citations for all 79 brands (lastChecked bumped to 2026-09-01); upgraded MVV/MVG (Munich) from `nativePkpass: partial` to `full` — MVG launched a direct-purchase Wallet ticket flow in September 2026 with no app or registration required. FlixBus flagged for human review: five consecutive sweeps unable to confirm the existing `partial` classification.
 - Monthly sweep 2026-08: verified all 79 brands; refreshed citations for 78 brands (lastChecked bumped to 2026-08-01); corrected Kroger Plus Card from `nativePkpass: none` to `partial` — App Store listing confirms "Add your Plus Card to Apple Wallet" feature.
 
 ## [2.2.0] — 2026-07-13

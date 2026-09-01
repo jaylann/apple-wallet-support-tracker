@@ -7,14 +7,20 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "lidl-plus-apple-wallet",
   "sources": [
     {
-      "url": "https://apps.apple.com/rs/app/lidl-plus/id1238611143",
+      "url": "https://apps.apple.com/us/app/lidl-plus/id1238611143",
       "type": "official",
-      "accessedAt": "2026-07-13",
-      "note": "Lidl Plus App Store listing — user reviews request Apple Wallet support; not currently offered"
+      "accessedAt": "2026-09-01",
+      "note": "Lidl Plus App Store listing (US) — no Apple Wallet integration mentioned; loyalty card remains in-app only"
+    },
+    {
+      "url": "https://www.lidl.com/c/lidl-plus-faqs/s10097623",
+      "type": "official",
+      "accessedAt": "2026-09-01",
+      "note": "Lidl US Lidl Plus FAQs — no mention of Apple Wallet export; feature not offered"
     },
     {
       "url": "https://discussions.apple.com/thread/256023797",

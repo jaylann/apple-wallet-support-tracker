@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "greggs-rewards-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-08-01",
       "type": "press",
       "note": "2026 review: Greggs offers no native Apple Wallet pass; loyalty QR lives in the Greggs app Scan screen only; no Add to Apple Wallet button"
+    },
+    {
+      "url": "https://www.thefinancialwilderness.com/is-greggs-rewards-worth-it-our-review/",
+      "accessedAt": "2026-09-01",
+      "type": "press",
+      "note": "Greggs App Review 2026: loyalty stamp scheme and QR code accessed in-app only; no native Apple Wallet integration; nativePkpass=none confirmed"
     }
   ]
 }

@@ -7,13 +7,13 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "trenitalia-ticket-apple-wallet",
   "sources": [
     {
       "url": "https://www.trenitalia.com/en/information/faq-app-trenitalia-6-0.html",
       "type": "official",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-09-01",
       "note": "Official FAQ confirms Add to Wallet available post-purchase via My Journeys; Regional Digital Ticket currently cannot be added to Apple Wallet"
     },
     {
@@ -21,6 +21,12 @@
       "type": "press",
       "accessedAt": "2026-06-01",
       "note": "2026 guide confirms Trenitalia native Wallet support for Frecciarossa and seat reservations via My Journeys section"
+    },
+    {
+      "url": "https://www.tripadvisor.com/ShowTopic-g187768-i20-k14983441-Using_the_Trenitalia_App_s_Add_to_Apple_Wallet_button-Italy.html",
+      "type": "community",
+      "accessedAt": "2026-09-01",
+      "note": "TripAdvisor Italy forum: travellers confirm Add to Wallet working via My Journeys for long-distance tickets; Regional Digital Ticket exclusion noted."
     }
   ]
 }

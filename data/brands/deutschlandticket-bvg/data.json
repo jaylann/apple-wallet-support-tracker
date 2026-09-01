@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "deutschlandticket-bvg-apple-wallet",
   "notes": "Wallet export available via the separate BVG Tickets app (Ticketspeicher section, three-dot menu). Must be repeated manually each month; the main BVG Fahrinfo app does not support Wallet export.",
   "sources": [
@@ -20,6 +20,12 @@
       "url": "https://neatpass.app/learn/bvg-ticket-apple-wallet",
       "accessedAt": "2026-08-01",
       "type": "press"
+    },
+    {
+      "url": "https://neatpass.app/learn/bvg-ticket-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "press",
+      "note": "Re-verified Sep 2026: BVG Tickets app Wallet export path still active; monthly manual re-add required as barcode changes each month."
     }
   ]
 }

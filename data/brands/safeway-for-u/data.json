@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "safeway-for-u-card-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "official",
       "note": "Re-verified August 2026: Safeway for U FAQ still describes in-app barcode only; no Add to Apple Wallet pass; nativePkpass=none confirmed unchanged."
+    },
+    {
+      "url": "https://www.safeway.com/faq/foru.html",
+      "accessedAt": "2026-09-01",
+      "type": "official",
+      "note": "Re-verified September 2026: Safeway for U FAQ continues to describe in-app barcode only; no Add to Apple Wallet pass; nativePkpass=none confirmed unchanged."
     }
   ]
 }

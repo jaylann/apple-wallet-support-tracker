@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-07-11** (new-brand, claude) — New brand. The Boots app can add a Digital Advantage Card to Apple Wallet once the card is linked and signed in. The official pass ties to one Apple account, which can break new-phone transfers and shared cards.
 - **2026-08-01** (sweep, claude-subagent) — Confirmed `full` pkpass and Watch sync; Boots Advantage Card Apple Wallet support active; help page confirms Add to Wallet flow via Boots app unchanged. Source: [Boots Advantage Card Help](https://www.boots.com/shopping/advantage-card/advantage-card-help).
+- **2026-09-01** (sweep, claude-subagent) — Confirmed `full` pkpass and Watch sync; Boots Advantage Card still available in Apple Wallet via Boots app; registered card required; some user reports of device-transfer issues but feature itself unchanged. Source: [Boots Advantage Card Help](https://www.boots.com/shopping/advantage-card/advantage-card-help).
