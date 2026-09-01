@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "stubhub-ticket-apple-wallet",
   "sources": [
     {
@@ -33,6 +33,12 @@
       "type": "press",
       "accessedAt": "2026-08-01",
       "note": "TechBloat (August 2026): confirms Add to Apple Wallet button present in StubHub My Tickets for eligible mobile tickets; partial coverage unchanged; nativePkpass=partial confirmed."
+    },
+    {
+      "url": "https://support.stubhub.com/articles/61000276805-access-mobile-tickets",
+      "type": "official",
+      "accessedAt": "2026-09-01",
+      "note": "StubHub support (Sep 2026): Add to Wallet for eligible mobile tickets; SafeTix rotating barcodes require app; static barcode tickets support Wallet; partial confirmed."
     }
   ]
 }

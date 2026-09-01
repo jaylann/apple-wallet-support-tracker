@@ -7,13 +7,13 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "easyjet-boarding-pass-apple-wallet",
   "sources": [
     {
       "url": "https://www.easyjet.com/en/mobile-app/mobile-boarding-passes",
       "type": "official",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-09-01",
       "note": "easyJet confirms mobile boarding passes can be downloaded to Apple Wallet; not supported at ~18 specific airports (Turkey, Egypt, Morocco, etc.) — hence partial"
     }
   ]

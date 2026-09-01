@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "global-entry-tsa-precheck-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "community",
       "note": "2026: TSA PreCheck cannot be added to Apple Wallet as a standalone card; KTN displays on the boarding pass Wallet pass only"
+    },
+    {
+      "url": "https://neatpass.app/learn/global-entry-tsa-precheck-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "community",
+      "note": "2026: neither Global Entry card nor TSA PreCheck lives in Apple Wallet as standalone; TSA PreCheck indicator prints on boarding pass via KTN; nativePkpass=none confirmed"
     }
   ]
 }
