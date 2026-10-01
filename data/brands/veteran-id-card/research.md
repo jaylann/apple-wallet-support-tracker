@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-07-11** (new-brand, claude) — New brand. No official Apple Wallet Veteran ID Card (VIC); it is a VA-issued discount card (now issued digitally via email), typically without a barcode.
 - **2026-08-01** (sweep, claude-subagent) — Re-verified nativePkpass=none; Apple Community thread confirms VA has not implemented Add to Apple Wallet for VIC; no change in status. Source: [Can I add my military/veteran ID card to my Apple Wallet? (Apple Community)](https://discussions.apple.com/thread/254426708).
+- **2026-10-01** (sweep, claude-subagent) — Re-verified nativePkpass=none; Virginia state IDs added to Apple Wallet in Aug 2026 (unrelated state feature); federal VA Veteran ID Card still has no Apple Wallet integration. Source: [Can I add my military/veteran ID card to my Apple Wallet? (Apple Community)](https://discussions.apple.com/thread/254426708).

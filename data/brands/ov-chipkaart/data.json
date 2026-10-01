@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "ov-chipkaart-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "press",
       "note": "iCulture (Aug 2026 re-check): digital OV-pas planned for end of 2026 but not yet available; OV-chipkaart still has no Apple Wallet pass; none status confirmed"
+    },
+    {
+      "url": "https://www.iculture.nl/nieuws/ovpay-pas-chipkaart-opvolger-apple-pay-express/",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "Oct 2026 re-check: iCulture confirms digital OV-pas still not launched; OV-chipkaart has no Apple Wallet pass; physical OV-pas rolling out during 2026 but no Apple Wallet pkpass yet"
     }
   ]
 }

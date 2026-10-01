@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "seattle-orca-card-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "press",
       "note": "ORCA came to Google Wallet in 2024; no Apple Wallet native ORCA card; open-loop Apple Pay accepted at readers; nativePkpass=none confirmed."
+    },
+    {
+      "url": "https://kingcountymetro.blog/2026/02/19/tap-to-pay-puget-sound-region-transit-systems-to-accept-credit-and-debit-cards-digital-wallets-as-fare-payment/",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "King County Metro (February 2026): open-loop Tap to Pay with Apple Pay launched region-wide; native ORCA card still not in Apple Wallet; nativePkpass=none confirmed unchanged."
     }
   ]
 }

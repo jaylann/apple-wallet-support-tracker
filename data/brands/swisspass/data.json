@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "swisspass-apple-wallet",
   "notes": "SwissPass remains a physical card with NFC. The official app does not export to Wallet.",
   "sources": [
@@ -34,6 +34,12 @@
       "type": "official",
       "accessedAt": "2026-08-01",
       "note": "Swiss Travel Pass Flex available as pkpass via Rail Europe only; standard SwissPass subscription card physical-only; nativePkpass=none confirmed."
+    },
+    {
+      "url": "https://www.myswissalps.com/community/thread/swiss-pass-3/",
+      "accessedAt": "2026-10-01",
+      "type": "community",
+      "note": "Re-verified October 2026: red SwissPass card RFID-only, cannot be added to Wallet; SwissPass Mobile in SBB app is the digital option; nativePkpass=none confirmed."
     }
   ]
 }

@@ -7,20 +7,20 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "alaska-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
       "url": "https://apps.apple.com/us/app/alaska-hawaiian/id356143077",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-10-01",
       "type": "official",
-      "note": "App Store listing confirms boarding pass, Mileage Plan rewards, and Lounge card support in Apple Wallet; Apple Watch compatible; no iOS 26 enhanced pass features as of August 2026"
+      "note": "App Store listing confirms boarding pass, Mileage Plan rewards, and Lounge card support in Apple Wallet; Apple Watch compatible; no iOS 26 enhanced pass features as of October 2026"
     },
     {
-      "url": "https://support.apple.com/en-us/123179",
-      "accessedAt": "2026-06-01",
-      "type": "support",
-      "note": "Apple Support confirms Alaska Airlines is among carriers supporting boarding passes in Apple Wallet"
+      "url": "https://9to5mac.com/2025/11/04/ios-26-wallet-app-boarding-pass-features-ios-26/",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "9to5Mac coverage of iOS 26 boarding pass rollout; Alaska Airlines not among adopters (United, Southwest, American, Air Canada confirmed); iosLiveActivity remains false"
     }
   ]
 }

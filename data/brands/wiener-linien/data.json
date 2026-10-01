@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "wiener-linien-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "press",
       "note": "City of Vienna press release: the Tap+Ride pilot is open-loop payment at selected stations, not a native Wallet ticket."
+    },
+    {
+      "url": "https://presse.wien.gv.at/presse/2026/09/30/digitale-services-moderne-technik-wiener-linien-entwickeln-angebot-weiter",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "Sept 2026 Wiener Linien digital services press release: WienMobil app and Tap+Ride continue as key digital channels; no Apple Wallet native pass announced."
     }
   ]
 }

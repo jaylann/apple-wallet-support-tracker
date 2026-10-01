@@ -7,14 +7,14 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "kroger-plus-card-apple-wallet",
   "sources": [
     {
       "url": "https://apps.apple.com/us/app/kroger/id403901186",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-10-01",
       "type": "official",
-      "note": "Kroger App Store listing explicitly states 'Add your Plus Card to Apple Wallet' as a distinct feature from Kroger Pay, confirming native wallet pass support."
+      "note": "Kroger App Store listing (re-confirmed Oct 2026): explicitly states 'Add your Plus Card to Apple Wallet' as a distinct feature from Kroger Pay, confirming native wallet pass support."
     },
     {
       "url": "https://www.kroger.com/d/kroger-mobile-pay",

@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "hawaiian-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "press",
       "note": "Travel And Tour World 2026: unified Alaska Hawaiian app confirmed with Apple Wallet boarding pass integration"
+    },
+    {
+      "url": "https://www.kitv.com/news/business/one-app-now-handles-alaska-and-hawaiian-airlines-bookings-what-travelers-should-know/article_fee081e0-8cb8-4601-a851-e3dc5532505c.html",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "KITV 2026: unified Alaska Hawaiian app handles all bookings; Apple Wallet boarding pass Add to Wallet option available after check-in; nativePkpass=full confirmed"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "global-entry-tsa-precheck-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "community",
       "note": "2026: TSA PreCheck cannot be added to Apple Wallet as a standalone card; KTN displays on the boarding pass Wallet pass only"
+    },
+    {
+      "url": "https://www.tsa.gov/digital-id",
+      "accessedAt": "2026-10-01",
+      "type": "official",
+      "note": "TSA Digital Identity page: PreCheck status is embedded in state mDL/Digital ID added to Apple Wallet, but no standalone Global Entry or TSA PreCheck card exists; nativePkpass=none confirmed"
     }
   ]
 }

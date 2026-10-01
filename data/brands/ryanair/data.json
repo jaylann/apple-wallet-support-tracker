@@ -10,7 +10,7 @@
   "knownIssues": [
     "Wallet button often hidden behind in-app boarding pass viewer"
   ],
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "ryanair-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -30,6 +30,12 @@
       "accessedAt": "2026-08-01",
       "type": "official",
       "note": "Aug 2026 re-check: Ryanair mobile boarding pass help still live; Apple Wallet export confirmed; partial status unchanged"
+    },
+    {
+      "url": "https://hauptstadtkoffer.de/en/news/post/ryanair-app-2026-digital-boarding-pass-mandatory-%E2%80%93-what-you-need-to-know-now",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "Oct 2026 re-check: digital boarding pass mandatory since Nov 2025; Apple Wallet boarding pass confirmed via myRyanair app; Wallet button appears only after check-in; partial status unchanged"
     }
   ]
 }

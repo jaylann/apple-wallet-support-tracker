@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "starbucks-card-apple-wallet",
   "sources": [
     {
@@ -36,9 +36,9 @@
     },
     {
       "url": "https://discussions.apple.com/thread/255377754",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-10-01",
       "type": "community",
-      "note": "Apple Community (August 2026): Starbucks Card still addable to Apple Wallet from app; full pkpass with balance syncing confirmed; nativePkpass=full and watchSync=true unchanged."
+      "note": "Re-verified October 2026: Starbucks Card addable via Pay in Store > Manage > Add to Apple Wallet; balance syncing confirmed; nativePkpass=full and watchSync=true unchanged."
     }
   ]
 }

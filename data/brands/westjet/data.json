@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "westjet-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -17,16 +17,16 @@
       "note": "WestJet App Store listing: access electronic boarding passes, plus Apple Wallet support badge."
     },
     {
-      "url": "https://www.iphoneincanada.ca/2016/06/08/westjet-ios-wallet-usa/",
-      "accessedAt": "2026-07-11",
-      "type": "press",
-      "note": "iPhoneinCanada: the WestJet iOS app added Apple Wallet boarding passes scanned at the gate."
-    },
-    {
       "url": "https://support.apple.com/en-ca/123179",
       "accessedAt": "2026-08-01",
       "type": "support",
       "note": "Apple Support CA: guide for using boarding passes in Apple Wallet; WestJet included among supported airlines."
+    },
+    {
+      "url": "https://neatpass.app/learn/westjet-boarding-pass-apple-wallet",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "NeatPass 2026 guide confirms WestJet native Apple Wallet boarding pass via app check-in; no iOS 26 Live Activity enhancement for WestJet as of October 2026."
     }
   ]
 }
