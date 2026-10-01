@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "denver-rtd-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "press",
       "note": "Masabi launch (Nov 2025): RTD uses open-payments contactless bank cards / mobile wallets, not a native transit card in Wallet."
+    },
+    {
+      "url": "https://neatpass.app/learn/denver-rtd-ticket-apple-wallet",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "Oct 2026 sweep: confirms no RTD reloadable transit card in Apple Wallet; Tap-n-Ride uses open-loop contactless (Apple Pay/bank cards)."
     }
   ]
 }

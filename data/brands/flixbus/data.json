@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "flixbus-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "type": "community",
       "accessedAt": "2026-06-01",
       "note": "Apple community thread on adding bus tickets to Wallet — workarounds only, no native FlixBus support confirmed"
+    },
+    {
+      "url": "https://global.flixbus.com/service/bus-app",
+      "type": "official",
+      "accessedAt": "2026-10-01",
+      "note": "FlixBus app page re-verified October 2026: ticket flow uses in-app display, email PDF, or Manage My Booking — no native Apple Wallet button; partial classification remains"
     }
   ]
 }

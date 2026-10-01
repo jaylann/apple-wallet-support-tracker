@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-07-11** (new-brand, claude) — New brand. No reloadable RTD transit card in Apple Wallet; the region uses open-loop Tap-n-Ride (contactless bank card or Apple Pay Express Transit). MyRide app sells barcode mobile tickets that must be shown in-app.
 - **2026-08-01** (sweep, claude-subagent) — Confirmed nativePkpass:none; RTD Tap-n-Ride page confirms open-loop contactless payment (Apple Pay, bank cards) at validators; no native RTD transit card in Apple Wallet. Source: [RTD Tap-n-Ride](https://www.rtd-denver.com/fares-passes/tap-n-ride).
+- **2026-10-01** (sweep, claude-subagent) — Confirmed nativePkpass:none unchanged; Tap-n-Ride still uses open-loop contactless bank card and Apple Pay; no native RTD transit card in Apple Wallet; Amex and Discover added to network in 2026 but no pkpass change. Source: [NeatPass Denver RTD guide](https://neatpass.app/learn/denver-rtd-ticket-apple-wallet).

@@ -4,11 +4,12 @@
   "brand": "MVV / MVG (Munich)",
   "category": "transit",
   "region": "dach",
-  "nativePkpass": "partial",
+  "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "mvv-mvg-ticket-apple-wallet",
+  "notes": "Since September 2026, MVG's new online ticketshop lets customers purchase day tickets and save them directly to Apple Wallet without needing the MVGO app or an account. Subscription tickets (D-Ticket, 365-Euro-Ticket, MVV Abo) still require monthly manual re-add.",
   "sources": [
     {
       "url": "https://www.mvg.de/abos-tickets/abos/hilfe-handyticket/anzeige-wallet-app.html",
@@ -17,10 +18,16 @@
       "note": "MVG official FAQ: Wallet supported for D-Ticket, Jobticket, 365-Euro-Ticket, MVV Abo; manual monthly re-add required"
     },
     {
-      "url": "https://www.mvg.de/abos-tickets/abos/hilfe-handyticket/anzeige-wallet-app.html",
-      "accessedAt": "2026-08-01",
+      "url": "https://www.mvg.de/presse/pressemeldungen/2026-09-02-online-ticketshop.html",
+      "accessedAt": "2026-10-01",
       "type": "official",
-      "note": "Aug 2026 re-check: MVG Wallet FAQ still live; subscription-only Wallet support unchanged; partial status confirmed"
+      "note": "MVG press release (Sep 2026): new online ticketshop allows purchasing day tickets and saving directly to Apple Wallet or Google Wallet without app or registration"
+    },
+    {
+      "url": "https://stadt.muenchen.de/news/mvg-wallet-ticket.html",
+      "accessedAt": "2026-10-01",
+      "type": "official",
+      "note": "Munich city news: MVG Wallet-Ticket launched; selected MVV tickets purchasable and saveable to Apple Wallet without app"
     }
   ]
 }

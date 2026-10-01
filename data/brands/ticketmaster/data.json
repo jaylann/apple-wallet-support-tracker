@@ -11,14 +11,14 @@
     "Add to Wallet button intermittently missing on transferred tickets",
     "Pass disabled on second device due to anti-screenshot lock"
   ],
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "ticketmaster-add-to-wallet-button-missing",
   "sources": [
     {
-      "url": "https://help.ticketmaster.com/hc/en-us/articles/9612381551761-How-do-I-add-tickets-to-Apple-Wallet",
+      "url": "https://help.ticketmaster.com/hc/en-us/articles/9612381551761-How-do-I-use-Apple-or-Google-Wallet",
       "type": "official",
-      "accessedAt": "2026-08-01",
-      "note": "Official help article; confirms partial coverage — not all ticket types eligible; transferred tickets may not show Add to Wallet"
+      "accessedAt": "2026-10-01",
+      "note": "Official help article; confirms Add to Apple Wallet available; partial coverage — transferred tickets may not show button; pass disabled on second device"
     },
     {
       "url": "https://business.ticketmaster.com/press-release/apple-wallet-experience/",

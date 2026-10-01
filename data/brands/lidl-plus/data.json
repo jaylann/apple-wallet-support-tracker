@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "lidl-plus-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "type": "community",
       "accessedAt": "2026-07-13",
       "note": "Apple Community: user unable to add Lidl card to Apple Wallet — confirms no native export option"
+    },
+    {
+      "url": "https://neatpass.app/learn/lidl-plus-apple-wallet",
+      "type": "press",
+      "accessedAt": "2026-10-01",
+      "note": "NeatPass 2026: Lidl Plus does not officially support Apple Wallet; app-based scheme only; coupons must still be activated in-app"
     }
   ]
 }

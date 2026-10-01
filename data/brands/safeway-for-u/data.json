@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "safeway-for-u-card-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "official",
       "note": "Re-verified August 2026: Safeway for U FAQ still describes in-app barcode only; no Add to Apple Wallet pass; nativePkpass=none confirmed unchanged."
+    },
+    {
+      "url": "https://neatpass.app/learn/safeway-for-u-card-apple-wallet",
+      "accessedAt": "2026-10-01",
+      "type": "press",
+      "note": "NeatPass (October 2026): confirms no official Add to Apple Wallet for Safeway for U; in-app barcode screen only; nativePkpass=none confirmed unchanged."
     }
   ]
 }

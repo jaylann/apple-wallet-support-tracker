@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-07-11** (new-brand, claude) — New brand. Kroger uses its own Kroger Pay QR system in-app and does not issue an Apple Wallet loyalty pass. Same loyalty account applies across Kroger-family banners (Ralphs, Fred Meyer, QFC, etc.).
 - **2026-08-01** (sweep, claude-subagent) — Updated nativePkpass none → partial; Kroger App Store listing explicitly states "Add your Plus Card to Apple Wallet" as a native feature distinct from Kroger Pay. Source: [Kroger App Store listing](https://apps.apple.com/us/app/kroger/id403901186).
+- **2026-10-01** (sweep, claude-subagent) — Re-confirmed `partial`; Kroger App Store listing continues to list "Add your Plus Card to Apple Wallet" as a distinct feature; Kroger does not accept Apple Pay for payment but the loyalty pass remains available. Source: [Kroger App Store listing](https://apps.apple.com/us/app/kroger/id403901186).

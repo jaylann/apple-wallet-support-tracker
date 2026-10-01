@@ -7,14 +7,15 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "dm-active-beauty-apple-wallet",
+  "notes": "The dm active beauty (PAYBACK) app was discontinued on 2026-02-02; the loyalty programme now lives in the Mein dm app. Neither app offers a native Add to Apple Wallet pass.",
   "sources": [
     {
       "url": "https://apps.apple.com/at/app/dm-active-beauty-payback/id1318650898",
       "type": "official",
-      "accessedAt": "2026-08-01",
-      "note": "dm Active Beauty app on App Store; no Apple Wallet pass feature listed; loyalty card is in-app only via PAYBACK integration"
+      "accessedAt": "2026-10-01",
+      "note": "dm Active Beauty (PAYBACK) App Store listing — app discontinued Feb 2026; loyalty programme migrated to Mein dm; no Apple Wallet pass in either app"
     }
   ]
 }

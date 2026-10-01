@@ -7,9 +7,9 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "interrail-eurail-pass-apple-wallet",
-  "notes": "The mobile pass lives inside the Rail Planner app and does not export to Wallet.",
+  "notes": "The mobile pass lives inside the Rail Planner app and does not export to Wallet. As of September 2026, Eurail was folded into the Interrail brand — all travellers now buy an Interrail pass regardless of nationality.",
   "sources": [
     {
       "url": "https://community.eurail.com/eurail-interrail-passes-41/apple-google-wallet-for-mobile-pass-20407",
@@ -18,10 +18,10 @@
       "note": "Eurail community (official moderated forum): Apple/Google Wallet not supported; flagged as future feature request"
     },
     {
-      "url": "https://apps.apple.com/us/app/eurail-interrail-rail-planner/id579547877",
-      "type": "official",
-      "accessedAt": "2026-07-13",
-      "note": "Rail Planner App Store listing — pass lives in app, no Apple Wallet export"
+      "url": "https://www.seat61.com/how-to-use-an-interrail-pass.htm",
+      "type": "press",
+      "accessedAt": "2026-10-01",
+      "note": "Seat61 Interrail guide 2026: pass must remain in Rail Planner app; Eurail brand folded into Interrail on 10 September 2026; no Apple Wallet export added"
     }
   ]
 }

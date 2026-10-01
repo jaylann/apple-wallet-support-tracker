@@ -6,6 +6,7 @@ All notable changes to this dataset are documented here. The format is based on 
 
 ### Changed
 
+- Monthly sweep 2026-10: verified all 79 brands; bumped `lastChecked` to 2026-10-01 for all brands. Fact changes: Delta Air Lines `iosLiveActivity` false → true (Live Activity boarding passes live as of May 2026); MVV/MVG Munich `nativePkpass` partial → full (new online ticketshop launched September 2026 enables direct-to-Wallet day tickets). Notable notes updates: Eurail brand merged into Interrail (September 10, 2026); dm active beauty PAYBACK app discontinued February 2026 (loyalty now in Mein dm app); Deutschlandticket VRR/VRS/RMV/VVS source URL corrected.
 - Monthly sweep 2026-08: verified all 79 brands; refreshed citations for 78 brands (lastChecked bumped to 2026-08-01); corrected Kroger Plus Card from `nativePkpass: none` to `partial` — App Store listing confirms "Add your Plus Card to Apple Wallet" feature.
 
 ## [2.2.0] — 2026-07-13
