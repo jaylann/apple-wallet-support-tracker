@@ -7,25 +7,13 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "sams-club-card-apple-wallet",
   "notes": "Sam's Club app has an 'Add to Apple Wallet' option for the membership card barcode. Many users report errors during the process; reliability is inconsistent.",
   "knownIssues": [
     "Many users report errors when attempting to add membership card to Apple Wallet"
   ],
   "sources": [
-    {
-      "url": "https://apps.apple.com/us/app/sams-club-pickup-delivery/id382497397",
-      "accessedAt": "2026-06-01",
-      "type": "official",
-      "note": "App Store listing confirms 'Supports Wallet'"
-    },
-    {
-      "url": "https://discussions.apple.com/thread/252401529",
-      "accessedAt": "2026-05-02",
-      "type": "community",
-      "note": "Apple Community thread: widespread errors adding Sam's Club card to Apple Wallet (95+ 'Me too' responses)"
-    },
     {
       "url": "https://help.samsclub.com/app/answers/detail/a_id/295/~/how-do-i-get-my-membership-card",
       "accessedAt": "2026-06-01",
@@ -43,6 +31,12 @@
       "accessedAt": "2026-08-01",
       "type": "press",
       "note": "NeatPass (August 2026): confirms Sam's Club Add to Apple Wallet option remains present in app; reliability issues documented; nativePkpass=partial confirmed unchanged."
+    },
+    {
+      "url": "https://neatpass.app/learn/sams-club-card-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "press",
+      "note": "NeatPass (September 2026): Sam's Club Add to Apple Wallet option still present; reliability issues persist; nativePkpass=partial confirmed unchanged."
     }
   ]
 }

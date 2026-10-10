@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "denver-rtd-ticket-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "press",
       "note": "Masabi launch (Nov 2025): RTD uses open-payments contactless bank cards / mobile wallets, not a native transit card in Wallet."
+    },
+    {
+      "url": "https://www.rtd-denver.com/fares-passes/tap-n-ride",
+      "accessedAt": "2026-09-01",
+      "type": "official",
+      "note": "Re-verified Sep 2026: RTD Tap-n-Ride page confirms open-loop contactless (Apple Pay, bank cards); no native RTD transit card in Apple Wallet."
     }
   ]
 }

@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "frontier-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-08-01",
       "type": "official",
       "note": "Frontier FAQ: the iOS app is used to check in and get the mobile boarding pass; still live August 2026"
+    },
+    {
+      "url": "https://neatpass.app/learn/frontier-airlines-boarding-pass-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "community",
+      "note": "2026 guide: Frontier issues native Apple Wallet boarding pass after check-in via app or website; syncs to Apple Watch; no iOS 26 enhanced airline program"
     }
   ]
 }

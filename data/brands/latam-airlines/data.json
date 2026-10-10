@@ -7,14 +7,14 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "latam-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
       "url": "https://apps.apple.com/us/app/latam-flights-hotels-cars/id1497908631",
-      "accessedAt": "2026-07-11",
+      "accessedAt": "2026-09-01",
       "type": "official",
-      "note": "LATAM App Store listing: automatic check-in and digital boarding pass, plus Apple Wallet support badge."
+      "note": "LATAM App Store listing: automatic check-in and digital boarding pass with Apple Wallet support re-confirmed."
     },
     {
       "url": "https://www.latamairlines.com/us/en/help-center/faq/check-in/boarding/see-boarding-pass",

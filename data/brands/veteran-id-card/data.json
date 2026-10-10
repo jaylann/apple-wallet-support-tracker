@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "veteran-id-card-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-08-01",
       "type": "community",
       "note": "Apple Community: the issuer (VA) must enable Add to Apple Wallet; it does not, so no official VIC Wallet pass exists."
+    },
+    {
+      "url": "https://discussions.apple.com/thread/255469855",
+      "accessedAt": "2026-09-01",
+      "type": "community",
+      "note": "Apple Community thread (2026): users confirm no VA-issued Veteran ID Card pass available in Apple Wallet; VA approval still not granted."
     }
   ]
 }

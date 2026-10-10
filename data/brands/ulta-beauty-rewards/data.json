@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "ulta-beauty-rewards-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "official",
       "note": "Ulta Beauty Rewards T&Cs; no mention of native Apple Wallet loyalty pass — membership barcode remains in-app only."
+    },
+    {
+      "url": "https://www.ulta.com/company/app",
+      "accessedAt": "2026-09-01",
+      "type": "official",
+      "note": "Ulta Beauty mobile app page: coupon/points scan in-app at checkout; no native Apple Wallet loyalty pass mentioned."
     }
   ]
 }

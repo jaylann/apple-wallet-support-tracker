@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "costco-card-apple-wallet",
   "notes": "Costco's app shows a digital membership card but does not issue a pkpass.",
   "sources": [
@@ -16,6 +16,12 @@
       "accessedAt": "2026-08-01",
       "type": "official",
       "note": "Costco FAQ explicitly states Digital Membership Card 'will not be available in Apple Wallet'; dynamic QR codes prevent static workarounds"
+    },
+    {
+      "url": "https://customerservice.costco.com/app/answers/answer_view/a_id/10294/~/digital-membership-card---general-faqs",
+      "accessedAt": "2026-09-01",
+      "type": "official",
+      "note": "Re-verified Sep 2026: Costco FAQ still explicitly states Digital Membership Card will not be available in Apple Wallet; dynamic QR code policy unchanged."
     }
   ]
 }

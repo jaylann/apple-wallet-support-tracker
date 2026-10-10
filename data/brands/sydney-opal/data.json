@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "sydney-opal-card-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-08-01",
       "type": "press",
       "note": "Wikipedia: Opal Next Gen (Opal 2.0) targeting rollout around 2028; no native Apple Wallet pass available as of August 2026."
+    },
+    {
+      "url": "https://neatpass.app/learn/sydney-opal-card-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "press",
+      "note": "NeatPass 2026 guide confirms no Opal card in Apple Wallet; open-loop Apple Pay with Express Transit remains the only iPhone-based tap option on the Opal network."
     }
   ]
 }

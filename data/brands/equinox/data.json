@@ -7,12 +7,12 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "equinox-membership-apple-wallet",
   "sources": [
     {
       "url": "https://www.equinox.com/faq",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-09-01",
       "type": "official",
       "note": "Equinox membership FAQ; check-in uses the EQX+ app barcode, with no official Apple Wallet membership pass offered."
     },

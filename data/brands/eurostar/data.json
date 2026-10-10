@@ -7,13 +7,13 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "eurostar-ticket-apple-wallet",
   "sources": [
     {
       "url": "https://www.eurostar.com/rw-en/travel-info/your-trip/tickets",
       "type": "official",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-09-01",
       "note": "Eurostar confirms Apple Wallet support via mobile app but only for bookings without connecting journeys — hence partial, not full"
     }
   ]

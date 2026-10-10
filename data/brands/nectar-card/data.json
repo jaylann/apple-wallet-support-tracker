@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "nectar-card-apple-wallet",
   "sources": [
     {
@@ -24,9 +24,9 @@
     },
     {
       "url": "https://help.nectar.com/help/faqs/qr-code/how-do-i-add-my-nectar-card-to-google-wallet-or-apple-wallet",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-09-01",
       "type": "official",
-      "note": "Aug 2026 re-check: Nectar help FAQ still confirms Add to Wallet flow via QR code in app; full status unchanged"
+      "note": "Sep 2026 re-check: Nectar help FAQ still confirms Add to Wallet flow via QR code in app; full status unchanged"
     }
   ]
 }

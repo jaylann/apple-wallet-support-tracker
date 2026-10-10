@@ -30,3 +30,4 @@ _To be populated by sweeps and issue fixes._
 
 - **2026-07-11** (new-brand, claude) — New brand. The Nectar app can add a pass to Apple Wallet showing the barcode and number (no points balance — points stay in the app).
 - **2026-08-01** (sweep, claude-subagent) — Re-confirmed full: Nectar help FAQ still confirms Add to Wallet flow via QR code in app; full and watchSync status unchanged. Source: [Nectar help FAQ](https://help.nectar.com/help/faqs/qr-code/how-do-i-add-my-nectar-card-to-google-wallet-or-apple-wallet).
+- **2026-09-01** (sweep, claude-subagent) — Re-confirmed full: Nectar help FAQ still live and confirms Add to Wallet flow via QR code in app; full and watchSync status unchanged. Source: [Nectar help FAQ](https://help.nectar.com/help/faqs/qr-code/how-do-i-add-my-nectar-card-to-google-wallet-or-apple-wallet).

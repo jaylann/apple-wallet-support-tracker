@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "deutsche-bahn-apple-wallet",
   "notes": "DB Navigator can export some tickets to Wallet, but Deutschlandticket and many regional fares stay locked in the app.",
   "sources": [
@@ -20,6 +20,12 @@
       "url": "https://de.neatpass.app/learn/deutsche-bahn-apple-wallet",
       "accessedAt": "2026-08-01",
       "type": "press"
+    },
+    {
+      "url": "https://neatpass.app/learn/deutsche-bahn-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "press",
+      "note": "Sep 2026: NeatPass guide confirms DB Navigator Wallet export for some long-distance tickets; community threads report feature missing in some app versions — status remains partial."
     }
   ]
 }

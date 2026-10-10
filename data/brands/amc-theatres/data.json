@@ -10,12 +10,12 @@
   "knownIssues": [
     "Add to Wallet step occasionally fails after checkout"
   ],
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "amc-ticket-wont-add-to-apple-wallet",
   "sources": [
     {
       "url": "https://apps.apple.com/us/app/amc-theatres-movies-more/id509199715",
-      "accessedAt": "2026-08-01",
+      "accessedAt": "2026-09-01",
       "type": "official",
       "note": "App Store listing confirms Wallet support for movie tickets and AMC Stubs membership card; users continue to report intermittent failures adding passes after checkout"
     },

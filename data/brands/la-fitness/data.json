@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "la-fitness-membership-apple-wallet",
   "sources": [
     {
@@ -21,6 +21,12 @@
       "accessedAt": "2026-07-11",
       "type": "community",
       "note": "Apple Community: LA Fitness shows only an in-app barcode; users resort to a workaround to place it in Wallet."
+    },
+    {
+      "url": "https://neatpass.app/learn/gym-card-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "press",
+      "note": "NeatPass 2026: LA Fitness has no official Apple Wallet pass; only in-app barcode or third-party workarounds available"
     }
   ]
 }

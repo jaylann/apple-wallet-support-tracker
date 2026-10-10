@@ -7,16 +7,10 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "hunting-license-apple-wallet",
   "notes": "State portals issue PDFs only. Wallet pass is a personal reference, not a legal replacement.",
   "sources": [
-    {
-      "url": "https://discussions.apple.com/thread/255998895",
-      "type": "community",
-      "accessedAt": "2026-07-13",
-      "note": "Apple Community: how to add fishing license to Apple Wallet — issuing authority must provide the link; users cannot self-generate"
-    },
     {
       "url": "https://www.krem.com/article/news/local/washington-launches-mywdfw-app-digital-hunting-fishing-licenses-2026/293-191d2184-f694-476d-8502-9e4d7cd9522f",
       "type": "press",
@@ -28,6 +22,12 @@
       "type": "press",
       "accessedAt": "2026-08-01",
       "note": "Fishing Licence USA: no universal pkpass standard; issuing authority must generate the pass; state portals issue PDFs only"
+    },
+    {
+      "url": "https://neatpass.app/learn/fishing-license-apple-wallet",
+      "type": "press",
+      "accessedAt": "2026-09-01",
+      "note": "NeatPass 2026 guide: no state officially supports Wallet passes for fishing licenses; third-party workarounds only"
     }
   ]
 }

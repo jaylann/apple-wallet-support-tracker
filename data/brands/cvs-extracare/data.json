@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "cvs-extracare-card-apple-wallet",
   "notes": "CVS app includes an Add to Apple Wallet button under Show Card, but users frequently report the flow silently fails and the card does not appear in Wallet.",
   "sources": [
@@ -20,6 +20,12 @@
       "url": "https://discussions.apple.com/thread/255959644",
       "accessedAt": "2026-06-01",
       "type": "community"
+    },
+    {
+      "url": "https://www.cvs.com/extracare/digital-card/",
+      "accessedAt": "2026-09-01",
+      "type": "official",
+      "note": "Re-verified Sep 2026: CVS app still provides Add to Apple Wallet path under Show Card; silent failure reports persist in community threads."
     }
   ]
 }

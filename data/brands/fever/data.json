@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "fever-tickets-apple-wallet",
   "notes": "Fever acquired DICE in June 2025. Apple Wallet support is available via the Fever app for some events (sports, concerts) but not consistently across all event types.",
   "sources": [
@@ -34,6 +34,12 @@
       "type": "official",
       "accessedAt": "2026-08-01",
       "note": "Fever support: ticket purchase flow includes Add to Apple Wallet or Google Wallet option after purchase; event-dependent"
+    },
+    {
+      "url": "https://support.feverup.com/hc/en-us/articles/38357774142356-I-can-t-find-my-ticket",
+      "type": "official",
+      "accessedAt": "2026-09-01",
+      "note": "Fever support: tickets accessible via confirmation email or Tickets section in-app; Apple Wallet option available where supported; partial classification unchanged"
     }
   ]
 }

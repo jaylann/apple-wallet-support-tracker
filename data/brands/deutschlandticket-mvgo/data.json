@@ -7,14 +7,15 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "deutschlandticket-mvgo-apple-wallet",
   "notes": "MVGO app supports Add to Apple Wallet via My Tickets → ticket options menu. Ticket must be manually re-downloaded and re-added each month; no automatic Wallet updates.",
   "sources": [
     {
-      "url": "https://www.mvg.de/services/faq/deutschlandticket/handy-2.html",
-      "accessedAt": "2026-08-01",
-      "type": "official"
+      "url": "https://www.mvg.de/mvg/services/faq/deutschlandticket/handy-2",
+      "accessedAt": "2026-09-01",
+      "type": "official",
+      "note": "MVG FAQ confirms Add to Apple Wallet via My Tickets in MVGO app; monthly manual re-add still required, no automatic Wallet updates"
     }
   ]
 }

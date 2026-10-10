@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-08-01",
+  "lastChecked": "2026-09-01",
   "articleSlug": "stocard-shutting-down",
   "notes": "Stocard is winding down. Cards must be migrated to Klarna or rebuilt as pkpass.",
   "sources": [
@@ -34,6 +34,12 @@
       "type": "press",
       "accessedAt": "2026-08-01",
       "note": "Vamers (August 2026 re-check): Stocard shutdown and Klarna migration still documented; no Apple Wallet pass export or Apple Watch support in Klarna; nativePkpass=none confirmed unchanged."
+    },
+    {
+      "url": "https://forums.macrumors.com/threads/stocard-replacement.2434874/",
+      "type": "community",
+      "accessedAt": "2026-09-01",
+      "note": "MacRumors forum (Sep 2026): Stocard shutdown still in effect; Klarna does not support Apple Watch or Wallet pass export; nativePkpass=none confirmed."
     }
   ]
 }
