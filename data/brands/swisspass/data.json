@@ -7,16 +7,10 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "swisspass-apple-wallet",
   "notes": "SwissPass remains a physical card with NFC. The official app does not export to Wallet.",
   "sources": [
-    {
-      "url": "https://www.myswissalps.com/community/thread/swiss-pass-3/",
-      "type": "community",
-      "accessedAt": "2026-05-02",
-      "note": "Community discussion confirming standard SwissPass physical card cannot be added to Apple Wallet"
-    },
     {
       "url": "https://community.ricksteves.com/travel-forum/switzerland/how-to-get-swiss-travel-pass-into-my-iphone-wallet",
       "type": "community",
@@ -40,6 +34,12 @@
       "type": "community",
       "accessedAt": "2026-09-01",
       "note": "myswissalps.com community (Sep 2026): SwissPass (GA/Halbtax) still cannot be added to Apple Wallet; RFID-only card; SBB recommends SwissPass Mobile app; none confirmed."
+    },
+    {
+      "url": "https://www.myswissalps.com/community/thread/apple-wallet-and-swiss-travel-pass/",
+      "type": "community",
+      "accessedAt": "2026-11-01",
+      "note": "myswissalps.com community (November 2026): SwissPass (physical RFID card) still cannot be added to Apple Wallet; no official digital Wallet pass; nativePkpass=none confirmed unchanged."
     }
   ]
 }

@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": true,
   "watchSync": true,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "american-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -24,9 +24,9 @@
     },
     {
       "url": "https://neatpass.app/learn/ios-26-boarding-pass-live-activity-airlines",
-      "accessedAt": "2026-07-13",
+      "accessedAt": "2026-11-01",
       "type": "press",
-      "note": "NeatPass iOS 26 Live Activity tracker lists American Airlines as supporting Live Activity from April 13 2026 rollout"
+      "note": "NeatPass iOS 26 Live Activity tracker lists American Airlines as supporting Live Activity from April 13 2026 rollout; confirmed still active November 2026"
     }
   ]
 }

@@ -7,14 +7,14 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "westjet-boarding-pass-apple-wallet",
   "sources": [
     {
       "url": "https://apps.apple.com/us/app/westjet/id858846387",
-      "accessedAt": "2026-09-01",
+      "accessedAt": "2026-11-01",
       "type": "official",
-      "note": "WestJet App Store listing: access electronic boarding passes, plus Apple Wallet support badge."
+      "note": "WestJet App Store re-verified Nov 2026: Apple Wallet boarding pass support confirmed; no iOS 26 Live Activity enhancement listed."
     },
     {
       "url": "https://www.iphoneincanada.ca/2016/06/08/westjet-ios-wallet-usa/",

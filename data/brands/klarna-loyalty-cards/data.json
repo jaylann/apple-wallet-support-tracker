@@ -10,7 +10,7 @@
   "knownIssues": [
     "Klarna shut down the standalone Stocard app; loyalty cards are now in-app only with no Apple Wallet export and no Apple Watch support"
   ],
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "klarna-loyalty-cards-apple-wallet",
   "sources": [
     {
@@ -30,6 +30,12 @@
       "type": "community",
       "accessedAt": "2026-09-01",
       "note": "Apple Community 2026: users confirm Klarna loyalty cards still cannot be added to Apple Wallet; Stocard shutdown remains in effect"
+    },
+    {
+      "url": "https://neatpass.app/learn/stocard-alternative",
+      "type": "press",
+      "accessedAt": "2026-11-01",
+      "note": "NeatPass Nov 2026: Klarna still keeps loyalty cards in-app only with no Apple Wallet export; users seeking Stocard alternatives must use third-party tools"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": true,
   "watchSync": true,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "united-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -33,6 +33,12 @@
       "type": "press",
       "accessedAt": "2026-09-01",
       "note": "The Points Guy: United Airlines Live Activities and Apple Watch support confirmed for iOS 26 enhanced boarding passes."
+    },
+    {
+      "url": "https://aviationa2z.com/index.php/2025/10/07/united-launches-new-apple-wallet-boarding-pass/",
+      "type": "press",
+      "accessedAt": "2026-11-01",
+      "note": "AviationA2Z re-verified Nov 2026: United iOS 26 enhanced Wallet boarding pass with Live Activities confirmed still active."
     }
   ]
 }

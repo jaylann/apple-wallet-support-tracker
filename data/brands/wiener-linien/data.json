@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "wiener-linien-ticket-apple-wallet",
   "sources": [
     {
@@ -27,6 +27,12 @@
       "accessedAt": "2026-09-01",
       "type": "official",
       "note": "WienMobil App Store listing (AT): tickets stored in-app; no Apple Wallet pass export option listed."
+    },
+    {
+      "url": "https://futurezone.at/digital-life/oebb-wiener-linien-tickets-jahreskarte-apple-google-wallet-smartphone/403199641",
+      "accessedAt": "2026-11-01",
+      "type": "press",
+      "note": "Futurezone Oct 2026: Wiener Linien confirms they want to offer Wallet integration in the future but no timeline set; nativePkpass still none."
     }
   ]
 }

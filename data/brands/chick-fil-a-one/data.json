@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "chick-fil-a-one-apple-wallet",
   "sources": [
     {
@@ -33,6 +33,12 @@
       "accessedAt": "2026-09-01",
       "type": "official",
       "note": "Re-verified Sep 2026 sweep: official support page continues to show no Apple Wallet option; member QR code remains in-app only."
+    },
+    {
+      "url": "https://neatpass.app/learn/chick-fil-a-one-apple-wallet",
+      "accessedAt": "2026-11-01",
+      "type": "press",
+      "note": "Nov 2026 sweep: NeatPass guide confirms Chick-fil-A dropped native Apple Wallet support; One QR code remains in-app only."
     }
   ]
 }

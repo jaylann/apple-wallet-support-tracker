@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "seattle-orca-card-apple-wallet",
   "sources": [
     {
@@ -33,6 +33,12 @@
       "accessedAt": "2026-09-01",
       "type": "press",
       "note": "Seattle Transit Blog (Sep 2026): ORCA card still not in Apple Wallet; Google Wallet only for digital ORCA; open-loop Apple Pay accepted at readers; none confirmed."
+    },
+    {
+      "url": "https://neatpass.app/learn/seattle-orca-card-apple-wallet",
+      "accessedAt": "2026-11-01",
+      "type": "press",
+      "note": "NeatPass (November 2026): ORCA card still unavailable in Apple Wallet; Google Wallet only for digital ORCA card; open-loop Apple Pay accepted at ORCA readers; nativePkpass=none confirmed unchanged."
     }
   ]
 }

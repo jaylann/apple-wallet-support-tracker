@@ -7,9 +7,9 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "interrail-eurail-pass-apple-wallet",
-  "notes": "The mobile pass lives inside the Rail Planner app and does not export to Wallet.",
+  "notes": "The mobile pass lives inside the Rail Planner app and does not export to Wallet. Eurail brand retired 9 Sep 2026; both passes now unified under Interrail brand.",
   "sources": [
     {
       "url": "https://community.eurail.com/eurail-interrail-passes-41/apple-google-wallet-for-mobile-pass-20407",
@@ -28,6 +28,12 @@
       "type": "press",
       "accessedAt": "2026-09-01",
       "note": "Seat61 Eurail Pass Guide 2026: pass must stay in Rail Planner app, requires internet once per 24h before journey; no Apple Wallet export"
+    },
+    {
+      "url": "https://www.seat61.com/how-to-use-an-interrail-pass.htm",
+      "type": "press",
+      "accessedAt": "2026-11-01",
+      "note": "Seat61 Interrail guide Nov 2026: Eurail and Interrail merged into unified Interrail brand on 9 Sep 2026; pass still in Rail Planner app only, no Apple Wallet export"
     }
   ]
 }

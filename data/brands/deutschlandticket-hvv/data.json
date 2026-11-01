@@ -7,7 +7,7 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "deutschlandticket-hvv-apple-wallet",
   "notes": "hvv switch app supports Add to Apple Wallet for the Deutschlandticket. Automatic monthly updates require manually enabling the update toggle in Wallet card settings.",
   "sources": [
@@ -21,6 +21,12 @@
       "accessedAt": "2026-09-01",
       "type": "official",
       "note": "Re-verified Sep 2026: hvv switch official FAQ still documents Add to Apple Wallet support and automatic monthly update toggle requirement in Wallet card settings."
+    },
+    {
+      "url": "https://www.hvv-switch.de/en/faq/which-tickets-can-you-add-to-apple-wallet/",
+      "accessedAt": "2026-11-01",
+      "type": "official",
+      "note": "Nov 2026 sweep: hvv switch official FAQ confirms Add to Apple Wallet support for Deutschlandticket and cash tickets; automatic monthly update toggle requirement unchanged."
     }
   ]
 }

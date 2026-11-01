@@ -7,14 +7,14 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "global-entry-tsa-precheck-apple-wallet",
   "sources": [
     {
-      "url": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry/global-entry-mobile-application",
-      "accessedAt": "2026-08-01",
+      "url": "https://www.cbp.gov/travel/trusted-traveler-programs/trusted-traveler-mobile-app",
+      "accessedAt": "2026-11-01",
       "type": "official",
-      "note": "CBP Global Entry Mobile app uses facial recognition, not an Apple Wallet card; no official Wallet pass. TSA PreCheck rides on the boarding pass via the KTN."
+      "note": "CBP launched new unified Trusted Traveler mobile app on Sept 15 2026 replacing Global Entry and Trusted Traveler apps; standalone app only, no Apple Wallet integration; nativePkpass=none unchanged"
     },
     {
       "url": "https://thepointsguy.com/news/global-entry-card-do-you-need-yours/",

@@ -7,15 +7,9 @@
   "nativePkpass": "partial",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "stubhub-ticket-apple-wallet",
   "sources": [
-    {
-      "url": "https://watcher.guru/news/how-to-add-stubhub-tickets-to-your-apple-wallet",
-      "type": "press",
-      "accessedAt": "2026-05-02",
-      "note": "Confirms Add to Apple Wallet button available in My Tickets; not all ticket types eligible"
-    },
     {
       "url": "https://support.stubhub.com/articles/61000276805-access-mobile-tickets",
       "type": "official",
@@ -39,6 +33,12 @@
       "type": "official",
       "accessedAt": "2026-09-01",
       "note": "StubHub support (Sep 2026): Add to Wallet for eligible mobile tickets; SafeTix rotating barcodes require app; static barcode tickets support Wallet; partial confirmed."
+    },
+    {
+      "url": "https://newsroom.stubhub.com/2026/09/15/mobile-ticketing-101-everything-you-need-to-know/",
+      "type": "official",
+      "accessedAt": "2026-11-01",
+      "note": "StubHub Newsroom Sep 2026: Mobile Ticketing 101 confirms Add to Wallet for eligible tickets; rotating barcode tickets require app; nativePkpass=partial unchanged"
     }
   ]
 }

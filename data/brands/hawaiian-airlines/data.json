@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "hawaiian-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -18,21 +18,15 @@
     },
     {
       "url": "https://news.alaskaair.com/guest-experience/alaska-airlines-and-hawaiian-airlines-app/",
-      "accessedAt": "2026-07-11",
-      "type": "official",
-      "note": "Alaska/Hawaiian newsroom: unified app rollout; the standalone Hawaiian app was retired in April 2026."
-    },
-    {
-      "url": "https://www.travelandtourworld.com/news/article/alaska-and-hawaiian-airlines-launch-unified-app-a-landmark-move-for-seamless-travel-in-2026/",
-      "accessedAt": "2026-08-01",
-      "type": "press",
-      "note": "Travel And Tour World 2026: unified Alaska Hawaiian app confirmed with Apple Wallet boarding pass integration"
-    },
-    {
-      "url": "https://news.alaskaair.com/guest-experience/alaska-airlines-and-hawaiian-airlines-app/",
       "accessedAt": "2026-09-01",
       "type": "official",
       "note": "Alaska/Hawaiian newsroom: unified app adds Apple Wallet boarding pass, Mileage Plan rewards card, and Lounge card; standalone Hawaiian app retired April 21 2026; nativePkpass=full confirmed"
+    },
+    {
+      "url": "https://www.hawaiirewardtravel.com/bloghome/new-alaska-hawaiian-app-guide-what-kamaina-travelers-need-to-know-2026",
+      "accessedAt": "2026-11-01",
+      "type": "press",
+      "note": "2026 guide confirms unified Alaska Hawaiian app with Apple Wallet boarding pass integration; nativePkpass=full and watchSync=true unchanged"
     }
   ]
 }
