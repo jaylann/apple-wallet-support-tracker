@@ -40,6 +40,12 @@
       "type": "press",
       "accessedAt": "2026-08-01",
       "note": "Hotel digital key ecosystem 2026 guide: Apple Wallet hotel keys, Google Wallet hotel keys, and wearable access credentials available at select properties across major chains"
+    },
+    {
+      "url": "https://world.hyatt.com/content/gp/en/landing/digital-key.html",
+      "type": "official",
+      "accessedAt": "2026-09-01",
+      "note": "Hyatt Digital Key landing page confirmed live; NFC room keys stored in Apple Wallet via World of Hyatt app; partial classification unchanged"
     }
   ]
 }

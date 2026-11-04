@@ -15,18 +15,6 @@
   ],
   "sources": [
     {
-      "url": "https://apps.apple.com/us/app/sams-club-pickup-delivery/id382497397",
-      "accessedAt": "2026-06-01",
-      "type": "official",
-      "note": "App Store listing confirms 'Supports Wallet'"
-    },
-    {
-      "url": "https://discussions.apple.com/thread/252401529",
-      "accessedAt": "2026-05-02",
-      "type": "community",
-      "note": "Apple Community thread: widespread errors adding Sam's Club card to Apple Wallet (95+ 'Me too' responses)"
-    },
-    {
       "url": "https://help.samsclub.com/app/answers/detail/a_id/295/~/how-do-i-get-my-membership-card",
       "accessedAt": "2026-06-01",
       "type": "official",
