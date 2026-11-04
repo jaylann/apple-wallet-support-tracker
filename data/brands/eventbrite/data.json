@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "eventbrite-ticket-apple-wallet",
   "sources": [
     {
@@ -25,8 +25,8 @@
     {
       "url": "https://www.eventbrite.com/blog/eventbrite-app-tickets/",
       "type": "official",
-      "accessedAt": "2026-09-01",
-      "note": "Eventbrite blog confirms Add to Apple Wallet option in app; feature inconsistent across events — some organisers do not expose the Wallet button"
+      "accessedAt": "2026-10-01",
+      "note": "Eventbrite blog confirms tickets accessed via app or eventbrite.com with Add to Apple Wallet option available; organizer-dependent"
     }
   ]
 }

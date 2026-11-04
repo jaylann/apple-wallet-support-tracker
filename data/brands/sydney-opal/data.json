@@ -7,15 +7,9 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-09-01",
+  "lastChecked": "2026-10-01",
   "articleSlug": "sydney-opal-card-apple-wallet",
   "sources": [
-    {
-      "url": "https://www.themandarin.com.au/225679-opal-digital-card-and-wallet-trial-quietly-unplugged-ahead-of-planned-overhaul/",
-      "accessedAt": "2026-07-11",
-      "type": "press",
-      "note": "The Mandarin: the digital Opal card/wallet trial was quietly discontinued (2023); no native Opal card in Apple Wallet."
-    },
     {
       "url": "https://transportnsw.info/tickets-fares/contactless-payments",
       "accessedAt": "2026-07-11",
@@ -30,9 +24,9 @@
     },
     {
       "url": "https://neatpass.app/learn/sydney-opal-card-apple-wallet",
-      "accessedAt": "2026-09-01",
+      "accessedAt": "2026-10-01",
       "type": "press",
-      "note": "NeatPass 2026 guide confirms no Opal card in Apple Wallet; open-loop Apple Pay with Express Transit remains the only iPhone-based tap option on the Opal network."
+      "note": "NeatPass 2026 guide confirms no native Opal card in Apple Wallet; open-loop Apple Pay contactless is the only mobile option on the Opal network."
     }
   ]
 }
