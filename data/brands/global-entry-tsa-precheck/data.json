@@ -7,14 +7,14 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-10-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "global-entry-tsa-precheck-apple-wallet",
   "sources": [
     {
-      "url": "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry/global-entry-mobile-application",
-      "accessedAt": "2026-08-01",
+      "url": "https://www.cbp.gov/travel/trusted-traveler-programs/trusted-traveler-mobile-app",
+      "accessedAt": "2026-11-01",
       "type": "official",
-      "note": "CBP Global Entry Mobile app uses facial recognition, not an Apple Wallet card; no official Wallet pass. TSA PreCheck rides on the boarding pass via the KTN."
+      "note": "CBP launched new unified Trusted Traveler mobile app on Sept 15 2026 replacing Global Entry and Trusted Traveler apps; standalone app only, no Apple Wallet integration; nativePkpass=none unchanged"
     },
     {
       "url": "https://thepointsguy.com/news/global-entry-card-do-you-need-yours/",
@@ -29,10 +29,10 @@
       "note": "2026: TSA PreCheck cannot be added to Apple Wallet as a standalone card; KTN displays on the boarding pass Wallet pass only"
     },
     {
-      "url": "https://www.tsa.gov/digital-id",
-      "accessedAt": "2026-10-01",
-      "type": "official",
-      "note": "TSA Digital Identity page: PreCheck status is embedded in state mDL/Digital ID added to Apple Wallet, but no standalone Global Entry or TSA PreCheck card exists; nativePkpass=none confirmed"
+      "url": "https://neatpass.app/learn/global-entry-tsa-precheck-apple-wallet",
+      "accessedAt": "2026-09-01",
+      "type": "community",
+      "note": "2026: neither Global Entry card nor TSA PreCheck lives in Apple Wallet as standalone; TSA PreCheck indicator prints on boarding pass via KTN; nativePkpass=none confirmed"
     }
   ]
 }

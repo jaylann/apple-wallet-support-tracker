@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-10-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "klimaticket-oe-apple-wallet",
   "sources": [
     {
@@ -31,8 +31,8 @@
     {
       "url": "https://neatpass.app/learn/klimaticket-oe-apple-wallet",
       "type": "press",
-      "accessedAt": "2026-10-01",
-      "note": "NeatPass 2026: KlimaTicket Ö not officially in Apple Wallet; operator decided against wallet storage for security/fraud reasons; official path remains ÖBB and transport association apps"
+      "accessedAt": "2026-11-01",
+      "note": "NeatPass Nov 2026: KlimaTicket Ö explicitly not in Apple Wallet for security/anti-misuse reasons; official digital access via ÖBB, WESTbahn, and Wiener Linien apps only"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-10-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "latam-airlines-boarding-pass-apple-wallet",
   "sources": [
     {
@@ -24,9 +24,9 @@
     },
     {
       "url": "https://apps.apple.com/uy/app/latam-flights-hotels-cars/id1497908631",
-      "accessedAt": "2026-10-01",
+      "accessedAt": "2026-11-01",
       "type": "official",
-      "note": "LATAM App Store (re-confirmed Oct 2026): boarding pass issues natively to Apple Wallet after check-in; pass updates gate and time changes automatically."
+      "note": "LATAM App Store listing Nov 2026: digital boarding pass with Apple Wallet support confirmed; automatic check-in feature present."
     }
   ]
 }

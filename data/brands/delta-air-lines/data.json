@@ -7,7 +7,7 @@
   "nativePkpass": "full",
   "iosLiveActivity": true,
   "watchSync": true,
-  "lastChecked": "2026-10-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "delta-boarding-pass-live-activity-not-working",
   "sources": [
     {
@@ -16,10 +16,16 @@
       "type": "press"
     },
     {
-      "url": "https://neatpass.app/learn/delta-boarding-pass-live-activity-not-working",
-      "accessedAt": "2026-10-01",
+      "url": "https://neatpass.app/learn/ios-26-boarding-pass-live-activity-airlines",
+      "accessedAt": "2026-09-01",
       "type": "press",
-      "note": "NeatPass troubleshooting guide confirms Delta Live Activity support is active as of May 2026; states 'public sources support a Delta rollout, not a confirmed rollback'."
+      "note": "Re-verified Sep 2026: NeatPass iOS 26 boarding pass airline tracker confirms Delta support is present but can still fail to appear; consistent with prior revert note."
+    },
+    {
+      "url": "https://thepointsparty.com/articles/delta-ios-26-boarding-passes-apple-wallet",
+      "accessedAt": "2026-11-01",
+      "type": "press",
+      "note": "Nov 2026 sweep: Delta iOS 26 Live Activity confirmed re-launched and working (server-side rollout); initial Nov 2025 revert resolved; knownIssues entry removed."
     }
   ]
 }

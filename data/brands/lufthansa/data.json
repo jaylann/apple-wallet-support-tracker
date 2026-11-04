@@ -7,15 +7,15 @@
   "nativePkpass": "full",
   "iosLiveActivity": false,
   "watchSync": true,
-  "lastChecked": "2026-10-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "lufthansa-boarding-pass-apple-wallet",
   "notes": "Native Add to Apple Wallet from the Lufthansa app and website. Live Flight Tracking announced for iOS 26 but not yet live.",
   "sources": [
     {
-      "url": "https://apps.apple.com/us/app/lufthansa/id299219152",
-      "type": "official",
-      "accessedAt": "2026-06-01",
-      "note": "Lufthansa App Store listing — confirms Add to Apple Wallet for boarding passes"
+      "url": "https://www.redmondpie.com/ios-26-wallet-boarding-pass-live-activity-is-supported-by-10-airlines-at-this-time/",
+      "type": "press",
+      "accessedAt": "2026-11-01",
+      "note": "Redmond Pie (Jun 2025): Lufthansa Group among 10 committed airlines for iOS 26 Live Activity boarding passes; original announcement article — still no confirmed live launch as of Nov 2026"
     },
     {
       "url": "https://9to5mac.com/2026/04/13/apple-wallet-boarding-passes-american-airlines-ios-26/",
@@ -36,10 +36,10 @@
       "note": "Heise.de (2026): Lufthansa Group listed as committed to iOS 26 enhanced boarding pass with Live Activity; not yet live as of Jul 2026"
     },
     {
-      "url": "https://www.macrumors.com/2025/06/11/apple-wallet-enhanced-boarding-pass-airlines/",
+      "url": "https://9to5mac.com/2025/10/05/ios-26-wallet-app-new-boarding-pass-features-united-airlines-support/",
       "type": "press",
-      "accessedAt": "2026-10-01",
-      "note": "MacRumors: Lufthansa Group among 10 airlines committed to iOS 26 upgraded boarding passes; no Live Activity launch confirmed as of Oct 2026"
+      "accessedAt": "2026-11-01",
+      "note": "9to5Mac: Lufthansa Group still listed as committed but no confirmed live launch of iOS 26 Live Activity boarding passes found as of Nov 2026"
     }
   ]
 }

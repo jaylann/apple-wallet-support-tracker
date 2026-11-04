@@ -7,7 +7,7 @@
   "nativePkpass": "none",
   "iosLiveActivity": false,
   "watchSync": false,
-  "lastChecked": "2026-10-01",
+  "lastChecked": "2026-11-01",
   "articleSlug": "insurance-card-apple-wallet",
   "sources": [
     {
@@ -25,8 +25,14 @@
     {
       "url": "https://neatpass.app/learn/insurance-card-apple-wallet",
       "type": "press",
-      "accessedAt": "2026-10-01",
-      "note": "NeatPass 2026: native support rare; some auto and health insurers offer Wallet integration via their own apps but no universal standard introduced"
+      "accessedAt": "2026-09-01",
+      "note": "NeatPass 2026 guide: GEICO, State Farm, Progressive, Allstate, USAA support insurer-specific Wallet cards; most health insurers remain unsupported; no universal standard"
+    },
+    {
+      "url": "https://www.passcreator.com/en/blog/digital-proof-of-insurance-wallet",
+      "type": "press",
+      "accessedAt": "2026-11-01",
+      "note": "PassCreator blog Nov 2026: insurers can issue pkpass for Wallet individually but no universal standard; most smaller carriers and health insurers have not adopted it"
     }
   ]
 }
